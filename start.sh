@@ -1,4 +1,8 @@
 #!/bin/bash
+sudo docker swarm init --listen-addr  $(hostname -I | sed 's/ .*//'):2377 --advertise-addr  $(hostname -I | sed 's/ .*//'):2377
+
+sudo docker swarm join-token --quiet worker > worker_token
+
 sudo docker run -it -d -p 8080:8080 -v /var/run/docker.sock:/var/run/docker.sock dockersamples/visualizer
 
 sudo docker network create consul-net -d overlay
