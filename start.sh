@@ -17,4 +17,4 @@ sudo docker service create --network=consul-net --name=consul \
     --update-parallelism 1 \
     -p 8500:8500 sdelrio/consul
 
-sudo docker stack deploy --compose-file /services/docker-compose.yml poc
+sudo docker stack deploy --compose-file ./services/docker-compose.yml poc
