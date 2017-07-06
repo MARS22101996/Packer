@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>StatisticService.WEB</name>
+    </assembly>
+    <members>
+        <member name="M:StatisticService.WEB.Controllers.StatisticController.GetStatistic(System.Guid,System.DateTime)">
+            <summary>
+            Returns team statistic from determined date to now
+            </summary>
+            <param name="teamId">Team Id</param>
+            <param name="startDate">Date from in format 2017-03-10</param>
+        </member>
+        <member name="M:StatisticService.WEB.Controllers.StatusController.Get">
+            <summary>
+            Shows microservice life status
+            </summary>
+        </member>
+    </members>
+</doc>

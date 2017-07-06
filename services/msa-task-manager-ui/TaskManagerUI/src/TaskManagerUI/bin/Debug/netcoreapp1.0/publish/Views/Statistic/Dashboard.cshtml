@@ -1,0 +1,73 @@
+﻿@using System.Threading.Tasks
+@model TaskManagerUI.ViewModels.StatisticViewModels.DashboardViewModel
+@{
+    ViewBag.Title = "Statistic";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css" />
+
+@section head {
+    <div class="row">
+        <div class="col-sm-8">
+            <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+                    <strong id="selected-team-name"> @Model.Teams.ElementAt(0).Name </strong>
+                    <span class="caret"></span>
+                    <span class="hidden" id="selected-team-id">@Model.Teams.ElementAt(0).Id</span>
+                    <span class="hidden" id="swap-team-url">@Url.Action("GetTickets","Ticket")</span>
+                </button>
+                <ul class="dropdown-menu">
+                    @foreach (var team in Model.Teams)
+                    {
+                        <li class="teamSelectionButton">
+                            <a swap-team-button="true"
+                               data-team-id="@team.Id">@team.Name</a>
+                        </li>
+                    }
+                </ul>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="input-group date head-mgn" id="datepicker" data-provide="datepicker">
+                <input type="text" value="@Model.StartDate.ToString("d")" class="form-control" id="start-date">
+                <div class="input-group-addon">
+                    <span class="glyphicon glyphicon-calendar calendarGlyphColor"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+<div class="row">
+    <br/>
+    <input type="hidden" id="statistic-url" value="@Url.Action("GetStatistic", "Statistic")"/>
+    <input type="hidden" id="statistic-start-date" value="@Model.StartDate"/>
+    <input type="hidden" id="team-id" value="@Model.SelectedTeamId"/>
+    <div data-chartDate></div>
+</div>
+<div class="row">
+    <div data-chartStatus class="col-xs-12 col-md-6"></div>
+    <div data-chartPriority class="col-xs-12 col-md-6"></div>
+</div>
+
+
+<div class="row">
+    <div class="col-md-12 statistic-container">
+        <div data-is-statistic-container="true"></div>
+    </div>
+</div>
+@Html.Partial("~/Views/Partials/Dashboard/TicketsList.cshtml")
+
+@section scripts {
+    <script src="https://www.google.com/jsapi"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.8.1/mustache.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+
+    <environment names="Development">
+        <script src="~/js/dashboard.js"></script>
+    </environment>
+    <environment names="Staging,Production">
+        <script src="~/js/dashboard.min.js"></script>
+    </environment>
+}

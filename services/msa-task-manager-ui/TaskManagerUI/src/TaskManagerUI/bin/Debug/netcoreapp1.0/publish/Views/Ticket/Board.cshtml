@@ -1,0 +1,157 @@
+@using System.Threading.Tasks
+@using TaskManagerUI.ViewModels
+@using TaskManagerUI.ViewModels.TicketViewModels
+@model TeamBoardViewModel
+@{
+    ViewBag.Title = "Board";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section head {
+    @if (Model.Teams.Any())
+    {
+        <div class="row">
+            <div class="col-sm-8">
+                <div class="dropdown">
+                    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+                        <strong id="selectedTeamName"> @Model.SelectedTeam.Name </strong>
+                        <span class="caret"></span>
+                        <span class="hidden" id="selected-team-id">@Model.SelectedTeam.Id</span>
+                        <span class="hidden" id="swap-team-url">@Url.Action("GetTickets", "Ticket")</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        @foreach (var team in Model.Teams)
+                        {
+                            <li class="teamSelectionButton">
+                                <a swap-team-button="true"
+                                   ticket-details-url="@Url.Action("TicketDetails", "Ticket")"
+                                   add-ticket-comment-url="@Url.Action("Add", "Comment")"
+                                   remove-ticket-comment-url="@Url.Action("Delete", "Comment")"
+                                   delete-ticket-url="@Url.Action("Delete", "Ticket")"
+                                   update-ticket-url="@Url.Action("Edit", "Ticket")"
+                                   data-team-id="@team.Id"
+                                   data-ticket-edit-status-url="@Url.Action("EditStatus", "Ticket")">@team.Name</a>
+                            </li>
+                        }
+                        <li class="divider"></li>
+                        <li class="teamSelectionButton">
+                            <a href="#" data-toggle="modal" data-target="#team-modal">New team</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="row">
+                    <form asp-controller="Ticket" asp-action="SearchTickets" method="get">
+                        <div class="input-group pull-right">
+                            <input type="text" class="form-control search" placeholder="Search for tickets" name="searchString">
+                            <input type="hidden" name="teamId" value="@Model.SelectedTeam.Id" id="ticketSearchSelectedTeamId"/>
+                            <span class="input-group-btn">
+                                <input type="submit" class="btn btn-default search" value="Go!"/>
+                            </span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    }
+}
+
+@if (Model.SelectedTeam != null)
+{
+    <div class="row">
+        <div class="col-xs-10 col-md-4">
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8">
+                    <h2 class="text-center"> New </h2>
+                </div>
+                <div class="col-sm-2">
+                    @if (Model.Teams.Any(t => t.Name != null))
+                    {
+                        <a href="#" data-ticket-new
+                           data-url="@Url.Action("Create", "Ticket")"
+                           data-ticket-new-team-id="@Model.SelectedTeam.Id"
+                           class="btn btn-primary pull-right add-ticket-button">
+                            <span class="glyphicon glyphicon-plus"></span>
+                        </a>
+                    }
+                </div>
+            </div>
+            <hr/>
+            <div data-type="open" new-container="true">
+                @foreach (var item in Model.SelectedTeamTickets.PlannedTasks)
+                {
+                    @Html.Partial("~/Views/Partials/Ticket/_Ticket.cshtml", item)
+                }
+            </div>
+        </div>
+
+        <div class="col-xs-10 col-md-4">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="text-center"> In Progress </h2>
+                </div>
+            </div>
+            <hr/>
+            <div data-type="progress" in-progress-container="true">
+                @foreach (var item in Model.SelectedTeamTickets.ProgressTasks)
+                {
+                    @Html.Partial("~/Views/Partials/Ticket/_Ticket.cshtml", item)
+                }
+            </div>
+        </div>
+
+        <div class="col-xs-10 col-md-4">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="text-center"> Done </h2>
+                </div>
+            </div>
+            <hr/>
+            <div data-type="done" done-container="true">
+                @foreach (var item in Model.SelectedTeamTickets.DoneTasks)
+                {
+                    @Html.Partial("~/Views/Partials/Ticket/_Ticket.cshtml", item)
+                }
+            </div>
+        </div>
+    </div>
+    <div data-ticket-details-container="true"></div>
+    @Html.Partial("TicketDetailsTemplate")
+    <div data-ticket-new-container="true"></div>
+    @Html.Partial("TicketNewTemplate", new TicketViewModel())
+
+    <div remove-modal-data></div>
+    @Html.Partial("RemoveTicketModal")
+    @Html.Partial("BoardDisplayTicketTemplate")
+}
+else
+{
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <br/><br/><br /><br />
+            <h3 class="text-center ticket-summ-color">You don't have any teams yet.</h3>
+            <button data-toggle="modal" data-target="#team-modal" class="btn btn-primary">Create new team</button>
+        </div>
+    </div>
+}
+
+@Html.Partial("TeamNewModal", new TeamViewModel())
+
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.8.1/mustache.js"></script>
+
+    <environment names="Development">
+        <script src="~/js/ticket-details.js"></script>
+        <script src="~/js/new-ticket.js"></script>
+        <script src="~/js/remove-modal-rendering.js"></script>
+        <script src="~/js/swap-team.js"></script>
+    </environment>
+    <environment names="Staging,Production">
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.0.min.js"
+                asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+                asp-fallback-test="window.jQuery">
+        </script>
+    </environment>
+}

@@ -1,0 +1,8 @@
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-statistic-service\StatisticService\src\StatisticService.BLL\bin\Debug\netstandard1.6\StatisticService.BLL.deps.json
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-statistic-service\StatisticService\src\StatisticService.BLL\bin\Debug\netstandard1.6\StatisticService.BLL.dll
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-statistic-service\StatisticService\src\StatisticService.BLL\bin\Debug\netstandard1.6\StatisticService.BLL.pdb
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-statistic-service\StatisticService\src\StatisticService.BLL\bin\Debug\netstandard1.6\StatisticService.Core.dll
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-statistic-service\StatisticService\src\StatisticService.BLL\bin\Debug\netstandard1.6\StatisticService.Core.pdb
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-statistic-service\StatisticService\src\StatisticService.BLL\obj\Debug\netstandard1.6\StatisticService.BLL.AssemblyInfo.cs
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-statistic-service\StatisticService\src\StatisticService.BLL\obj\Debug\netstandard1.6\StatisticService.BLL.dll
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-statistic-service\StatisticService\src\StatisticService.BLL\obj\Debug\netstandard1.6\StatisticService.BLL.pdb

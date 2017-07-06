@@ -1,0 +1,33 @@
+﻿@model TaskManagerUI.ViewModels.BacklogViewModels.PageViewModel
+
+<ul class="pagination">
+    <li>
+        <a data-type="paging" data-addr="1" class="paginationbut">
+            <<
+        </a>
+    </li>
+
+    @for (var i = 1; i <= Model.TotalPages; i++)
+    {
+        if (i == Model.PageNumber)
+        {
+            <li class="active">
+                <a class="paginationbut">@Model.PageNumber</a>
+            </li>
+        }
+        else
+        {
+            <li>
+                <a data-type="paging" data-addr="@i" class="paginationbut">
+                    @i
+                </a>
+            </li>
+        }
+    }
+
+    <li>
+        <a data-type="paging" data-addr="@Model.TotalPages" class="paginationbut">
+            >>
+        </a>
+    </li>
+</ul>

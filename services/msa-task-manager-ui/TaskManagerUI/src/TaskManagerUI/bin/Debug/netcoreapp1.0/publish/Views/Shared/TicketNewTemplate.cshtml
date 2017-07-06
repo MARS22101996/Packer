@@ -1,0 +1,134 @@
+﻿@model TaskManagerUI.ViewModels.TicketViewModels.TicketViewModel
+<script data-ticket-new-template="true" type="text-template">
+    <div class="modal fade in" id="modal-ticket-new" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <form name="save-ticket">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h3 class="modal-title">
+                            {{#edit}}
+                            Edit a Ticket
+                            {{/edit}}
+                            {{^edit}}
+                            Add a Ticket
+                            {{/edit}}
+                        </h3>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label class="control-label">Name</label>
+                                    <input id="ticket-add-name" name="ticketName" placeholder="Enter Name" class="form-control" />
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label">Description</label>
+                                    <textarea id="ticket-add-description" name="ticketDescription" rows="4" placeholder="Enter Description" class="form-control" />
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label">Priority</label>
+                                    <select id="ticket-add-priority" class="form-control">
+                                        {{#options}}
+                                        <option {{#sel}} selected {{/sel}} value="{{val}}">{{txt}}</option>
+                                        {{/options}}
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div data-ticket-new-selection-container="true"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                        {{#edit}}
+                        <input id="ticket-add" value="Save" type="submit" class="btn btn-success"/>
+                        {{/edit}}
+                        {{^edit}}
+                        <input id="ticket-add" value="Create" type="submit" class="btn btn-primary"/>
+                        {{/edit}}
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</script>
+
+<script data-ticket-new-selection-template="true" type="text-template">
+    <div class="form-group">
+        <label class="control-label">Tags</label>
+        <div class="input-group">
+            <input type="text" class="form-control" id="new-ticket-tag" placeholder="Enter Tag Name">
+            <span class="input-group-btn">
+                <button class="btn btn-primary" data-ticket-new-add-tag type="button">Add</button>
+            </span>
+        </div>
+        {{#tagsExist}}
+        <div class="row mgn-top">
+            <div class="col-xs-12 mgn-top">
+                {{#tags}}
+                <span class="badge btn-primary tag-badge tag-font-size">
+                    {{.}} <span style="white-space:pre;"> </span>
+                    <a tag="{{.}}" data-ticket-new-remove-tag href="#" style="color:white"><span class="glyphicon glyphicon-remove"></span></a>
+                </span>
+                {{/tags}}
+            </div>
+        </div>
+        {{/tagsExist}}
+    </div>
+    <div class="form-group">
+        <label class="control-label">Assignee</label>
+        <div class="input-group">
+            <select class="form-control" id="new-ticket-assignee">
+                <option value="" hidden selected class="select-data-default">Choose an Assignee</option>
+                {{#assignees}}
+                <option value="{{id}}">{{name}}</option>
+                {{/assignees}}
+            </select>
+            <span class="input-group-btn">
+                <button class="btn btn-primary" data-ticket-new-add-assignee type="button">Add</button>
+            </span>
+        </div>
+        
+        {{#assigneeExist}}
+        <div class="row mgn-top">
+            <div class="col-xs-12 mgn-top">
+                {{#assignee}}
+                <span class="label label-default tag-font-size">
+                    {{name}} <span style="white-space:pre;"> </span>
+                    <a data-ticket-new-remove-assignee href="#" style="color:white"><span class="glyphicon glyphicon-remove"></span></a>
+                </span>
+                {{/assignee}}
+            </div>
+        </div>
+        {{/assigneeExist}}
+    </div>
+    <div class="form-group">
+        <label class="control-label">Linked Tickets</label>
+        <div class="input-group">
+            <select class="form-control" id="new-ticket-linked">
+                <option value="" hidden selected class="select-data-default">Choose a Ticket</option>
+                {{#allTickets}}
+                <option value="{{id}}">{{name}}</option>
+                {{/allTickets}}
+            </select>
+            <span class="input-group-btn">
+                <button class="btn btn-primary" data-ticket-new-add-linked type="button">Add</button>
+            </span>
+        </div>
+        {{#linkedExist}}
+        <div class="row mgn-top">
+            <div class="col-xs-12 mgn-top">
+                {{#linkedTickets}}
+                <span class="label label-{{priority}} tag-font-size">
+                    {{name}} <span style="white-space:pre;"> </span>
+                    <a ticket="{{id}}" data-ticket-new-remove-linked href="#" style="color:white"><span class="glyphicon glyphicon-remove"></span></a>
+                </span>
+                <span style="white-space:pre;"> </span>
+                {{/linkedTickets}}
+            </div>
+        </div>
+        {{/linkedExist}}
+    </div>
+</script>

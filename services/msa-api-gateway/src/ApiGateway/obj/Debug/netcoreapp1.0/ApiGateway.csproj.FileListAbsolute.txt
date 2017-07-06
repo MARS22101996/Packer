@@ -1,0 +1,11 @@
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-api-gateway\src\ApiGateway\bin\Debug\netcoreapp1.0\NLog.config
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-api-gateway\src\ApiGateway\bin\Debug\netcoreapp1.0\ApiGateway.deps.json
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-api-gateway\src\ApiGateway\bin\Debug\netcoreapp1.0\ApiGateway.runtimeconfig.json
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-api-gateway\src\ApiGateway\bin\Debug\netcoreapp1.0\ApiGateway.runtimeconfig.dev.json
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-api-gateway\src\ApiGateway\bin\Debug\netcoreapp1.0\ApiGateway.dll
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-api-gateway\src\ApiGateway\bin\Debug\netcoreapp1.0\ApiGateway.pdb
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-api-gateway\src\ApiGateway\bin\Debug\netcoreapp1.0\ApiGateway.xml
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-api-gateway\src\ApiGateway\obj\Debug\netcoreapp1.0\ApiGateway.AssemblyInfo.cs
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-api-gateway\src\ApiGateway\obj\Debug\netcoreapp1.0\ApiGateway.dll
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-api-gateway\src\ApiGateway\obj\Debug\netcoreapp1.0\ApiGateway.xml
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-api-gateway\src\ApiGateway\obj\Debug\netcoreapp1.0\ApiGateway.pdb

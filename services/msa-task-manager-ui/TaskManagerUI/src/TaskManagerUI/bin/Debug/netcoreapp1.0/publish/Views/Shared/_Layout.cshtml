@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+
+    <environment names="Development">
+        <link rel="stylesheet" href="~/css/bootstrap.css" />
+        <link rel="stylesheet" href="~/css/site.css" />
+        <link rel="stylesheet" href="~/css/bootstrap-tagsinput.css" />
+        <link rel="stylesheet" href="~/css/typeahead.css">
+    </environment>
+    <environment names="Staging,Production">
+        <link rel="stylesheet" href="~/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="~/css/layout.min.css"/>
+    </environment>
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top nav-tabs">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <span class="navbar-brand">TaskManager</span>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="@(ViewBag.Title == "Board" ? "active" : "")"><a asp-area="" asp-controller="Ticket" asp-action="Board">Board</a></li>
+                    <li class="@(ViewBag.Title == "List" ? "active" : "")"><a asp-area="" asp-controller="Backlog" asp-action="List">List</a></li>
+                    <li class="@(ViewBag.Title == "Statistic" ? "active" : "")"><a asp-area="" asp-controller="Statistic" asp-action="Dashboard">Statistics</a></li>
+                    <li class="@(ViewBag.Title == "Manage teams" ? "active" : "")"><a asp-area="" asp-controller="Team" asp-action="TeamDashboard">Manage teams</a></li>
+                </ul>
+                @await Html.PartialAsync("_LoginPartial")
+            </div>
+        </div>
+    </div>
+
+    <div id="wrap">
+        @if (IsSectionDefined("head"))
+        {
+            <div class="head">
+                <div class="container">
+                    @RenderSection("head", false)
+                </div>
+            </div>
+        }
+
+        <div id="main" class="container body-content clear-top">
+            @RenderBody()
+        </div>
+    </div>
+    <footer class="navbar-fixed-bottom center navbar-inverse footer">
+        <div class="container">
+            <span class="footer">&copy; 2017, Task Manager. All right reserved</span>
+        </div>
+    </footer>
+
+    <environment names="Development">
+        <script src="~/js/jquery.js"></script>
+        <script src="~/js/jquery.validate.js"></script>
+        <script src="~/js/jquery.validate.unobtrusive.js"></script>
+        <script src="~/js/bootstrap.js"></script>
+    </environment>
+    <environment names="Staging,Production">
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.0.min.js"
+                asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+                asp-fallback-test="window.jQuery">
+        </script>
+        <script src="~/js/jquery.validate.js"></script>
+        <script src="~/js/jquery.validate.unobtrusive.js"></script>
+        <script src="~/js/bootstrap.js"></script>
+    </environment>
+    @RenderSection("scripts", false)
+</body>
+</html>

@@ -1,0 +1,40 @@
+﻿.full-404 {
+    background: url(../images/404-page-error.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.full-400 {
+    background: url(../images/400-page-error.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.full-error {
+    background: url(../images/error.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.center {
+    width: 100%;
+    text-align: center;
+    margin-top: 1%;
+    position: fixed;
+}
+
+.error-screen {
+    text-align: center;
+    font-size: 1.7vmin;
+    color: white;
+    margin-top: 150px;
+    word-break: break-all;
+    overflow-y: scroll;
+    max-height: 50vmin;
+}

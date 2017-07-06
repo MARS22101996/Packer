@@ -1,0 +1,10 @@
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-ticket-service\TicketService\src\TicketService.BLL\bin\Debug\netstandard1.6\TicketService.BLL.deps.json
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-ticket-service\TicketService\src\TicketService.BLL\bin\Debug\netstandard1.6\TicketService.BLL.dll
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-ticket-service\TicketService\src\TicketService.BLL\bin\Debug\netstandard1.6\TicketService.BLL.pdb
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-ticket-service\TicketService\src\TicketService.BLL\bin\Debug\netstandard1.6\TicketService.Core.dll
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-ticket-service\TicketService\src\TicketService.BLL\bin\Debug\netstandard1.6\TicketService.DAL.dll
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-ticket-service\TicketService\src\TicketService.BLL\bin\Debug\netstandard1.6\TicketService.Core.pdb
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-ticket-service\TicketService\src\TicketService.BLL\bin\Debug\netstandard1.6\TicketService.DAL.pdb
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-ticket-service\TicketService\src\TicketService.BLL\obj\Debug\netstandard1.6\TicketService.BLL.AssemblyInfo.cs
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-ticket-service\TicketService\src\TicketService.BLL\obj\Debug\netstandard1.6\TicketService.BLL.dll
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-ticket-service\TicketService\src\TicketService.BLL\obj\Debug\netstandard1.6\TicketService.BLL.pdb

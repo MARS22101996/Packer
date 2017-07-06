@@ -1,0 +1,8 @@
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-task-manager-ui\TaskManagerUI\src\TaskManagerUI\bin\Debug\netcoreapp1.0\TaskManagerUI.deps.json
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-task-manager-ui\TaskManagerUI\src\TaskManagerUI\bin\Debug\netcoreapp1.0\TaskManagerUI.runtimeconfig.json
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-task-manager-ui\TaskManagerUI\src\TaskManagerUI\bin\Debug\netcoreapp1.0\TaskManagerUI.runtimeconfig.dev.json
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-task-manager-ui\TaskManagerUI\src\TaskManagerUI\bin\Debug\netcoreapp1.0\TaskManagerUI.dll
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-task-manager-ui\TaskManagerUI\src\TaskManagerUI\bin\Debug\netcoreapp1.0\TaskManagerUI.pdb
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-task-manager-ui\TaskManagerUI\src\TaskManagerUI\obj\Debug\netcoreapp1.0\TaskManagerUI.AssemblyInfo.cs
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-task-manager-ui\TaskManagerUI\src\TaskManagerUI\obj\Debug\netcoreapp1.0\TaskManagerUI.dll
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-task-manager-ui\TaskManagerUI\src\TaskManagerUI\obj\Debug\netcoreapp1.0\TaskManagerUI.pdb

@@ -1,0 +1,16 @@
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-ticket-service\TicketService\src\TicketService.WEB\bin\Debug\netcoreapp1.0\NLog.config
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-ticket-service\TicketService\src\TicketService.WEB\bin\Debug\netcoreapp1.0\TicketService.WEB.deps.json
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-ticket-service\TicketService\src\TicketService.WEB\bin\Debug\netcoreapp1.0\TicketService.WEB.runtimeconfig.json
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-ticket-service\TicketService\src\TicketService.WEB\bin\Debug\netcoreapp1.0\TicketService.WEB.runtimeconfig.dev.json
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-ticket-service\TicketService\src\TicketService.WEB\bin\Debug\netcoreapp1.0\TicketService.WEB.dll
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-ticket-service\TicketService\src\TicketService.WEB\bin\Debug\netcoreapp1.0\TicketService.WEB.pdb
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-ticket-service\TicketService\src\TicketService.WEB\bin\Debug\netcoreapp1.0\TicketService.WEB.xml
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-ticket-service\TicketService\src\TicketService.WEB\bin\Debug\netcoreapp1.0\TicketService.BLL.dll
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-ticket-service\TicketService\src\TicketService.WEB\bin\Debug\netcoreapp1.0\TicketService.Core.dll
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-ticket-service\TicketService\src\TicketService.WEB\bin\Debug\netcoreapp1.0\TicketService.DAL.dll
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-ticket-service\TicketService\src\TicketService.WEB\bin\Debug\netcoreapp1.0\TicketService.BLL.pdb
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-ticket-service\TicketService\src\TicketService.WEB\bin\Debug\netcoreapp1.0\TicketService.Core.pdb
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-ticket-service\TicketService\src\TicketService.WEB\bin\Debug\netcoreapp1.0\TicketService.DAL.pdb
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-ticket-service\TicketService\src\TicketService.WEB\obj\Debug\netcoreapp1.0\TicketService.WEB.AssemblyInfo.cs
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-ticket-service\TicketService\src\TicketService.WEB\obj\Debug\netcoreapp1.0\TicketService.WEB.dll
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-ticket-service\TicketService\src\TicketService.WEB\obj\Debug\netcoreapp1.0\TicketService.WEB.pdb

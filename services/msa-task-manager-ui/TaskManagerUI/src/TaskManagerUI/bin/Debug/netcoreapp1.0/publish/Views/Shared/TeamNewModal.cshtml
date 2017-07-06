@@ -1,0 +1,32 @@
+﻿@model TaskManagerUI.ViewModels.TeamViewModel
+
+<div class="modal fade" id="team-modal" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h3 class="modal-title">New team</h3>
+            </div>
+            <form asp-action="Create" asp-controller="Team">
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="form-group">
+                                <label for="Name" >Team name</label>
+                                <input id="Name" name="name" placeholder="Enter team name" class="form-control" />
+                                <span asp-validation-for="Name" class="text-danger"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <input type="submit" value="Create" class="btn btn-primary pull-right" />
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

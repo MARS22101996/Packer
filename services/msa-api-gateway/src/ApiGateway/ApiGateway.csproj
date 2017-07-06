@@ -45,7 +45,6 @@
   </ItemGroup>
 
   <Target Name="PrepublishScript" BeforeTargets="PrepareForPublish">
-    <Exec Command="sudo bower install --allow-root" />
     <Exec Command="dotnet bundle" />
   </Target>
 

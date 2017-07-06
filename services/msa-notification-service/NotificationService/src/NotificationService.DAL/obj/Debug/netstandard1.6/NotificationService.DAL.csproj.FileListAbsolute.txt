@@ -1,0 +1,6 @@
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-notification-service\NotificationService\src\NotificationService.DAL\bin\Debug\netstandard1.6\NotificationService.DAL.deps.json
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-notification-service\NotificationService\src\NotificationService.DAL\bin\Debug\netstandard1.6\NotificationService.DAL.dll
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-notification-service\NotificationService\src\NotificationService.DAL\bin\Debug\netstandard1.6\NotificationService.DAL.pdb
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-notification-service\NotificationService\src\NotificationService.DAL\obj\Debug\netstandard1.6\NotificationService.DAL.AssemblyInfo.cs
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-notification-service\NotificationService\src\NotificationService.DAL\obj\Debug\netstandard1.6\NotificationService.DAL.dll
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-notification-service\NotificationService\src\NotificationService.DAL\obj\Debug\netstandard1.6\NotificationService.DAL.pdb

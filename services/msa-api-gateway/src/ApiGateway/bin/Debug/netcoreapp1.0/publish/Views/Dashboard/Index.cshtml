@@ -1,0 +1,66 @@
+﻿@model ApiGateway.ViewModels.DashboardViewModel
+
+@{
+    var balancer = $"{Model.LoadBalancer.Scheme}://{Model.LoadBalancer.Host}:{Model.LoadBalancer.Port}";
+    var host = $"{Context.Request.Scheme}://{Context.Request.Host}";
+}
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h2 class="text-center">Load balancer</h2>
+    </div>
+    <div class="panel-body text-center">
+        @Model.LoadBalancer.Scheme://@Model.LoadBalancer.Host:@Model.LoadBalancer.Port
+    </div>
+</div>
+
+<h2 class="text-center">Paths table</h2>
+<form asp-action="AddPath" asp-controller="Dashboard">
+    <table class="table table-striped text-center">
+        <thead>
+            <tr>
+                <td><b>From</b></td>
+                <td><b>To</b></td>
+                <td><b>Action</b></td>
+            </tr>
+        </thead>
+
+        <tbody>
+            @if (Model.Paths != null)
+            {
+                foreach (var path in Model.Paths)
+                {
+                    <tr>
+                        <td>@host<b class="text-success">@path.From</b></td>
+                        <td><a href="@balancer@path.To" class="text-primary">@balancer<b class="text-success">@path.To</b></a></td>
+                        <td>
+                            <a asp-action="RemovePath" asp-route-from="@path.From" asp-route-to="@path.To">
+                                <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                            </a>
+                        </td>
+                    </tr>
+                }
+            }
+
+            <tr>
+                <td class="form-group">
+                    <p class="center-block">
+                        <label for="pathFrom" class="control-label">@host/</label>
+                        <input type="text" class="form-control path-input" id="pathFrom" placeholder="From" name="from" required>
+                        <span>/</span>
+                    </p>
+                </td>
+                <td class="form-group">
+                    <p class="center-block">
+                        <label for="pathTo" class="control-label">@balancer/</label>
+                        <input type="text" class="form-control path-input" id="pathTo" placeholder="To" name="to" required>
+                        <span>/</span>
+                    </p>
+                </td>
+                <td>
+                    <button type="submit" class="btn btn-default center-block">Add</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</form>

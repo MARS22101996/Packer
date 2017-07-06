@@ -1,0 +1,6 @@
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-statistic-service\StatisticService\src\StatisticService.Core\bin\Debug\netstandard1.6\StatisticService.Core.deps.json
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-statistic-service\StatisticService\src\StatisticService.Core\bin\Debug\netstandard1.6\StatisticService.Core.dll
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-statistic-service\StatisticService\src\StatisticService.Core\bin\Debug\netstandard1.6\StatisticService.Core.pdb
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-statistic-service\StatisticService\src\StatisticService.Core\obj\Debug\netstandard1.6\StatisticService.Core.AssemblyInfo.cs
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-statistic-service\StatisticService\src\StatisticService.Core\obj\Debug\netstandard1.6\StatisticService.Core.dll
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-statistic-service\StatisticService\src\StatisticService.Core\obj\Debug\netstandard1.6\StatisticService.Core.pdb

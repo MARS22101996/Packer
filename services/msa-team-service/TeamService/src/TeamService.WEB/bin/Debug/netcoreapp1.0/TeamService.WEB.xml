@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TeamService.WEB</name>
+    </assembly>
+    <members>
+        <member name="M:TeamService.WEB.Controllers.ParticipantController.Get(System.Nullable{System.Guid})">
+            <summary>
+            Returns team participants
+            </summary>
+            <param name="teamId">Team id</param>
+        </member>
+        <member name="M:TeamService.WEB.Controllers.ParticipantController.Post(System.Nullable{System.Guid},TeamService.WEB.Models.UserApiModel)">
+            <summary>
+            Add new participant to team
+            </summary>
+            <param name="teamId">Team id</param>
+            <param name="userApiModel">Participant</param>
+        </member>
+        <member name="M:TeamService.WEB.Controllers.ParticipantController.Delete(System.Nullable{System.Guid},System.Nullable{System.Guid})">
+            <summary>
+            Unassign user from team
+            </summary>
+            <param name="teamId">Team id</param>
+            <param name="id">Participant(user) id</param>
+        </member>
+        <member name="M:TeamService.WEB.Controllers.StatusController.Get">
+            <summary>
+            Shows microservice life status
+            </summary>
+        </member>
+        <member name="M:TeamService.WEB.Controllers.TeamController.GetById(System.Nullable{System.Guid})">
+            <summary>
+            Returns team by id
+            </summary>
+            <param name="id">Team id</param>
+        </member>
+        <member name="M:TeamService.WEB.Controllers.TeamController.Get(System.Boolean)">
+            <summary>
+            Returns all teams for current user (where he is an owner)
+            </summary>
+            <param name="onlyOwner">(optional) returns only teams where user is owner</param>
+        </member>
+        <member name="M:TeamService.WEB.Controllers.TeamController.Post(TeamService.WEB.Models.TeamApiModel)">
+            <summary>
+            Creates new team
+            </summary>
+            <param name="teamApiModel">Team model</param>
+        </member>
+        <member name="M:TeamService.WEB.Controllers.TeamController.Put(TeamService.WEB.Models.TeamApiModel)">
+            <summary>
+            Updates new team
+            </summary>
+            <param name="teamApiModel">Team model</param>
+        </member>
+        <member name="M:TeamService.WEB.Controllers.TeamController.Delete(System.Nullable{System.Guid})">
+            <summary>
+            Deletes team by id 
+            </summary>
+            <param name="id">Team id</param>
+        </member>
+    </members>
+</doc>

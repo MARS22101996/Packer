@@ -1,0 +1,6 @@
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-team-service\TeamService\src\TeamService.Core\bin\Debug\netstandard1.6\TeamService.Core.deps.json
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-team-service\TeamService\src\TeamService.Core\bin\Debug\netstandard1.6\TeamService.Core.dll
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-team-service\TeamService\src\TeamService.Core\bin\Debug\netstandard1.6\TeamService.Core.pdb
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-team-service\TeamService\src\TeamService.Core\obj\Debug\netstandard1.6\TeamService.Core.AssemblyInfo.cs
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-team-service\TeamService\src\TeamService.Core\obj\Debug\netstandard1.6\TeamService.Core.dll
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-team-service\TeamService\src\TeamService.Core\obj\Debug\netstandard1.6\TeamService.Core.pdb

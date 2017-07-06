@@ -1,0 +1,16 @@
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-team-service\TeamService\src\TeamService.WEB\bin\Debug\netcoreapp1.0\NLog.config
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-team-service\TeamService\src\TeamService.WEB\bin\Debug\netcoreapp1.0\TeamService.WEB.deps.json
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-team-service\TeamService\src\TeamService.WEB\bin\Debug\netcoreapp1.0\TeamService.WEB.runtimeconfig.json
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-team-service\TeamService\src\TeamService.WEB\bin\Debug\netcoreapp1.0\TeamService.WEB.runtimeconfig.dev.json
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-team-service\TeamService\src\TeamService.WEB\bin\Debug\netcoreapp1.0\TeamService.WEB.dll
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-team-service\TeamService\src\TeamService.WEB\bin\Debug\netcoreapp1.0\TeamService.WEB.pdb
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-team-service\TeamService\src\TeamService.WEB\bin\Debug\netcoreapp1.0\TeamService.WEB.xml
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-team-service\TeamService\src\TeamService.WEB\bin\Debug\netcoreapp1.0\TeamService.BLL.dll
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-team-service\TeamService\src\TeamService.WEB\bin\Debug\netcoreapp1.0\TeamService.Core.dll
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-team-service\TeamService\src\TeamService.WEB\bin\Debug\netcoreapp1.0\TeamService.DAL.dll
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-team-service\TeamService\src\TeamService.WEB\bin\Debug\netcoreapp1.0\TeamService.BLL.pdb
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-team-service\TeamService\src\TeamService.WEB\bin\Debug\netcoreapp1.0\TeamService.Core.pdb
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-team-service\TeamService\src\TeamService.WEB\bin\Debug\netcoreapp1.0\TeamService.DAL.pdb
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-team-service\TeamService\src\TeamService.WEB\obj\Debug\netcoreapp1.0\TeamService.WEB.AssemblyInfo.cs
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-team-service\TeamService\src\TeamService.WEB\obj\Debug\netcoreapp1.0\TeamService.WEB.dll
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-team-service\TeamService\src\TeamService.WEB\obj\Debug\netcoreapp1.0\TeamService.WEB.pdb

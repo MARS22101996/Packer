@@ -1,0 +1,6 @@
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-user-service\UserService\src\UserService.DAL\bin\Debug\netstandard1.6\UserService.DAL.deps.json
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-user-service\UserService\src\UserService.DAL\bin\Debug\netstandard1.6\UserService.DAL.dll
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-user-service\UserService\src\UserService.DAL\bin\Debug\netstandard1.6\UserService.DAL.pdb
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-user-service\UserService\src\UserService.DAL\obj\Debug\netstandard1.6\UserService.DAL.AssemblyInfo.cs
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-user-service\UserService\src\UserService.DAL\obj\Debug\netstandard1.6\UserService.DAL.dll
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-user-service\UserService\src\UserService.DAL\obj\Debug\netstandard1.6\UserService.DAL.pdb

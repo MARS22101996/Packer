@@ -1,0 +1,40 @@
+﻿<script backlog-ticket-card-template="true" type="text-template">
+    {{#tickets}}
+    <div class="bs-callout bs-callout-{{priority}}" style="position: relative">
+        <div class="row">
+            <div class="col-sm-5">
+                <p class="backlogTicketName">{{name}}</p>
+                <p class="backlogTicketAdditionalInfo">{{status}}<span class="backlogTicketDate">{{formattedCreationDate}}</span></p>
+            </div>
+            <div class="col-sm-3">
+                {{#assignee}}
+                    <span class="label label-default tag-span backlogTicketAssignee">
+                       {{name}}
+                    </span>
+                {{/assignee}}
+            </div>
+            <div class="col-sm-2">
+                <span class="backlogLinkedTicketStatsNumber">{{linkedTicketCount}}</span>
+                <span class="glyphicon glyphicon-link backlogTicketStatsGlyphicon"></span>
+                <span class="backlogLinkedTicketStatsNumber backlogCommentCount">{{commentCount}}</span>
+                <span class="glyphicon glyphicon-comment backlogTicketStatsGlyphicon"></span>
+            </div>
+            <div class="col-sm-2">
+                <a class="cursor-pointer backlogTicketManageLink" delete-ticket data-url="{{deleteTicketUrl}}" data-ticket-remove-id="{{id}}" data-ticket-remove-name="{{name}}" data-team-remove-id="{{teamId}}">
+                    <span class="glyphicon glyphicon-trash"></span>
+                </a>
+                <a class="cursor-pointer backlogTicketManageLink" data-ticket-new data-url="{{ticketUpdateUrl}}" data-ticket-new-team-id="{{teamId}}" data-ticket-update-ticket-id="{{id}}">
+                    <span class="glyphicon glyphicon-pencil"></span>
+                </a>
+            </div>
+        </div>
+        <a class="ticket-name" data-ticket-details data-url='{{ticketDetailsUrl}}'
+              data-add-comment-url='{{addCommentUrl}}'
+              data-remove-comment-url='{{deleteCommentUrl}}'
+              data-ticket-details-team-id="{{teamId}}"
+              data-ticket-details-ticket-id="{{id}}">
+            <span class="backlogTicketBlockLink"></span>
+        </a>
+    </div>
+    {{/tickets}}
+</script>

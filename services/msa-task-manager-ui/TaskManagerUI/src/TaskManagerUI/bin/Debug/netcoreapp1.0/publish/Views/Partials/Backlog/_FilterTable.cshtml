@@ -1,0 +1,52 @@
+﻿@using System.Threading.Tasks
+@using TaskManagerUI.EnumExtensions
+@model TaskManagerUI.ViewModels.BacklogViewModels.BackLogViewModel
+
+@foreach(var ticket in Model.Tickets)
+{
+    <div class="bs-callout bs-callout-@ticket.Priority">
+        <div class="row">
+            <div class="col-sm-5">
+                <p class="backlogTicketName">@ticket.Name</p>
+                <p class="backlogTicketAdditionalInfo">@ticket.Status.GetName()<span class="backlogTicketDate">@ticket.FormattedCreationDate</span></p>
+            </div>
+            <div class="col-sm-3">
+                @if(ticket.Assignee != null)
+                {
+                    <span class="label label-default tag-span backlogTicketAssignee">
+                        @ticket.Assignee.Name
+                    </span>
+                }
+            </div>
+            <div class="col-sm-2">
+                <span class="backlogLinkedTicketStatsNumber">@ticket.LinkedTicketIds.Count()</span><span class="glyphicon glyphicon-link backlogTicketStatsGlyphicon"></span>
+                <span class="backlogLinkedTicketStatsNumber backlogCommentCount">@ticket.CommentCount</span><span class="glyphicon glyphicon-comment backlogTicketStatsGlyphicon"></span>
+            </div>
+            <div class="col-sm-2">
+                <a class="cursor-pointer backlogTicketManageLink" delete-ticket data-url="@Url.Action("Delete", "Ticket")" data-ticket-remove-id="@ticket.Id" data-ticket-remove-name="@ticket.Name" data-team-remove-id="@ticket.TeamId"><span class="glyphicon glyphicon-trash"></span></a>
+                <a class="cursor-pointer backlogTicketManageLink" data-ticket-new
+                   data-url="@Url.Action("Edit", "Ticket")"
+                   data-ticket-new-team-id="@ticket.TeamId"
+                   data-ticket-update-ticket-id="@ticket.Id"><span class="glyphicon glyphicon-pencil"></span></a>
+            </div>
+        </div>
+        <a class="ticket-name" data-ticket-details data-url='@Url.Action("TicketDetails", "Ticket")'
+              data-add-comment-url='@Url.Action("Add", "Comment")'
+              data-remove-comment-url='@Url.Action("Delete", "Comment")'
+              data-ticket-details-team-id="@ticket.TeamId"
+              data-ticket-details-ticket-id="@ticket.Id">
+            <span class="backlogTicketBlockLink"></span>
+        </a>
+    </div>
+}
+
+@section Scripts {
+    <environment names="Development">
+        <script src="~/js/typeahead.bundle.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap-tagsinput.js"></script>
+        <script src="~/js/tagsinput.js"></script>
+    </environment>
+    <environment names="Staging,Production">
+        <script src="~/js/create-ticket.min.js"></script>
+    </environment>
+}

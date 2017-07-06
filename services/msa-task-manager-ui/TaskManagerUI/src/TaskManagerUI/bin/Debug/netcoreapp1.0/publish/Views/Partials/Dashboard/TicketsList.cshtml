@@ -1,0 +1,22 @@
+﻿<script data-is-table-statistic="true" type="text-template">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Creation date</th>
+                <th>Status</th>
+                <th>Priority</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{#Tickets}}
+            <tr>
+                <td>{{Name}}</td>
+                <td>{{CreationDate}}</td>
+                <td>{{Status}}</td>
+                <td>{{Priority}}</td>
+            </tr>
+            {{/Tickets}}
+        </tbody>
+    </table>
+</script>

@@ -1,0 +1,8 @@
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-team-service\TeamService\src\TeamService.DAL\bin\Debug\netstandard1.6\TeamService.DAL.deps.json
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-team-service\TeamService\src\TeamService.DAL\bin\Debug\netstandard1.6\TeamService.DAL.dll
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-team-service\TeamService\src\TeamService.DAL\bin\Debug\netstandard1.6\TeamService.DAL.pdb
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-team-service\TeamService\src\TeamService.DAL\bin\Debug\netstandard1.6\TeamService.Core.dll
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-team-service\TeamService\src\TeamService.DAL\bin\Debug\netstandard1.6\TeamService.Core.pdb
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-team-service\TeamService\src\TeamService.DAL\obj\Debug\netstandard1.6\TeamService.DAL.AssemblyInfo.cs
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-team-service\TeamService\src\TeamService.DAL\obj\Debug\netstandard1.6\TeamService.DAL.dll
+C:\Users\Mariia_Suvalova\Desktop\Huck\Data\Packer\services\msa-team-service\TeamService\src\TeamService.DAL\obj\Debug\netstandard1.6\TeamService.DAL.pdb

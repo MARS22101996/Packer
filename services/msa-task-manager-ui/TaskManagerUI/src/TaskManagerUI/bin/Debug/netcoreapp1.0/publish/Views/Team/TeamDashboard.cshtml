@@ -1,0 +1,120 @@
+﻿@using System.Threading.Tasks
+@using TaskManagerUI.Infrastructure.Authorization
+@model TaskManagerUI.ViewModels.ParticipantsViewModel
+@{
+    ViewBag.Title = "Manage teams";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section head {
+    @if (Model.SelectedTeam != null)
+    {
+        <div class="row">
+            <div class="col-sm-8">
+                <div class="dropdown">
+                    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+                        <strong id="selectedTeamName"> @Model.SelectedTeam.Name </strong>
+                        <span class="caret"></span>
+                        <span class="hidden" id="selected-team-id">@Model.SelectedTeam.Id</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        @foreach (var team in Model.Teams)
+                        {
+                            <li class="teamSelectionButton">
+                                <a href="@Url.Action("TeamDashboard", new {teamId = team.Id})">@team.Name</a>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="row">
+                    <div class="pull-right header-text">
+                        @if (Model.SelectedTeam.Owner.Id == User.GetUserId())
+                        {
+                            <span class="ticket-summ-color">You are owner</span>
+                        }
+                      
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+}
+
+@if (Model.SelectedTeam != null)
+{
+    if (Model.Participants == null)
+    {
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <br /><br /><br /><br />
+                <h3 class="text-center ticket-summ-color">Team owner - @Model.SelectedTeam.Owner.Name</h3>
+                @Html.ActionLink("Leave team", "LeaveTeam", "Team" , new {teamId = @Model.SelectedTeam.Id}, new { @class= "btn btn-link" })
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="row">
+            <div class="col-md-8">
+                <h2 class="text-center"> Participants </h2>
+                <hr/>
+                @if (Model.Participants.Any())
+                {
+                    foreach (var part in Model.Participants)
+                    {
+                        <div class="label label-default tag-font-size tag mgn-right">
+                            @part.Name
+                        </div>
+                    }
+                }
+                else
+                {
+                    <span class="ticket-summ-color">No participants.</span>
+                }
+            </div>
+            <div class="col-md-4">
+                <h2 class="text-center"> Add user to team </h2>
+                <hr/>
+                <form asp-action="AssignUserToTeam">
+                    <div class="form-group">
+                        <label class=" control-label">User email</label>
+                        <div id="user-input">
+                            <input asp-for="SelectedUserEmail" name="userEmail" class="typeahead form-control" placeholder="Enter user Email" type="text"/>
+                        </div>
+                        <span class="text-danger">@ViewBag.Message</span>
+                    </div>
+
+                    <input name="teamId" type="hidden" value="@Model.SelectedTeam.Id"/>
+                    <input id="all-users-source-url" type="hidden" value="@Url.Action("AllUserEmails", "Team")"/>
+                    <div class="form-group">
+                        <input type="submit" value="Add" class="btn btn-primary pull-right"/>
+                    </div>
+                </form>
+            </div>
+        </div>
+    }
+}
+else
+{
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <br /><br /><br /><br />
+            <h3 class="text-center ticket-summ-color">You don't have any teams yet.</h3>
+        </div>
+    </div>
+}
+
+@section scripts {
+    <environment names="Development">
+        <script src="~/js/typeahead.bundle.js"></script>
+        <script src="~/js/statistic-search.js"></script>
+        <script src="~/js/team-dashboard.js"></script>
+    </environment>
+    <environment names="Staging,Production">
+        <script src="~/js/typeahead.bundle.min.js"></script>
+        <script src="~/js/statistic-search.min.js"></script>
+        <script src="~/js/team-dashboard.js"></script>
+    </environment>
+}

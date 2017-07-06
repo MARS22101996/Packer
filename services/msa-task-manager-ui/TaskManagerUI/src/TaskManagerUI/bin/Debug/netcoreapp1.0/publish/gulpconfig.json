@@ -1,0 +1,77 @@
+﻿{
+  "webroot": "./wwwroot/",
+  "cleaningTasksData": [
+    {
+      "filesFolderName": "js",
+      "files": "/**/*.min.js"
+    },
+    {
+      "filesFolderName": "css",
+      "files": "/**/*.min.css"
+    }
+  ],
+  "minimizationTasksData": [
+    {
+      "outputFile": "js/bootstrap.min.js",
+      "inputFiles": [ "js/bootstrap.js" ]
+    },
+    {
+      "outputFile": "js/typeahead.bundle.min.js",
+      "inputFiles": [ "js/typeahead.bundle.js" ]
+    },
+    {
+      "outputFile": "js/team-dashboard.min.js",
+      "inputFiles": [ "js/team-dashboard.js" ]
+    },
+    {
+      "outputFile": "js/tagsinput.min.js",
+      "inputFiles": [ "js/tagsinput.js" ]
+    },
+    {
+      "outputFile": "js/statistic-search.min.js",
+      "inputFiles": [ "js/statistic-search.js" ]
+    },
+    {
+      "outputFile": "js/dashboard.min.js",
+      "inputFiles": [ "js/dashboard.js" ]
+    },
+    {
+      "outputFile": "js/pagination.min.js",
+      "inputFiles": [ "js/pagination.js" ]
+    },
+    {
+      "outputFile": "js/sweetalert-dev.min.js",
+      "inputFiles": [ "js/sweetalert-dev.js" ]
+    },
+    {
+      "outputFile": "js/create-ticket.min.js",
+      "inputFiles": [
+        "js/typeahead.bundle.js",
+        "lib/bootstrap/dist/js/bootstrap-tagsinput.js",
+        "js/tagsinput.js"
+      ]
+    },
+    {
+      "outputFile": "css/error.min.css",
+      "inputFiles": [
+        "css/error.css",
+        "css/sweetalert.css"
+      ]
+    },
+    {
+      "outputFile": "css/bootstrap.min.css",
+      "inputFiles": [ "css/bootstrap.css" ]
+    },
+    {
+      "outputFile": "css/bootstrap-tagsinput.min.css",
+      "inputFiles": [ "css/bootstrap-tagsinput.css" ]
+    },
+    {
+      "outputFile": "css/layout.min.css",
+      "inputFiles": [
+        "css/site.css",
+        "css/typeahead.css"
+      ]
+    }
+  ]
+}

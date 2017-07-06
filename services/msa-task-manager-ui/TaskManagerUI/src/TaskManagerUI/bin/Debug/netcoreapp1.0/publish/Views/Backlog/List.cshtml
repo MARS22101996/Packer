@@ -1,0 +1,214 @@
+﻿@using System.Threading.Tasks
+@using TaskManagerUI.EnumExtensions
+@using TaskManagerUI.Models.Enums
+@using TaskManagerUI.ViewModels
+@using TaskManagerUI.ViewModels.TicketViewModels
+@model TaskManagerUI.ViewModels.BacklogViewModels.BackLogViewModel
+@{
+    ViewBag.Title = "List";
+}
+
+<link rel="stylesheet" href="~/css/backlog.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
+
+@section head {
+    @if (Model.SelectedTeam != null)
+    {
+        <div class="row">
+            <div class="col-sm-8">
+                <div class="dropdown">
+                    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+                        <strong id="selectedTeamName"> @Model.SelectedTeam.Name </strong>
+                        <span class="caret"></span>
+                        <span class="hidden" id="selected-team-id">@Model.SelectedTeam.Id</span>
+                        <span class="hidden" id="swap-team-url">@Url.Action("GetTickets", "Backlog")</span>
+                        <span class="hidden" id="delete-ticket-url">@Url.Action("Delete", "Ticket")</span>
+                        <span class="hidden" id="ticket-details-url">@Url.Action("TicketDetails", "Ticket")</span>
+                        <span class="hidden" id="update-ticket-url">@Url.Action("Edit", "Ticket")</span>
+                        <span class="hidden" id="add-comment-url">@Url.Action("Add", "Comment")</span>
+                        <span class="hidden" id="delete-comment-url">@Url.Action("Delete", "Comment")</span>
+
+                    </button>
+                    <ul class="dropdown-menu">
+                        @foreach (var team in Model.Teams)
+                        {
+                            <li class="teamSelectionButton">
+                                <a swap-team-button="true" 
+                                   data-team-id="@team.Id">
+                                    @team.Name
+                                </a>
+                            </li>
+                        }
+                        <li class="divider"></li>
+                        <li class="teamSelectionButton">
+                            <a href="#" data-toggle="modal" data-target="#team-modal">New team</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="row">
+                    <div class="input-group pull-right">
+                        <input type="text" class="form-control search" placeholder="Search for tickets">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default search" type="button">Go!</button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+}
+
+@if (Model.SelectedTeam != null)
+{
+    <div class="col-lg-3">
+        <div class="row">
+            <h3 class="text-center backlogHeader">Sort By</h3>
+            <hr/>
+            <div class="form-horizontal" id="filter-form">
+                <input type="hidden" name="Page" id="page">
+                <input asp-for="TeamId" type="hidden" id="filter-form-team-id">
+                <div>
+                    <ul class="list-group">
+                        <li class="list-group-item text-left">Date</li>
+                        <li class="list-group-item">
+                            <div class="input-group date" data-provide="datepicker">
+                                <input type="text" placeholder="From" class="form-control" id="dateFrom">
+                                <div class="input-group-addon">
+                                    <span class="glyphicon glyphicon-calendar calendarGlyphColor"></span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="input-group date" data-provide="datepicker">
+                                <input type="text" placeholder="To" class="form-control" id="dateTo">
+                                <div class="input-group-addon">
+                                    <span class="glyphicon glyphicon-calendar calendarGlyphColor"></span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <ul class="list-group">
+                        <li class="list-group-item text-left">Status</li>
+                        @foreach (Status status in Enum.GetValues(typeof(Status)))
+                        {
+                            <li class="list-group-item" style="padding: 10px 10px 30px;">
+                                @{ Model.Status = status; }
+
+                                @if (Model.CheckIfStatusExistsIn)
+                                {
+                                    <input class="magic-checkbox statusCheckbox" type="checkbox" name="SelectedStatuses" id="status-@status" value="@status" checked="checked">
+                                    <label class="pull-left" for="status-@status">@status.GetName()</label>
+                                }
+                                else
+                                {
+                                    <input class="magic-checkbox statusCheckbox" type="checkbox" name="SelectedStatuses" id="status-@status" value="@status">
+                                    <label class="pull-left" for="status-@status">@status.GetName()</label>
+                                }
+                            </li>
+                        }
+                    </ul>
+
+                    <ul class="list-group">
+                        <li class="list-group-item text-left">Priority</li>
+                        @foreach (Priority priority in Enum.GetValues(typeof(Priority)))
+                        {
+                            <li class="list-group-item" style="padding: 10px 10px 30px;">
+                                @{ Model.Priority = priority; }
+                                @{
+                                    string labelColorStyle;
+                                    if (priority == Priority.Low)
+                                    {
+                                        labelColorStyle = "#5cb85c";
+                                    }
+                                    else if (priority == Priority.Medium)
+                                    {
+                                        labelColorStyle = "#f0ad4e";
+                                    }
+                                    else if (priority == Priority.High)
+                                    {
+                                        labelColorStyle = "#d9534f";
+                                    }
+                                    else
+                                    {
+                                        labelColorStyle = "#2a2c2e";
+                                    }
+                                }
+                                @if (Model.CheckIfPriorityExistsIn)
+                                {
+                                    <input class="magic-checkbox priorityCheckbox " type="checkbox" name="SelectedPriorities" value="@priority" checked="checked" id="priority-@priority"/>
+                                    <label style="color: @labelColorStyle" class="pull-left" for="priority-@priority">@priority</label>
+                                }
+                                else
+                                {
+                                    <input class="magic-checkbox priorityCheckbox" type="checkbox" name="SelectedPriorities" value="@priority" id="priority-@priority"/>
+                                    <label style="color: @labelColorStyle" class="pull-left" for="priority-@priority">@priority</label>
+                                }
+                            </li>
+                        }
+                    </ul>
+                    <input type="submit" class="btn btn-lg btn-primary btn-block col-xs-12" value="Apply" id="apply-filter-tickets-button">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-8 col-xs-12 pull-right">
+        <div class="row">
+            <h3 class="text-center" style="font-size: 30px;">Tickets List</h3>
+            <hr/>
+            <div id="backlogTicketContainer">
+                @if (!Model.Tickets.Any())
+                {
+                    <p>Tickets not found</p>
+                }
+                else
+                {
+                    @Html.Partial("~/Views/Partials/Backlog/_FilterTable.cshtml", Model)
+                    <div class="text-center">@Html.Partial("~/Views/Partials/Backlog/_PaginationPartial.cshtml", Model.PageViewModel)</div>
+                }
+            </div>
+        </div>
+    </div>
+
+    <div data-ticket-details-container="true"></div>
+    @Html.Partial("TicketDetailsTemplate")
+    <div data-ticket-new-container="true"></div>
+    @Html.Partial("TicketNewTemplate", new TicketViewModel())
+    <div remove-modal-data></div>
+    @Html.Partial("RemoveTicketModal")
+    @Html.Partial("BacklogDisplayTicketTemplate")
+}
+else
+{
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <br/><br/><br /><br />
+            <h3 class="text-center ticket-summ-color">You don't have any teams yet.</h3>
+            <button data-toggle="modal" data-target="#team-modal" class="btn btn-primary">Create new team</button>
+        </div>
+    </div>
+}
+
+@Html.Partial("TeamNewModal", new TeamViewModel())
+
+@section scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.8.1/mustache.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+
+    <environment names="Development">
+        <script src="~/js/statistic-search.js"></script>
+        <script src="~/js/pagination.js"></script>
+        <script src="~/js/ticket-details.js"></script>
+        <script src="~/js/backlog-datepciker-init.js"></script>
+        <script src="~/js/remove-modal-rendering.js"></script>
+        <script src="~/js/new-ticket.js"></script>
+        <script src="~/js/backlog-swap-team.js"></script>
+    </environment>
+    <environment names="Staging,Production">
+        <script src="~/js/statistic-search.min.js"></script>
+        <script src="~/js/pagination.min.js"></script>
+        <script src="~/js/backlog-datepciker-init.js"></script>
+    </environment>
+}

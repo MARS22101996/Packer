@@ -1,0 +1,81 @@
+﻿@using System.Threading.Tasks
+@using TaskManagerUI.Models.Enums
+@model TaskManagerUI.ViewModels.TicketViewModels.TicketViewModel
+@{
+    var statusClass = "bs-callout-success";
+    switch (Model.Priority)
+    {
+        case Priority.High:
+            statusClass = "bs-callout-warning";
+            break;
+        case Priority.Critical:
+            statusClass = "bs-callout-danger";
+            break;
+        case Priority.Low:
+            statusClass = "bs-callout-info";
+            break;
+    }
+}
+
+<div class="bs-callout @statusClass" id="callout-alerts-dismiss-use-button">
+    <div class="row">
+        <div class="col-xs-8">
+            <a class="ticket-name" data-ticket-details
+               data-url='@Url.Action("TicketDetails", "Ticket")'
+               data-add-comment-url='@Url.Action("Add", "Comment")'
+               data-remove-comment-url='@Url.Action("Delete", "Comment")'
+               data-ticket-details-team-id="@Model.TeamId"
+               data-ticket-details-ticket-id="@Model.Id">
+                @Model.Name
+            </a>
+        </div>
+        <div class="col-xs-4">
+            
+            <a href="#" class="pull-right action-button" 
+               delete-ticket data-url="@Url.Action("Delete", "Ticket")"
+               data-ticket-remove-id="@Model.Id"
+               data-ticket-remove-name="@Model.Name"
+               data-team-remove-id="@Model.TeamId">
+                <span class="glyphicon glyphicon-trash"></span>
+            </a>
+
+            <a href="#" data-ticket-new
+               data-url="@Url.Action("Edit", "Ticket")"
+               data-ticket-new-team-id="@Model.TeamId"
+               data-ticket-update-ticket-id="@Model.Id"
+               class="pull-right action-button">
+                <span class="glyphicon glyphicon-pencil"></span>
+            </a>
+        </div>
+    </div>
+    <div class="row mgn-top">
+        <div class="col-xs-4 icon-color mgn-top">
+            <span>@Model.LinkedTicketIds.Count() </span><span class="mgn-right glyphicon glyphicon-link icon-color"></span>
+            <span>@Model.CommentCount </span><span class="mgn-right glyphicon glyphicon-comment icon-color"></span>
+        </div>
+        <div class="col-xs-4 mgn-top">
+           @if (Model.Assignee != null)
+           {
+               <span class="label label-default tag-font-size">
+                   @Model.Assignee.Name
+               </span>
+           }
+        </div>
+        <div class="col-xs-4 mgn-top">
+            @if (Model.Status != Status.Done)
+            {
+                var rightArrowStatus = Model.Status == Status.InProgress ? Status.Done : Status.InProgress;
+                <a class="action-button" asp-action="EditStatus" asp-controller="Ticket" asp-route-teamId="@Model.TeamId" asp-route-ticketId="@Model.Id" asp-route-status="@rightArrowStatus">
+                    <span class="glyphicon glyphicon-arrow-right pull-right status-icon" aria-hidden="true"></span>
+                </a>
+            }
+            @if (Model.Status != Status.Open)
+            {
+                var leftArrowStatus = Model.Status == Status.InProgress ? Status.Open : Status.InProgress;
+                <a class="action-button" asp-action="EditStatus" asp-controller="Ticket" asp-route-teamId="@Model.TeamId" asp-route-ticketId="@Model.Id" asp-route-status="@leftArrowStatus">
+                    <span class="glyphicon glyphicon-arrow-left pull-right status-icon" aria-hidden="true"></span>
+                </a>
+            }
+        </div>
+    </div>
+</div>
