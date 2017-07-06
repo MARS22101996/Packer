@@ -18,3 +18,5 @@ sudo docker service create --network=consul-net --name=consul \
     -p 8500:8500 sdelrio/consul
 
 sudo docker stack deploy --compose-file ./services/docker-compose.yml poc
+
+sudo docker run -v "/var/run/docker.sock:/var/run/docker.sock" -p 9000:9000 portainer/portainer
