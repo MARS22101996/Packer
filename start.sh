@@ -1,6 +1,7 @@
 #!/bin/bash
+sudo docker run -it -d -p 8080:8080 -v /var/run/docker.sock:/var/run/docker.sock dockersamples/visualizer
 
-docker service create --network=consul-net --name=consul \
+sudo docker service create --network=consul-net --name=consul \
     -e 'CONSUL_LOCAL_CONFIG={"skip_leave_on_interrupt": true}' \
     -e CONSUL_BIND_INTERFACE='eth0' \
     -e CONSUL=consul \
@@ -10,4 +11,4 @@ docker service create --network=consul-net --name=consul \
     --update-parallelism 1 \
     -p 8500:8500 sdelrio/consul
 
-docker stack deploy --compose-file /services/docker-compose.yml poc
+sudo docker stack deploy --compose-file /services/docker-compose.yml poc
