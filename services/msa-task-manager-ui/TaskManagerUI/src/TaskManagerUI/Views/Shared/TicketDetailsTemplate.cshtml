@@ -1,0 +1,120 @@
+﻿<script data-ticket-details-template="true" type="text-template">
+    <div class="modal fade in" id="modal-ticket-details" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    {{#ticket}}
+                    <h3 class="modal-title">{{name}}</h3>
+                    {{/ticket}}
+                    <span class="ticket-summ-color">
+                        {{creationDate}} |
+                        {{#ticket}}
+                        {{priority}} priority | In list "{{status}}"
+                        {{/ticket}}
+                    </span>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        {{#ticket}}
+                        <div class="col-xs-6">
+                            <h4>Assignee</h4>
+                            {{#ticketAssignee}}
+                            <span class="label label-default tag-font-size">
+                                {{name}}
+                            </span>
+                            {{/ticketAssignee}}
+                            {{^ticketAssignee}}
+                            <span class="ticket-summ-color">Not assigned.</span>
+                            {{/ticketAssignee}}
+                        </div>
+                        <div class="col-xs-6">
+                            <h4>Tags</h4>
+                            {{#tags}}
+                            <span class="badge btn-primary  tag-font-size">
+                                {{.}}
+                            </span>
+                            {{/tags}}
+                            {{^tags}}
+                            <span class="ticket-summ-color">No tags.</span>
+                            {{/tags}}
+                        </div>
+                        <div class="col-xs-12">
+                            <h4>Description</h4>
+                            {{text}}
+                        </div>
+                        <div class="col-xs-12">
+                            <h4>Links</h4>
+                            <div class="row">
+                                {{#linkedTickets}}
+                                <div class="col-md-6">
+                                    <div class="bs-callout bs-callout-details bs-callout-{{priority}}" id="callout-alerts-dismiss-use-button">
+                                        <div class="row">
+                                            <div class="col-xs-12">
+                                                <span class="ticket-name">
+                                                    {{name}}
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="row mgn-top">
+                                            <div class="col-xs-7">
+                                                {{#assignee}}
+                                                <span class="label label-default tag-font-size">
+                                                    {{name}}
+                                                </span>
+                                                {{/assignee}}
+                                            </div>
+                                            <div class="col-xs-5">
+                                                <span class="pull-right">
+                                                    {{status}}
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                {{/linkedTickets}}
+                            </div>
+                            {{^linkedTickets}}
+                            <span class="ticket-summ-color">No links.</span>
+                            {{/linkedTickets}}
+                        </div>
+                        <div class="col-xs-12">
+                            <h4>Comments</h4>
+                            <form name="add-comment">
+                                <textarea data-ticket-details-add-comment-text name="comment" class="form-control" />
+                                <div class="mgn-top pull-right">
+                                    <input type="submit" data-ticket-details-add-comment class="btn btn-primary mgn-top" value="Send">
+                                </div>
+                            </form>
+                        </div>
+                        {{/ticket}}
+                        <div data-ticket-details-comments-container="true"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</script>
+
+<script data-ticket-details-comments-template="true" type="text-template">
+    <div class="col-xs-12">
+        {{#comments}}
+        <hr />
+        <div class="row">
+            <div class="col-xs-11">
+                {{#user}}
+                <p class="user-name">{{name}}</p>
+                {{/user}}
+            </div>
+            <div class="col-xs-1">
+                <a href="#" data-ticket-details-comment-id="{{id}}" data-ticket-details-comment-remove>
+                    <span class="glyphicon glyphicon-remove ticket-summ-color"></span>
+                </a>
+            </div>
+        </div>
+        <p>{{text}}</p>
+        <span class="ticket-summ-color">{{dateString}}</span>
+        {{/comments}}
+    </div>
+</script>

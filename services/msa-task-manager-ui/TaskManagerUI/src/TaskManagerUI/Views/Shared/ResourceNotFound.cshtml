@@ -1,0 +1,27 @@
+﻿@model TaskManagerUI.Models.HandleErrorInfo
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html class="full-404">
+<head>
+    <title>404 Not found</title>
+    <environment names="Development">
+        <link rel="stylesheet" type="text/css" href="~/css/error.css" />
+        <link rel="stylesheet" type="text/css" href="~/css/sweetalert.css">
+        <script src="~/js/sweetalert-dev.js"></script>
+    </environment>
+    <environment names="Staging,Production">
+        <link rel="stylesheet" type="text/css" href="~/css/error.min.css" />
+        <script src="~/js/sweetalert-dev.min.js"></script>
+    </environment>
+</head>
+<body>
+<div class="center">
+    <a asp-action="Board" asp-controller="Ticket" class="btn btn-default">Back to site</a>
+</div>
+</body>
+</html>
+<script>
+    swal("404 Not found", '@Model.Message', "error");
+</script>

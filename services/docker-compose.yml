@@ -1,0 +1,154 @@
+version: '3'
+services: 
+  fabio:
+    image: magiconair/fabio:1.0.6
+    volumes:
+       - ./fabio:/etc/fabio:ro
+    ports:
+       - "9998:9998" # GUI/management
+       - "9999:9999" # HTTP exposed
+    environment:
+       SERVICE_IGNORE: ignore
+    networks:
+      microservices-network:
+         aliases:
+          - confab
+    deploy:
+      placement:
+        constraints: [node.role == manager]
+
+  mongodb:
+    image: mongo:latest
+    environment:
+       - MONGO_DATA_DIR=/data/db
+       - MONGO_LOG_DIR=/dev/null
+    volumes:
+       - ./data/db:/etc/data/db
+    ports:
+       - 27017:27017
+    command: mongod --smallfiles --logpath=/dev/null # --quiet
+    networks:
+      microservices-network:
+         aliases:
+          - confab
+    deploy:
+      placement:
+        constraints: [node.role == worker]
+
+  user:
+    build:
+      context: ./msa-user-service/UserService/src/UserService.WEB
+      dockerfile: Dockerfile
+    image: user
+    ports:
+       - '5001:5001'
+    networks:
+        microservices-network:
+         aliases:
+          - confab
+    deploy:
+      placement:
+        constraints: [node.role == worker]
+
+  team:
+    build:
+      context: ./msa-team-service/TeamService/src/TeamService.WEB
+      dockerfile: Dockerfile
+    image: team 
+    ports:
+        - '5002:5002'
+    networks:
+      microservices-network:
+         aliases:
+          - confab
+    deploy:
+      placement:
+        constraints: [node.role == worker]
+
+
+  ticket:
+    build:
+      context: ./msa-ticket-service/TicketService/src/TicketService.WEB
+      dockerfile: Dockerfile
+    image: ticket 
+    ports:
+       - '5003:5003'
+    networks:
+      microservices-network:
+         aliases:
+          - confab
+    deploy:
+      placement:
+        constraints: [node.role == worker]
+
+
+  statistic:
+    build:
+      context: ./msa-statistic-service/StatisticService/src/StatisticService.WEB
+      dockerfile: Dockerfile
+    image: statistic 
+    ports:
+        - '5004:5004'
+    networks:
+      microservices-network:
+         aliases:
+          - confab
+    deploy:
+      placement:
+        constraints: [node.role == worker]
+
+
+  notification:
+    build:
+      context: ./msa-notification-service/NotificationService/src/NotificationService.WEB
+      dockerfile: Dockerfile
+    image: notification 
+    ports:
+       - '5006:5006'
+    networks:
+      microservices-network:
+         aliases:
+          - confab
+    deploy:
+      placement:
+        constraints: [node.role == worker]
+
+
+  api-gateway:
+    build:
+      context: ./msa-api-gateway/src/ApiGateway
+      dockerfile: Dockerfile
+    image: api-gateway 
+    environment:
+       #- SERVICE_NAME=api-gateway
+       - SERVICE_IGNORE=ignore
+    ports:
+       - '5008:5008'
+    networks:
+      microservices-network:
+         aliases:
+          - confab
+    deploy:
+      placement:
+        constraints: [node.role == worker]
+
+  ui:
+    build:
+      context: ./msa-task-manager-ui/TaskManagerUI/src/TaskManagerUI
+      dockerfile: Dockerfile
+    image: ui
+    environment:
+        - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+        - '5007:5007'
+    networks:
+      microservices-network:
+         aliases:
+          - confab
+    deploy:
+      placement:
+        constraints: [node.role == worker]
+
+   
+networks:
+  microservices-network:

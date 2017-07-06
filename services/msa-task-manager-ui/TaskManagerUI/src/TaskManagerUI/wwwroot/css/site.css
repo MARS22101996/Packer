@@ -1,0 +1,400 @@
+﻿.notice p, .notice strong, .notice span {
+    word-wrap: break-word;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+button:focus {
+    outline: 0 !important;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+/*input,
+select,
+textarea {
+    max-width: 280px;
+}*/
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"]
+{
+    width: 100%;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+  /* Hide captions */
+  .carousel-caption {
+    display: none
+  }
+}
+
+.twitter-typeahead {
+    width: 100%;
+} 
+.head {
+    height: 54px;
+    background-color: #f7f7f9;
+}
+
+.dropdown,.head-mgn {
+    margin: 8px 0;
+}
+
+.bs-callout {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #eee;
+    border-left-width: 10px;
+    border-radius: 3px;
+}
+
+.bs-callout-details {
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.bs-callout-warning {
+    border-left-color: #f0ad4e;
+}
+
+.bs-callout-High {
+    border-left-color: #f0ad4e;
+}
+
+.bs-callout-Medium {
+    border-left-color: #5cb85c;
+}
+
+.bs-callout-success {
+    border-left-color: #5cb85c;
+}
+
+.bs-callout-danger {
+    border-left-color: #d9534f;
+}
+
+.bs-callout-Critical {
+    border-left-color: #d9534f;
+}
+
+.bs-callout-info {
+    border-left-color: #818a91;
+}
+
+.bs-callout-Low {
+    border-left-color: #818a91;
+}
+
+.action-button {
+    margin-left: 8px;
+    color: #dddddd;
+    font-size: 18px;
+}
+
+.label-3 {
+    background: #f0ad4e;
+}
+
+.label-2 {
+    background: #5cb85c;
+}
+
+.label-4 {
+    background: #d9534f;
+}
+
+.label-1 {
+    background: #818a91;
+}
+
+.error {
+     color: #d73814;
+}
+
+.teamSelectionButton:hover {
+    cursor: pointer
+}
+
+.statistic-container {
+    margin: 0 30px;
+}
+
+.ticket-name {
+    font-size: 18px;
+    cursor: pointer;
+    color: black;
+} 
+
+.ticket-name:hover {
+    text-decoration: none;
+}
+
+.add-ticket-button {
+    margin-top: 20px;
+}
+
+.search {
+    margin: 8px 0;
+}
+
+.icon-color {
+    color: #999999;
+    font-size: 18px;
+}
+
+.mgn-right {
+    margin-right: 5px;
+}
+
+.mgn-top {
+    margin-top: 5px;
+}
+
+.tag-font-size {
+    font-size: 12px;
+    padding-top: 4px;
+}
+
+.tag {
+    float: left;
+}
+
+.tag-badge {
+    padding-bottom: 5px;
+}
+
+.login {
+    margin-top: 150px;
+}
+
+.footer {
+    color: #9d9d9d;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.ticket-summ-color {
+    color: #cccccc;
+}
+
+.user-name {
+    font-weight: bold;
+}
+
+.header-text {
+    margin-top: 16px;
+}
+
+.notice {
+    padding: 15px;
+    background-color: #fafafa;
+    border-left: 6px solid #7f7f84;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 0 5px 8px -6px #000000;
+    -webkit-box-shadow: 0 5px 8px -6px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 5px 8px -6px #000000;
+    -moz-box-shadow: 0 5px 8px -6px rgba(0,0,0,.2);
+    box-shadow: 0 5px 8px -6px #000000;
+    box-shadow: 0 5px 8px -6px rgba(0,0,0,.2);
+}
+
+.notice-sm {
+    padding: 10px;
+    font-size: 80%;
+}
+
+.notice-lg {
+    padding: 35px;
+    font-size: large;
+}
+
+.notice-lg .assignee-par {
+    font-size: 0.8em;
+}
+
+.notice-success {
+    border-color: #80D651;
+}
+
+.notice-success>strong {
+    color: #80D651;
+}
+
+.notice-info {
+    border-color: #45ABCD;
+}
+
+.notice-info>strong {
+    color: #45ABCD;
+}
+
+.notice-warning {
+    border-color: #FEAF20;
+}
+
+.notice-warning strong {
+    font-size: 1.2em;
+    color: #FEAF20;
+}
+
+.notice-info strong {
+    font-size: 1.2em;
+    color: #FEAF20;
+}
+
+.notice-success strong {
+    font-size: 1.2em;
+    color: #FEAF20;
+}
+
+.notice-danger {
+    border-color: #d73814;
+}
+
+.notice-danger>strong {
+    color: #d73814;
+}
+
+h3.title { 
+	font-size: 50px;
+	font-family: 'Passion One', cursive; 
+	font-weight: 400;
+    color: #80d651;
+}
+
+.wrapper-line {
+    margin: 10px 0;
+}
+
+.paginationbut:hover {
+    cursor: pointer;  
+}
+
+
+.status-icon{
+    margin-left: 5px;
+}
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
+.btn-circle.btn-lg {
+  width: 50px;
+  height: 50px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 25px;
+}
+.btn-circle.btn-xl {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  font-size: 24px;
+  line-height: 1.33;
+  border-radius: 35px;
+}
+
+.btn-create {
+    margin-bottom: 20px;
+}
+
+.ticket-textarea {
+    width: 100%;
+}
+
+.manage-block-icon {
+    font-size: 22px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.manage-block-button {
+    width: 150px !important;
+    margin-left: 10px;
+}
+
+/* Comment styles*/
+
+.thumbnail {
+    padding:0;
+}
+.comment .panel {
+	position:relative;
+}
+.comment .panel>.panel-heading:after,.panel>.panel-heading:before{
+	position:absolute;
+	top:11px;left:-16px;
+	right:100%;
+	width:0;
+	height:0;
+	display:block;
+	content:" ";
+	border-color:transparent;
+	border-style:solid solid outset;
+	pointer-events:none;
+}
+.comment .panel>.panel-heading:after{
+	border-width:7px;
+	border-right-color:#f7f7f7;
+	margin-top:1px;
+	margin-left:2px;
+}
+.comment .panel>.panel-heading:before{
+	border-right-color:#ddd;
+	border-width:8px;
+}
+
+/*Footer */
+
+#wrap {
+  min-height: 100%;
+}
+
+#main {
+  /*overflow:auto;*/
+  padding-bottom:150px; /* this needs to be bigger than footer height*/
+}
+
+.footer {
+  position: relative;
+  margin-top: -37px; /* negative value of footer height */
+  height: 57px;
+  clear:both;
+  padding-top:20px;
+} 
+
+.div-inline{
+    display:inline-block;
+}

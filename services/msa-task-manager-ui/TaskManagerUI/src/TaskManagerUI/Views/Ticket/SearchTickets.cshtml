@@ -1,0 +1,65 @@
+﻿@using TaskManagerUI.EnumExtensions
+@using TaskManagerUI.Models.Enums
+@model IEnumerable<TaskManagerUI.ViewModels.TicketViewModels.TicketViewModel>
+
+@{
+    ViewBag.Title = "SearchTicket";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link rel="stylesheet" href="~/css/backlog.css" />
+
+<div class="col-lg-12 col-xs-12">
+    <div class="row">
+        <div id="backlogTicketContainer">
+            @if (!Model.Any())
+            {
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <br/><br/><br /><br />
+                        <h3 class="text-center ticket-summ-color">Tickets not found for "@ViewBag.searchString".</h3>
+                    </div>
+                </div>
+            }
+            else
+            {
+                <h3 class="text-center" style="font-size: 30px;">Found tickets for "@ViewBag.searchString"</h3>
+                <hr />
+                foreach (var ticket in Model)
+                 {
+                     var borderColorClass = "bs-callout-done";
+                     if (ticket.Status == Status.Open)
+                     {
+                         borderColorClass = "bs-callout-open";
+                     }
+                     else if (ticket.Status == Status.InProgress)
+                     {
+                         borderColorClass = "bs-callout-progress";
+                     }
+
+                     <div class="bs-callout @borderColorClass">
+                         <div class="row">
+                             <div class="col-sm-5">
+                                 <p class="backlogTicketName">@ticket.Name</p>
+                                 <p class="backlogTicketAdditionalInfo">@ticket.Status.GetName()<span class="backlogTicketDate">@ticket.FormattedCreationDate</span>
+                                 </p>
+                             </div>
+                             <div class="col-sm-3">
+                                 @if (ticket.Assignee != null)
+                                 {
+                                     <span class="label label-default tag-span backlogTicketAssignee">
+                                         @ticket.Assignee.Name
+                                     </span>
+                                 }
+                             </div>
+                             <div class="col-sm-2">
+                                 <span class="backlogLinkedTicketStatsNumber">@ticket.LinkedTicketIds.Count()</span><span class="glyphicon glyphicon-link backlogTicketStatsGlyphicon"></span>
+                                 <span class="backlogLinkedTicketStatsNumber backlogCommentCount">@ticket.CommentCount</span><span class="glyphicon glyphicon-comment backlogTicketStatsGlyphicon"></span>
+                             </div>
+                         </div>
+                     </div>
+                 }
+            }
+        </div>
+    </div>
+</div>

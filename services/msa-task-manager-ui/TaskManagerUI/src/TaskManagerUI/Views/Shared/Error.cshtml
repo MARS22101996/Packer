@@ -1,0 +1,41 @@
+﻿@model TaskManagerUI.Models.HandleErrorInfo
+@{
+    ViewBag.Title = "Error";
+    Layout = null;
+}
+<!DOCTYPE html>
+<html class="full-error">
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <environment names="Development">
+        <link rel="stylesheet" type="text/css" href="~/css/error.css" />
+        <link rel="stylesheet" type="text/css" href="~/css/sweetalert.css">    
+        <script src="~/js/sweetalert-dev.js"></script>
+    </environment>
+    <environment names="Staging,Production">
+        <link rel="stylesheet" type="text/css" href="~/css/error.min.css" />
+        <script src="~/js/sweetalert-dev.min.js"></script>
+    </environment>
+</head>
+<body>
+<div class="center">
+    <a asp-action="Board" asp-controller="Ticket" class="btn btn-default">Back to site</a>
+</div>
+<div>
+    <div class="col-xs-12 col-md-4">
+    </div>
+    <div class="col-xs-12 col-md-4 error-screen">
+        <H2 class="text-center text-danger">Error</H2>
+        <hr/>
+        <p>@Model.Message</p>
+        <hr/>
+        <p>@Model.StackTrace</p>
+    </div>
+    <div class="col-xs-12 col-md-4">
+    </div>
+</div>
+</body>
+</html>
+<script>
+    swal("Error", "Unhandled exception was thrown!", "error");
+</script>

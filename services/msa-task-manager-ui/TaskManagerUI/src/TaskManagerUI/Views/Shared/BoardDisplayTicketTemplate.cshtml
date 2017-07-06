@@ -1,0 +1,58 @@
+﻿<script ticket-card-template="true" type="text-template">
+    {{#tickets}}
+    <div class="bs-callout bs-callout-{{priority}}" id="callout-alerts-dismiss-use-button">
+        <div class="row">
+            <div class="col-xs-8">
+                <a class="ticket-name" data-ticket-details
+                   data-url='{{ticketDetailsUrl}}'
+                   data-add-comment-url='{{addCommentUrl}}'
+                   data-remove-comment-url='{{removeCommentUrl}}'
+                   data-ticket-details-team-id="{{teamId}}"
+                   data-ticket-details-ticket-id="{{id}}">
+                    {{name}}
+                </a>
+            </div>
+            <div class="col-xs-4">
+                <a class="pull-right action-button" delete-ticket data-url="{{deleteTicketUrl}}"
+                data-ticket-remove-id="{{id}}" data-ticket-remove-name="{{name}}" data-team-remove-id="{{teamId}}"><span class="glyphicon glyphicon-trash"></span></a>
+                <a href="#" data-ticket-new data-url="{{ticketUpdateUrl}}" data-ticket-new-team-id="{{teamId}}" data-ticket-update-ticket-id="{{id}}" class="pull-right action-button">
+                    <span class="glyphicon glyphicon-pencil"></span>
+                </a>
+            </div>
+        </div>
+        <div class="row mgn-top">
+            <div class="col-xs-4 icon-color mgn-top">
+                <span>{{linkedTicketCount}} </span><span class="mgn-right glyphicon glyphicon-link icon-color"></span>
+                <span>{{commentCount}} </span><span class="mgn-right glyphicon glyphicon-comment icon-color"></span>
+            </div>
+            <div class="col-xs-4 mgn-top">
+                {{#assignee}}
+                <span class="label label-default tag-font-size">
+                    {{name}}
+                </span>
+                {{/assignee}}
+            </div>
+            <div class="col-xs-4 mgn-top">
+                {{#planned}}
+                        <a class="action-button" href="{{editStatusUrl}}?teamId={{teamId}}&ticketId={{id}}&status=InProgress" >
+                            <span class="glyphicon glyphicon-arrow-right pull-right status-icon" aria-hidden="true"></span>
+                        </a>
+                {{/planned}}
+                {{#inProgress}}
+                        <a class="action-button" href="{{editStatusUrl}}?teamId={{teamId}}&ticketId={{id}}&status=Done">
+                            <span class="glyphicon glyphicon-arrow-right pull-right status-icon" aria-hidden="true"></span>
+                        </a>
+                        <a class="action-button" href="{{editStatusUrl}}?teamId={{teamId}}&ticketId={{id}}&status=Open">
+                            <span class="glyphicon glyphicon-arrow-left pull-right status-icon" aria-hidden="true"></span>
+                        </a>
+                {{/inProgress}}
+                {{#done}}
+                        <a class="action-button" href="{{editStatusUrl}}?teamId={{teamId}}&ticketId={{id}}status=InProgress">
+                            <span class="glyphicon glyphicon-arrow-left pull-right status-icon" aria-hidden="true"></span>
+                        </a>
+                {{/done}}
+            </div>
+        </div>
+    </div>
+    {{/tickets}}
+</script>

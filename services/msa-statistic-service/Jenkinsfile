@@ -1,0 +1,86 @@
+node(){
+
+    def solution_name = "StatisticService"
+    def project_name = "StatisticService.WEB"
+
+    // stage 0
+    stage "Preparing"
+
+    def output_dir = "output"
+    deleteDir()
+    
+    echo "Directory is successfuly prepeared!"
+
+    // stage 1
+    stage "Checkout"
+
+    checkout scm
+
+    echo "Checkout successfully completed!"
+
+    // stage 2
+    stage "Build"
+    
+    echo "Building project ${project_name} in ${solution_name} solution"
+
+    def project_dir
+    
+    if(fileExists("${solution_name}")){
+        project_dir = "${solution_name}/src/${project_name}"
+    }
+    else{
+        project_dir = "src/${project_name}"
+    }
+
+    echo project_dir
+
+    dir(project_dir) {
+        sh "dotnet restore"
+        sh "dotnet build -c Release"
+        sh "dotnet publish -c Release -o ~/${output_dir}/${solution_name}/publish"
+    }
+
+    echo "Building completed successfully!"
+    
+    // stage 3 
+    stage "Test"
+    
+    echo "Searching for unit tests..."
+    
+    def test_dir = "${solution_name}/test"
+    if(fileExists(test_dir)){
+        dir("${solution_name}") {
+            sh "dotnet restore"
+        }
+        
+        dir(test_dir){
+            sh '''
+                for DIR in $(ls); do
+        	        dotnet test ${DIR}/${DIR}.csproj --filter "Category=Unit"
+                done
+            '''
+        }
+        
+        echo "All tests successfully passed!"
+    }
+    else{
+        echo "Project has no unit tests. Skipping.."
+    }
+    
+    // stage 4
+    stage "Prepare for CD"
+    
+    def source_dir = "~/${output_dir}/${solution_name}/publish"
+    def destination_dir = "~/${output_dir}/Artifactory"
+    def archive_name = "${solution_name}.1.0.0"
+    
+    echo "Archiving dll's to ${archive_name}.zip"
+    
+    sh "mkdir -p ${destination_dir}"
+        
+    echo "Directory for artifactory is on  ${destination_dir}"
+    
+    sh "zip -r ${destination_dir}/${archive_name}.zip ${source_dir}"
+    
+    echo "Archiving completed seccessfully!"
+}

@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.0</TargetFramework>
+    <AssemblyName>NotificationService.BLL.Tests</AssemblyName>
+    <PackageId>NotificationService.BLL.Tests</PackageId>
+    <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
+    <RuntimeFrameworkVersion>1.1.1</RuntimeFrameworkVersion>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\NotificationService.WEB\NotificationService.WEB.csproj" />
+    <ProjectReference Include="..\NotificationService.Tests.Core\NotificationService.Tests.Core.csproj" />
+    <ProjectReference Include="..\..\src\NotificationService.DAL\NotificationService.DAL.csproj" />
+    <ProjectReference Include="..\..\src\NotificationService.Core\NotificationService.Core.csproj" />
+    <ProjectReference Include="..\..\src\NotificationService.BLL\NotificationService.BLL.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.0.0-preview-20170106-08" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.2.0-beta5-build1225" />
+    <PackageReference Include="xunit" Version="2.2.0-beta5-build3474" />
+    <PackageReference Include="Moq" Version="4.6.38-alpha" />
+    <PackageReference Include="AutoMapper" Version="5.2.0" />
+  </ItemGroup>
+
+</Project>

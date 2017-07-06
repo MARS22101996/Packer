@@ -1,0 +1,19 @@
+﻿<script remove-ticket-modal="true" type="text-template">
+    <div class="modal fade" id="modal-remove" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h3 class="modal-title">Remove a ticket</h3>
+                </div>
+                <div class="modal-body"> 
+                    <p>Do you really want to remove "{{ticket.ticketName}}"? This action can’t be undone.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <a href="{{ticketDeleteUrl}}/?ticketId={{ticket.ticketId}}&teamId={{ticket.teamId}}" class="btn btn-danger" id="remove-button">Remove</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</script>
