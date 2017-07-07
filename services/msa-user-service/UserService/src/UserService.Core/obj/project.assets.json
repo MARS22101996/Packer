@@ -4328,21 +4328,21 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mariia_Suvalova\\.nuget\\packages\\": {}
+    "C:\\Users\\Anna_Marhina\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-user-service\\UserService\\src\\UserService.Core\\UserService.Core.csproj",
+      "projectUniqueName": "D:\\swarm_cl\\services\\msa-user-service\\UserService\\src\\UserService.Core\\UserService.Core.csproj",
       "projectName": "UserService.Core",
-      "projectPath": "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-user-service\\UserService\\src\\UserService.Core\\UserService.Core.csproj",
-      "outputPath": "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-user-service\\UserService\\src\\UserService.Core\\obj\\",
+      "projectPath": "D:\\swarm_cl\\services\\msa-user-service\\UserService\\src\\UserService.Core\\UserService.Core.csproj",
+      "outputPath": "D:\\swarm_cl\\services\\msa-user-service\\UserService\\src\\UserService.Core\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netstandard1.6"
       ],
       "files": {
-        "lib/netstandard1.6/UserService.Core.dll": "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-user-service\\UserService\\src\\UserService.Core\\bin\\placeholder\\netstandard1.6\\UserService.Core.dll"
+        "lib/netstandard1.6/UserService.Core.dll": "D:\\swarm_cl\\services\\msa-user-service\\UserService\\src\\UserService.Core\\bin\\placeholder\\netstandard1.6\\UserService.Core.dll"
       },
       "frameworks": {
         "netstandard1.6": {

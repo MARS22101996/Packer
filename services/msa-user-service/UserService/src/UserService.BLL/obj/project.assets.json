@@ -6966,30 +6966,30 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mariia_Suvalova\\.nuget\\packages\\": {}
+    "C:\\Users\\Anna_Marhina\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-user-service\\UserService\\src\\UserService.BLL\\UserService.BLL.csproj",
+      "projectUniqueName": "D:\\swarm_cl\\services\\msa-user-service\\UserService\\src\\UserService.BLL\\UserService.BLL.csproj",
       "projectName": "UserService.BLL",
-      "projectPath": "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-user-service\\UserService\\src\\UserService.BLL\\UserService.BLL.csproj",
-      "outputPath": "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-user-service\\UserService\\src\\UserService.BLL\\obj\\",
+      "projectPath": "D:\\swarm_cl\\services\\msa-user-service\\UserService\\src\\UserService.BLL\\UserService.BLL.csproj",
+      "outputPath": "D:\\swarm_cl\\services\\msa-user-service\\UserService\\src\\UserService.BLL\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netstandard1.6"
       ],
       "files": {
-        "lib/netstandard1.6/UserService.BLL.dll": "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-user-service\\UserService\\src\\UserService.BLL\\bin\\placeholder\\netstandard1.6\\UserService.BLL.dll"
+        "lib/netstandard1.6/UserService.BLL.dll": "D:\\swarm_cl\\services\\msa-user-service\\UserService\\src\\UserService.BLL\\bin\\placeholder\\netstandard1.6\\UserService.BLL.dll"
       },
       "frameworks": {
         "netstandard1.6": {
           "projectReferences": {
-            "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-user-service\\UserService\\src\\UserService.Core\\UserService.Core.csproj": {
-              "projectPath": "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-user-service\\UserService\\src\\UserService.Core\\UserService.Core.csproj"
+            "D:\\swarm_cl\\services\\msa-user-service\\UserService\\src\\UserService.Core\\UserService.Core.csproj": {
+              "projectPath": "D:\\swarm_cl\\services\\msa-user-service\\UserService\\src\\UserService.Core\\UserService.Core.csproj"
             },
-            "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-user-service\\UserService\\src\\UserService.DAL\\UserService.DAL.csproj": {
-              "projectPath": "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-user-service\\UserService\\src\\UserService.DAL\\UserService.DAL.csproj"
+            "D:\\swarm_cl\\services\\msa-user-service\\UserService\\src\\UserService.DAL\\UserService.DAL.csproj": {
+              "projectPath": "D:\\swarm_cl\\services\\msa-user-service\\UserService\\src\\UserService.DAL\\UserService.DAL.csproj"
             }
           }
         }

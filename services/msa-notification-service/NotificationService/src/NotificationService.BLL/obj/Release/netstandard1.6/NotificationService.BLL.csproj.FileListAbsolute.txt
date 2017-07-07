@@ -1,0 +1,11 @@
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\NotificationService\msa-notification-service\NotificationService\src\NotificationService.BLL\bin\Release\netstandard1.6\NotificationService.BLL.deps.json
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\NotificationService\msa-notification-service\NotificationService\src\NotificationService.BLL\bin\Release\netstandard1.6\NotificationService.BLL.dll
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\NotificationService\msa-notification-service\NotificationService\src\NotificationService.BLL\bin\Release\netstandard1.6\NotificationService.BLL.pdb
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\NotificationService\msa-notification-service\NotificationService\src\NotificationService.BLL\bin\Release\netstandard1.6\NotificationService.Core.dll
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\NotificationService\msa-notification-service\NotificationService\src\NotificationService.BLL\bin\Release\netstandard1.6\NotificationService.DAL.dll
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\NotificationService\msa-notification-service\NotificationService\src\NotificationService.BLL\bin\Release\netstandard1.6\NotificationService.Core.pdb
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\NotificationService\msa-notification-service\NotificationService\src\NotificationService.BLL\bin\Release\netstandard1.6\NotificationService.DAL.pdb
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\NotificationService\msa-notification-service\NotificationService\src\NotificationService.BLL\obj\Release\netstandard1.6\NotificationService.BLL.csprojResolveAssemblyReference.cache
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\NotificationService\msa-notification-service\NotificationService\src\NotificationService.BLL\obj\Release\netstandard1.6\NotificationService.BLL.AssemblyInfo.cs
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\NotificationService\msa-notification-service\NotificationService\src\NotificationService.BLL\obj\Release\netstandard1.6\NotificationService.BLL.dll
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\NotificationService\msa-notification-service\NotificationService\src\NotificationService.BLL\obj\Release\netstandard1.6\NotificationService.BLL.pdb

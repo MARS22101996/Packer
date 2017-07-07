@@ -3888,14 +3888,14 @@
     "epamma.circuitbreaker/1.0.6": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-W0Ynkwt5tW7SzF9W4sPO8b42kM/23oTEiCYhn1eLo/6D/haU7YpJWpCkol3GvqlAknrWbSgSrsIbLraJVBLCyw==",
+      "sha512": "sha512-M8gzfgeepGoSPn3JRqqTHXDHTm87Pti0nrDYjOqFmn5KvPgN1h2injmVjiCJLrZtn8KFUKvNgga38Hm08dst/w==",
       "path": "epamma.circuitbreaker/1.0.6",
       "hashPath": "epamma.circuitbreaker.1.0.6.nupkg.sha512"
     },
     "epamma.logginglayer/1.0.7": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-lGxfxqy6FNdH6g625pBuM8PgSePEGaEpAhafXEQ+MumVgDdXk4r/tXvvuBoxFppCvCY+IOJcTpcFnLL6k6OmyQ==",
+      "sha512": "sha512-vWQEPzOAZHxMrgfmtUsntMqBMy5G80Koa9H2Hba/QxiaPU4MUFakynq+S2ErSaxhpntWNKGZomtDdv1I+/nOig==",
       "path": "epamma.logginglayer/1.0.7",
       "hashPath": "epamma.logginglayer.1.0.7.nupkg.sha512"
     },
@@ -4483,7 +4483,7 @@
     "microsoft.visualstudio.web.browserlink/1.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ReQDEilnQwTqeFbqI0KbcDaq/eFo1edPQD8f2PI0zNMPaMovwocYYnAVZ4dD11J47iJGciKlDJurN43rz8pcfg==",
+      "sha512": "sha512-pD0alVgZwOHf+YZsJ2mFZs653xby7bS+RLSMK0QFICCylDaD461aoEkhQDGa6jG7nETs0aH3Ktp09yyO3MKZfg==",
       "path": "microsoft.visualstudio.web.browserlink/1.1.0",
       "hashPath": "microsoft.visualstudio.web.browserlink.1.1.0.nupkg.sha512"
     },

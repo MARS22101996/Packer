@@ -6967,30 +6967,30 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mariia_Suvalova\\.nuget\\packages\\": {}
+    "C:\\Users\\Anna_Marhina\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-team-service\\TeamService\\src\\TeamService.BLL\\TeamService.BLL.csproj",
+      "projectUniqueName": "D:\\swarm_cl\\services\\msa-team-service\\TeamService\\src\\TeamService.BLL\\TeamService.BLL.csproj",
       "projectName": "TeamService.BLL",
-      "projectPath": "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-team-service\\TeamService\\src\\TeamService.BLL\\TeamService.BLL.csproj",
-      "outputPath": "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-team-service\\TeamService\\src\\TeamService.BLL\\obj\\",
+      "projectPath": "D:\\swarm_cl\\services\\msa-team-service\\TeamService\\src\\TeamService.BLL\\TeamService.BLL.csproj",
+      "outputPath": "D:\\swarm_cl\\services\\msa-team-service\\TeamService\\src\\TeamService.BLL\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netstandard1.6"
       ],
       "files": {
-        "lib/netstandard1.6/TeamService.BLL.dll": "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-team-service\\TeamService\\src\\TeamService.BLL\\bin\\placeholder\\netstandard1.6\\TeamService.BLL.dll"
+        "lib/netstandard1.6/TeamService.BLL.dll": "D:\\swarm_cl\\services\\msa-team-service\\TeamService\\src\\TeamService.BLL\\bin\\placeholder\\netstandard1.6\\TeamService.BLL.dll"
       },
       "frameworks": {
         "netstandard1.6": {
           "projectReferences": {
-            "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-team-service\\TeamService\\src\\TeamService.Core\\TeamService.Core.csproj": {
-              "projectPath": "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-team-service\\TeamService\\src\\TeamService.Core\\TeamService.Core.csproj"
+            "D:\\swarm_cl\\services\\msa-team-service\\TeamService\\src\\TeamService.Core\\TeamService.Core.csproj": {
+              "projectPath": "D:\\swarm_cl\\services\\msa-team-service\\TeamService\\src\\TeamService.Core\\TeamService.Core.csproj"
             },
-            "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-team-service\\TeamService\\src\\TeamService.DAL\\TeamService.DAL.csproj": {
-              "projectPath": "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-team-service\\TeamService\\src\\TeamService.DAL\\TeamService.DAL.csproj"
+            "D:\\swarm_cl\\services\\msa-team-service\\TeamService\\src\\TeamService.DAL\\TeamService.DAL.csproj": {
+              "projectPath": "D:\\swarm_cl\\services\\msa-team-service\\TeamService\\src\\TeamService.DAL\\TeamService.DAL.csproj"
             }
           }
         }

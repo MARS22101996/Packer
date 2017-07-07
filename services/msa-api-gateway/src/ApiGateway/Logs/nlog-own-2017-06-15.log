@@ -1,0 +1,1505 @@
+2017-06-15 13:22:57.0409|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP0" started. 
+2017-06-15 13:23:00.8363|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP1" started. 
+2017-06-15 13:23:00.8545|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP2" started. 
+2017-06-15 13:23:01.3531|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://10.23.21.246:5008/   
+2017-06-15 13:23:01.6035|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path / does not match a supported file type 
+2017-06-15 13:23:01.8933|CorrelationId=a5c2eb1b-b752-4096-9a5d-082db68a4ad4| ApiGateway |DEBUG|Microsoft.AspNetCore.Routing.RouteBase|Request successfully matched the route with name 'default' and template '{controller=Dashboard}/{action=Index}/{id?}'. 
+2017-06-15 13:23:02.4355|CorrelationId=a5c2eb1b-b752-4096-9a5d-082db68a4ad4| ApiGateway |DEBUG|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action ApiGateway.Controllers.DashboardController.Index (ApiGateway) 
+2017-06-15 13:23:02.8341|CorrelationId=a5c2eb1b-b752-4096-9a5d-082db68a4ad4| ApiGateway |INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method ApiGateway.Controllers.DashboardController.Index (ApiGateway) with arguments ((null)) - ModelState is Valid 
+2017-06-15 13:23:03.0143|CorrelationId=a5c2eb1b-b752-4096-9a5d-082db68a4ad4| ApiGateway |DEBUG|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method ApiGateway.Controllers.DashboardController.Index (ApiGateway), returned result Microsoft.AspNetCore.Mvc.ViewResult. 
+2017-06-15 13:23:03.2370|CorrelationId=a5c2eb1b-b752-4096-9a5d-082db68a4ad4| ApiGateway |DEBUG|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|View lookup cache miss for view 'Index' in controller 'Dashboard'. 
+2017-06-15 13:23:03.3497|CorrelationId=a5c2eb1b-b752-4096-9a5d-082db68a4ad4| ApiGateway |DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|The view 'Index' was found. 
+2017-06-15 13:23:03.3586|CorrelationId=a5c2eb1b-b752-4096-9a5d-082db68a4ad4| ApiGateway |INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|Executing ViewResult, running view at path /Views/Dashboard/Index.cshtml. 
+2017-06-15 13:23:04.2526|CorrelationId=a5c2eb1b-b752-4096-9a5d-082db68a4ad4| ApiGateway |TRACE|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|Performing unprotect operation to key {5b07f05b-c98e-4cc5-a933-fce175dd2fd0} with purposes ('/home/marys/Desktop/MicroServ/GateWay/msa-api-gateway/src/ApiGateway', 'Microsoft.AspNetCore.Antiforgery.AntiforgeryToken.v1'). 
+2017-06-15 13:23:04.4605|CorrelationId=a5c2eb1b-b752-4096-9a5d-082db68a4ad4| ApiGateway |DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Existing cached key ring is expired. Refreshing. 
+2017-06-15 13:23:04.6778|CorrelationId=a5c2eb1b-b752-4096-9a5d-082db68a4ad4| ApiGateway |DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file '/home/marys/.aspnet/DataProtection-Keys/key-5b07f05b-c98e-4cc5-a933-fce175dd2fd0.xml'. 
+2017-06-15 13:23:04.8015|CorrelationId=a5c2eb1b-b752-4096-9a5d-082db68a4ad4| ApiGateway |DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {5b07f05b-c98e-4cc5-a933-fce175dd2fd0}. 
+2017-06-15 13:23:04.9554|CorrelationId=a5c2eb1b-b752-4096-9a5d-082db68a4ad4| ApiGateway |DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {5b07f05b-c98e-4cc5-a933-fce175dd2fd0} with expiration date 2017-09-12 09:14:59Z as default key. 
+2017-06-15 13:23:05.3474|CorrelationId=a5c2eb1b-b752-4096-9a5d-082db68a4ad4| ApiGateway |DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.ManagedAuthenticatedEncryptorDescriptor|Using managed symmetric algorithm 'System.Security.Cryptography.Aes'. 
+2017-06-15 13:23:05.3735|CorrelationId=a5c2eb1b-b752-4096-9a5d-082db68a4ad4| ApiGateway |DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.ManagedAuthenticatedEncryptorDescriptor|Using managed keyed hash algorithm 'System.Security.Cryptography.HMACSHA256'. 
+2017-06-15 13:23:05.6220|CorrelationId=a5c2eb1b-b752-4096-9a5d-082db68a4ad4| ApiGateway |DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {5b07f05b-c98e-4cc5-a933-fce175dd2fd0} as the default key. 
+2017-06-15 13:23:05.7502|CorrelationId=a5c2eb1b-b752-4096-9a5d-082db68a4ad4| ApiGateway |TRACE|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|Performing protect operation to key {5b07f05b-c98e-4cc5-a933-fce175dd2fd0} with purposes ('/home/marys/Desktop/MicroServ/GateWay/msa-api-gateway/src/ApiGateway', 'Microsoft.AspNetCore.Antiforgery.AntiforgeryToken.v1'). 
+2017-06-15 13:23:05.7651|CorrelationId=a5c2eb1b-b752-4096-9a5d-082db68a4ad4| ApiGateway |DEBUG|Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgery|An antiforgery cookie token was reused. 
+2017-06-15 13:23:05.8729|CorrelationId=a5c2eb1b-b752-4096-9a5d-082db68a4ad4| ApiGateway |DEBUG|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|View lookup cache miss for view '_Layout' in controller 'Dashboard'. 
+2017-06-15 13:23:06.8518|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP1" received FIN. 
+2017-06-15 13:23:06.8732|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP2" received FIN. 
+2017-06-15 13:23:06.8732|CorrelationId=a5c2eb1b-b752-4096-9a5d-082db68a4ad4| ApiGateway |INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action ApiGateway.Controllers.DashboardController.Index (ApiGateway) in 4409.0551ms 
+2017-06-15 13:23:06.8908|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP3" started. 
+2017-06-15 13:23:06.8945|CorrelationId=a5c2eb1b-b752-4096-9a5d-082db68a4ad4| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5787.097ms 200 text/html; charset=utf-8 
+2017-06-15 13:23:06.8959|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP0" completed keep alive response. 
+2017-06-15 13:23:06.8959|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP1" disconnecting. 
+2017-06-15 13:23:06.8959|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP2" disconnecting. 
+2017-06-15 13:23:06.8959|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP1" sending FIN. 
+2017-06-15 13:23:06.8959|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://10.23.21.246:5008/css/site.min.css?v=N1Dz3zOFM453SfB1M39NWSbaOB9zPRpyoaiUtWJOU6Y   
+2017-06-15 13:23:06.9003|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP2" sending FIN. 
+2017-06-15 13:23:06.9235|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP1" sent FIN with status "0". 
+2017-06-15 13:23:06.9730|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP1" stopped. 
+2017-06-15 13:23:07.0015|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP2" sent FIN with status "0". 
+2017-06-15 13:23:07.0215|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP2" stopped. 
+2017-06-15 13:23:07.0558|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /css/site.min.css was not modified 
+2017-06-15 13:23:07.0708|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Handled. Status code: 304 File: /css/site.min.css 
+2017-06-15 13:23:07.0717|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 173.4584ms 304 text/css 
+2017-06-15 13:23:07.0717|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP3" completed keep alive response. 
+2017-06-15 13:23:07.1013|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://10.23.21.246:5008/js/site.js?v=PO_8e6bIDi7De8_fdNEN0tfEE9tOM_13R3l4268U5_Y   
+2017-06-15 13:23:07.1039|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /js/site.js was not modified 
+2017-06-15 13:23:07.1039|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Handled. Status code: 304 File: /js/site.js 
+2017-06-15 13:23:07.1039|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4.1138ms 304 application/javascript 
+2017-06-15 13:23:07.1039|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP3" completed keep alive response. 
+2017-06-15 13:23:07.3244|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://10.23.21.246:5008/favicon.ico   
+2017-06-15 13:23:07.4502|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon.ico'. Physical path: '/home/marys/Desktop/MicroServ/GateWay/msa-api-gateway/src/ApiGateway/wwwroot/favicon.ico' 
+2017-06-15 13:23:09.0022|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1677.7734ms 200 image/x-icon 
+2017-06-15 13:23:09.0198|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP3" completed keep alive response. 
+2017-06-15 13:28:19.7571|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP0" received FIN. 
+2017-06-15 13:28:19.8480|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP3" received FIN. 
+2017-06-15 13:28:19.8794|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP0" disconnecting. 
+2017-06-15 13:28:19.8794|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP0" sending FIN. 
+2017-06-15 13:28:19.9140|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP0" sent FIN with status "0". 
+2017-06-15 13:28:19.9140|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP0" stopped. 
+2017-06-15 13:28:19.9189|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP3" disconnecting. 
+2017-06-15 13:28:19.9668|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP3" sending FIN. 
+2017-06-15 13:28:19.9689|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP3" sent FIN with status "0". 
+2017-06-15 13:28:19.9689|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP3" stopped. 
+2017-06-15 13:35:50.3986|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP4" started. 
+2017-06-15 13:35:55.1019|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP4" received FIN. 
+2017-06-15 13:35:55.5238|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP4" disconnecting. 
+2017-06-15 13:35:55.5238|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP4" sending FIN. 
+2017-06-15 13:35:55.5271|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP4" sent FIN with status "0". 
+2017-06-15 13:35:55.5475|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP4" stopped. 
+2017-06-15 13:56:51.3298|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP5" started. 
+2017-06-15 13:56:51.8014|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://10.23.21.246:5008/teamapi/user/teams?ownerOnly=false application/json 0 
+2017-06-15 13:56:51.8819|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /teamapi/user/teams does not match a supported file type 
+2017-06-15 13:56:52.6919|CorrelationId=e0fbdea1-c736-450e-9a9b-c5447530cdf7| ApiGateway |INFO|EpamMA.ReverseProxy.Middlewares.ReverseProxyMiddleware|
+#########Request########
+Uri: http://localhost:9999/TeamService/api/user/teams?ownerOnly=false
+Headers:Connection: Keep-Alive
+Authorization: Bearer
+Host: localhost:9999
+CorrelationId: e0fbdea1-c736-450e-9a9b-c5447530cdf7
+Content: 
+
+#########Response#########
+Status code: Unauthorized
+HeadersDate: Thu, 15 Jun 2017 10:56:51 GMT
+Server: Kestrel
+Www-Authenticate: Bearer
+ 
+2017-06-15 13:56:52.8659|CorrelationId=e0fbdea1-c736-450e-9a9b-c5447530cdf7| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1065.4858ms 401 text/plain; charset=utf-8 
+2017-06-15 13:56:52.9795|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP5" completed keep alive response. 
+2017-06-15 13:56:53.1461|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP6" started. 
+2017-06-15 13:56:53.2111|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://10.23.21.246:5008/teamapi/user/teams?ownerOnly=false application/json 0 
+2017-06-15 13:56:53.2473|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /teamapi/user/teams does not match a supported file type 
+2017-06-15 13:56:53.3353|CorrelationId=bdfa158d-ba37-43ec-8f35-ba8c2af4ebe8| ApiGateway |INFO|EpamMA.ReverseProxy.Middlewares.ReverseProxyMiddleware|
+#########Request########
+Uri: http://localhost:9999/TeamService/api/user/teams?ownerOnly=false
+Headers:Connection: Keep-Alive
+Authorization: Bearer
+Host: localhost:9999
+CorrelationId: bdfa158d-ba37-43ec-8f35-ba8c2af4ebe8
+Content: 
+
+#########Response#########
+Status code: Unauthorized
+HeadersDate: Thu, 15 Jun 2017 10:56:52 GMT
+Server: Kestrel
+Www-Authenticate: Bearer
+ 
+2017-06-15 13:56:53.4756|CorrelationId=bdfa158d-ba37-43ec-8f35-ba8c2af4ebe8| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 217.8645ms 401 text/plain; charset=utf-8 
+2017-06-15 13:56:53.5851|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP6" completed keep alive response. 
+2017-06-15 13:56:54.5897|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP7" started. 
+2017-06-15 13:56:54.6078|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://10.23.21.246:5008/teamapi/user/teams?ownerOnly=false application/json 0 
+2017-06-15 13:56:54.6078|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /teamapi/user/teams does not match a supported file type 
+2017-06-15 13:56:54.7032|CorrelationId=65fa3a3b-1da0-4a16-a2b5-ee4f6313654a| ApiGateway |INFO|EpamMA.ReverseProxy.Middlewares.ReverseProxyMiddleware|
+#########Request########
+Uri: http://localhost:9999/TeamService/api/user/teams?ownerOnly=false
+Headers:Connection: Keep-Alive
+Authorization: Bearer
+Host: localhost:9999
+CorrelationId: 65fa3a3b-1da0-4a16-a2b5-ee4f6313654a
+Content: 
+
+#########Response#########
+Status code: Unauthorized
+HeadersDate: Thu, 15 Jun 2017 10:56:53 GMT
+Server: Kestrel
+Www-Authenticate: Bearer
+ 
+2017-06-15 13:56:54.7397|CorrelationId=65fa3a3b-1da0-4a16-a2b5-ee4f6313654a| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 131.8107ms 401 text/plain; charset=utf-8 
+2017-06-15 13:56:54.7906|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP7" completed keep alive response. 
+2017-06-15 13:56:56.2803|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP5" received FIN. 
+2017-06-15 13:56:56.3239|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP6" received FIN. 
+2017-06-15 13:56:56.3239|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP5" disconnecting. 
+2017-06-15 13:56:56.3655|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP7" received FIN. 
+2017-06-15 13:56:56.3655|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP6" disconnecting. 
+2017-06-15 13:56:56.4026|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP5" sending FIN. 
+2017-06-15 13:56:56.4026|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP7" disconnecting. 
+2017-06-15 13:56:56.4221|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP6" sending FIN. 
+2017-06-15 13:56:56.4239|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP7" sending FIN. 
+2017-06-15 13:56:56.4358|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP5" sent FIN with status "0". 
+2017-06-15 13:56:56.4358|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP5" stopped. 
+2017-06-15 13:56:56.4805|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP6" sent FIN with status "0". 
+2017-06-15 13:56:56.4805|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP6" stopped. 
+2017-06-15 13:56:56.4805|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP7" sent FIN with status "0". 
+2017-06-15 13:56:56.4805|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP7" stopped. 
+2017-06-15 13:57:03.4811|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP8" started. 
+2017-06-15 13:57:03.4871|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://10.23.21.246:5008/api/token application/x-www-form-urlencoded 53 
+2017-06-15 13:57:03.4892|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2017-06-15 13:57:03.6287|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP8" received FIN. 
+2017-06-15 13:57:03.6392|CorrelationId=a925ee42-e535-4e45-943d-9e9676768d9d| ApiGateway |INFO|EpamMA.ReverseProxy.Middlewares.ReverseProxyMiddleware|
+#########Request########
+Uri: http://localhost:9999/UserService/token/
+Headers:Connection: Keep-Alive
+Authorization: Bearer
+Host: localhost:9999
+CorrelationId: a925ee42-e535-4e45-943d-9e9676768d9d
+Content: System.Net.Http.StreamContent
+
+#########Response#########
+Status code: OK
+HeadersDate: Thu, 15 Jun 2017 10:57:03 GMT
+Server: Kestrel
+ 
+2017-06-15 13:57:03.6392|CorrelationId=a925ee42-e535-4e45-943d-9e9676768d9d| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 154.7298ms 200 application/json 
+2017-06-15 13:57:03.6392|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP8" completed keep alive response. 
+2017-06-15 13:57:03.6436|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP8" disconnecting. 
+2017-06-15 13:57:03.6436|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP8" sending FIN. 
+2017-06-15 13:57:03.6436|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP8" sent FIN with status "0". 
+2017-06-15 13:57:03.6506|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP8" stopped. 
+2017-06-15 13:57:03.8943|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP9" started. 
+2017-06-15 13:57:03.9107|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://10.23.21.246:5008/teamapi/user/teams?ownerOnly=false application/json 0 
+2017-06-15 13:57:03.9121|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /teamapi/user/teams does not match a supported file type 
+2017-06-15 13:57:04.2727|CorrelationId=b30ea20d-b191-4285-8bee-961b74b0c792| ApiGateway |INFO|EpamMA.ReverseProxy.Middlewares.ReverseProxyMiddleware|
+#########Request########
+Uri: http://localhost:9999/TeamService/api/user/teams?ownerOnly=false
+Headers:Connection: Keep-Alive
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYXJpYXN1dmFsb3ZhOTZAZ21haWwuY29tIiwianRpIjoiMGE4NzBhMDktY2M3OS00YzI5LWFhMTQtZTM5YTMxMThlMDM4IiwiaWF0IjozLCJyb2xlcyI6InVzZXIiLCJ1c2VySWQiOiI4NzZlN2I1Yi02OWNmLTRhODQtODZjNS00NDQzNjY4ZWZmNDciLCJuYmYiOjE0OTc1MjQyMjMsImV4cCI6MTQ5NzUyNjAyMywiaXNzIjoiVXNlclNlcnZpY2UiLCJhdWQiOiJhbnkifQ.yfqwkp_U-7qfDohWiQDCntipDbiRbeUveK4z8wiJmak
+Host: localhost:9999
+CorrelationId: b30ea20d-b191-4285-8bee-961b74b0c792
+Content: 
+
+#########Response#########
+Status code: OK
+HeadersDate: Thu, 15 Jun 2017 10:57:03 GMT
+Server: Kestrel
+ 
+2017-06-15 13:57:04.2727|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP9" received FIN. 
+2017-06-15 13:57:04.3114|CorrelationId=b30ea20d-b191-4285-8bee-961b74b0c792| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 400.7171ms 200 application/json; charset=utf-8 
+2017-06-15 13:57:04.3244|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPA" started. 
+2017-06-15 13:57:04.4129|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP9" completed keep alive response. 
+2017-06-15 13:57:04.4351|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://10.23.21.246:5008/ticketapi/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets application/json 0 
+2017-06-15 13:57:04.4351|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP9" disconnecting. 
+2017-06-15 13:57:04.4351|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /ticketapi/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets does not match a supported file type 
+2017-06-15 13:57:04.4351|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP9" sending FIN. 
+2017-06-15 13:57:04.4521|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP9" sent FIN with status "0". 
+2017-06-15 13:57:04.4696|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRP9" stopped. 
+2017-06-15 13:57:04.5742|CorrelationId=c78320a6-8cd3-42a0-91d8-27fddeb1a36c| ApiGateway |INFO|EpamMA.ReverseProxy.Middlewares.ReverseProxyMiddleware|
+#########Request########
+Uri: http://localhost:9999/TicketService/api/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets
+Headers:Connection: Keep-Alive
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYXJpYXN1dmFsb3ZhOTZAZ21haWwuY29tIiwianRpIjoiMGE4NzBhMDktY2M3OS00YzI5LWFhMTQtZTM5YTMxMThlMDM4IiwiaWF0IjozLCJyb2xlcyI6InVzZXIiLCJ1c2VySWQiOiI4NzZlN2I1Yi02OWNmLTRhODQtODZjNS00NDQzNjY4ZWZmNDciLCJuYmYiOjE0OTc1MjQyMjMsImV4cCI6MTQ5NzUyNjAyMywiaXNzIjoiVXNlclNlcnZpY2UiLCJhdWQiOiJhbnkifQ.yfqwkp_U-7qfDohWiQDCntipDbiRbeUveK4z8wiJmak
+Host: localhost:9999
+CorrelationId: c78320a6-8cd3-42a0-91d8-27fddeb1a36c
+Content: 
+
+#########Response#########
+Status code: OK
+HeadersCorrelationid: c78320a6-8cd3-42a0-91d8-27fddeb1a36c
+Date: Thu, 15 Jun 2017 10:57:03 GMT
+Server: Kestrel
+ 
+2017-06-15 13:57:04.5763|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPA" received FIN. 
+2017-06-15 13:57:04.5794|CorrelationId=c78320a6-8cd3-42a0-91d8-27fddeb1a36c| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 144.2796ms 200 application/json; charset=utf-8 
+2017-06-15 13:57:04.5794|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPA" completed keep alive response. 
+2017-06-15 13:57:04.5794|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPA" disconnecting. 
+2017-06-15 13:57:04.5794|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPA" sending FIN. 
+2017-06-15 13:57:04.5846|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPA" sent FIN with status "0". 
+2017-06-15 13:57:04.6052|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPA" stopped. 
+2017-06-15 13:57:07.5204|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPB" started. 
+2017-06-15 13:57:07.5489|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://10.23.21.246:5008/ticketapi/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets/dff900d0-7a6e-46f7-9ac8-61902f04d7ef application/json 0 
+2017-06-15 13:57:07.5627|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /ticketapi/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets/dff900d0-7a6e-46f7-9ac8-61902f04d7ef does not match a supported file type 
+2017-06-15 13:57:07.6733|CorrelationId=47bd519d-5a47-49fe-bf02-5d0553ac9fe6| ApiGateway |INFO|EpamMA.ReverseProxy.Middlewares.ReverseProxyMiddleware|
+#########Request########
+Uri: http://localhost:9999/TicketService/api/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets/dff900d0-7a6e-46f7-9ac8-61902f04d7ef
+Headers:Connection: Keep-Alive
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYXJpYXN1dmFsb3ZhOTZAZ21haWwuY29tIiwianRpIjoiMGE4NzBhMDktY2M3OS00YzI5LWFhMTQtZTM5YTMxMThlMDM4IiwiaWF0IjozLCJyb2xlcyI6InVzZXIiLCJ1c2VySWQiOiI4NzZlN2I1Yi02OWNmLTRhODQtODZjNS00NDQzNjY4ZWZmNDciLCJuYmYiOjE0OTc1MjQyMjMsImV4cCI6MTQ5NzUyNjAyMywiaXNzIjoiVXNlclNlcnZpY2UiLCJhdWQiOiJhbnkifQ.yfqwkp_U-7qfDohWiQDCntipDbiRbeUveK4z8wiJmak
+Host: localhost:9999
+CorrelationId: 47bd519d-5a47-49fe-bf02-5d0553ac9fe6
+Content: 
+
+#########Response#########
+Status code: OK
+HeadersCorrelationid: 47bd519d-5a47-49fe-bf02-5d0553ac9fe6
+Date: Thu, 15 Jun 2017 10:57:06 GMT
+Server: Kestrel
+ 
+2017-06-15 13:57:07.6753|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPB" received FIN. 
+2017-06-15 13:57:07.6912|CorrelationId=47bd519d-5a47-49fe-bf02-5d0553ac9fe6| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 142.2733ms 200 application/json; charset=utf-8 
+2017-06-15 13:57:07.6912|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPB" completed keep alive response. 
+2017-06-15 13:57:07.6912|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPB" disconnecting. 
+2017-06-15 13:57:07.6912|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPB" sending FIN. 
+2017-06-15 13:57:07.6962|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPB" sent FIN with status "0". 
+2017-06-15 13:57:07.6962|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPB" stopped. 
+2017-06-15 13:57:07.7046|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPC" started. 
+2017-06-15 13:57:07.7073|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 PUT http://10.23.21.246:5008/ticketapi/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets application/json 253 
+2017-06-15 13:57:07.7073|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|PUT requests are not supported 
+2017-06-15 13:57:10.5921|CorrelationId=1641ced9-4448-4a5e-9e2c-a5e421425e7f| ApiGateway |INFO|EpamMA.ReverseProxy.Middlewares.ReverseProxyMiddleware|
+#########Request########
+Uri: http://localhost:9999/TicketService/api/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets
+Headers:Connection: Keep-Alive
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYXJpYXN1dmFsb3ZhOTZAZ21haWwuY29tIiwianRpIjoiMGE4NzBhMDktY2M3OS00YzI5LWFhMTQtZTM5YTMxMThlMDM4IiwiaWF0IjozLCJyb2xlcyI6InVzZXIiLCJ1c2VySWQiOiI4NzZlN2I1Yi02OWNmLTRhODQtODZjNS00NDQzNjY4ZWZmNDciLCJuYmYiOjE0OTc1MjQyMjMsImV4cCI6MTQ5NzUyNjAyMywiaXNzIjoiVXNlclNlcnZpY2UiLCJhdWQiOiJhbnkifQ.yfqwkp_U-7qfDohWiQDCntipDbiRbeUveK4z8wiJmak
+Host: localhost:9999
+CorrelationId: 1641ced9-4448-4a5e-9e2c-a5e421425e7f
+Content: System.Net.Http.StreamContent
+
+#########Response#########
+Status code: OK
+HeadersCorrelationid: 1641ced9-4448-4a5e-9e2c-a5e421425e7f
+Date: Thu, 15 Jun 2017 10:57:09 GMT
+Server: Kestrel
+ 
+2017-06-15 13:57:10.6342|CorrelationId=1641ced9-4448-4a5e-9e2c-a5e421425e7f| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2926.9131ms 200 text/plain; charset=utf-8 
+2017-06-15 13:57:10.6574|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPC" completed keep alive response. 
+2017-06-15 13:57:10.6574|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPC" received FIN. 
+2017-06-15 13:57:10.6746|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPC" disconnecting. 
+2017-06-15 13:57:10.6757|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPC" sending FIN. 
+2017-06-15 13:57:10.6757|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPC" sent FIN with status "0". 
+2017-06-15 13:57:10.6757|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPC" stopped. 
+2017-06-15 13:57:10.6856|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPD" started. 
+2017-06-15 13:57:10.7043|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://10.23.21.246:5008/teamapi/user/teams?ownerOnly=false application/json 0 
+2017-06-15 13:57:10.7263|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /teamapi/user/teams does not match a supported file type 
+2017-06-15 13:57:10.7496|CorrelationId=fd34242d-5dfc-4e2a-8db1-89530bcdb329| ApiGateway |INFO|EpamMA.ReverseProxy.Middlewares.ReverseProxyMiddleware|
+#########Request########
+Uri: http://localhost:9999/TeamService/api/user/teams?ownerOnly=false
+Headers:Connection: Keep-Alive
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYXJpYXN1dmFsb3ZhOTZAZ21haWwuY29tIiwianRpIjoiMGE4NzBhMDktY2M3OS00YzI5LWFhMTQtZTM5YTMxMThlMDM4IiwiaWF0IjozLCJyb2xlcyI6InVzZXIiLCJ1c2VySWQiOiI4NzZlN2I1Yi02OWNmLTRhODQtODZjNS00NDQzNjY4ZWZmNDciLCJuYmYiOjE0OTc1MjQyMjMsImV4cCI6MTQ5NzUyNjAyMywiaXNzIjoiVXNlclNlcnZpY2UiLCJhdWQiOiJhbnkifQ.yfqwkp_U-7qfDohWiQDCntipDbiRbeUveK4z8wiJmak
+Host: localhost:9999
+CorrelationId: fd34242d-5dfc-4e2a-8db1-89530bcdb329
+Content: 
+
+#########Response#########
+Status code: OK
+HeadersDate: Thu, 15 Jun 2017 10:57:10 GMT
+Server: Kestrel
+ 
+2017-06-15 13:57:10.7496|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPD" received FIN. 
+2017-06-15 13:57:10.7564|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPE" started. 
+2017-06-15 13:57:10.7699|CorrelationId=fd34242d-5dfc-4e2a-8db1-89530bcdb329| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 65.589ms 200 application/json; charset=utf-8 
+2017-06-15 13:57:10.7745|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://10.23.21.246:5008/ticketapi/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets application/json 0 
+2017-06-15 13:57:10.7755|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPD" completed keep alive response. 
+2017-06-15 13:57:10.7755|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /ticketapi/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets does not match a supported file type 
+2017-06-15 13:57:10.7755|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPD" disconnecting. 
+2017-06-15 13:57:10.7967|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPD" sending FIN. 
+2017-06-15 13:57:10.7996|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPD" sent FIN with status "0". 
+2017-06-15 13:57:10.7996|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPD" stopped. 
+2017-06-15 13:57:10.8051|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPE" received FIN. 
+2017-06-15 13:57:10.7996|CorrelationId=f375ec72-6c97-431c-b49d-387212ad02bb| ApiGateway |INFO|EpamMA.ReverseProxy.Middlewares.ReverseProxyMiddleware|
+#########Request########
+Uri: http://localhost:9999/TicketService/api/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets
+Headers:Connection: Keep-Alive
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYXJpYXN1dmFsb3ZhOTZAZ21haWwuY29tIiwianRpIjoiMGE4NzBhMDktY2M3OS00YzI5LWFhMTQtZTM5YTMxMThlMDM4IiwiaWF0IjozLCJyb2xlcyI6InVzZXIiLCJ1c2VySWQiOiI4NzZlN2I1Yi02OWNmLTRhODQtODZjNS00NDQzNjY4ZWZmNDciLCJuYmYiOjE0OTc1MjQyMjMsImV4cCI6MTQ5NzUyNjAyMywiaXNzIjoiVXNlclNlcnZpY2UiLCJhdWQiOiJhbnkifQ.yfqwkp_U-7qfDohWiQDCntipDbiRbeUveK4z8wiJmak
+Host: localhost:9999
+CorrelationId: f375ec72-6c97-431c-b49d-387212ad02bb
+Content: 
+
+#########Response#########
+Status code: OK
+HeadersCorrelationid: f375ec72-6c97-431c-b49d-387212ad02bb
+Date: Thu, 15 Jun 2017 10:57:09 GMT
+Server: Kestrel
+ 
+2017-06-15 13:57:10.8083|CorrelationId=f375ec72-6c97-431c-b49d-387212ad02bb| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 33.8421ms 200 application/json; charset=utf-8 
+2017-06-15 13:57:10.8083|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPE" completed keep alive response. 
+2017-06-15 13:57:10.8115|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPE" disconnecting. 
+2017-06-15 13:57:10.8115|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPE" sending FIN. 
+2017-06-15 13:57:10.8201|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPE" sent FIN with status "0". 
+2017-06-15 13:57:10.8201|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPE" stopped. 
+2017-06-15 13:57:12.2736|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPF" started. 
+2017-06-15 13:57:12.2751|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://10.23.21.246:5008/ticketapi/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets/dff900d0-7a6e-46f7-9ac8-61902f04d7ef application/json 0 
+2017-06-15 13:57:12.2751|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /ticketapi/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets/dff900d0-7a6e-46f7-9ac8-61902f04d7ef does not match a supported file type 
+2017-06-15 13:57:12.2989|CorrelationId=b3139385-d5a3-4bad-8c9f-8af3f9cebe0a| ApiGateway |INFO|EpamMA.ReverseProxy.Middlewares.ReverseProxyMiddleware|
+#########Request########
+Uri: http://localhost:9999/TicketService/api/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets/dff900d0-7a6e-46f7-9ac8-61902f04d7ef
+Headers:Connection: Keep-Alive
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYXJpYXN1dmFsb3ZhOTZAZ21haWwuY29tIiwianRpIjoiMGE4NzBhMDktY2M3OS00YzI5LWFhMTQtZTM5YTMxMThlMDM4IiwiaWF0IjozLCJyb2xlcyI6InVzZXIiLCJ1c2VySWQiOiI4NzZlN2I1Yi02OWNmLTRhODQtODZjNS00NDQzNjY4ZWZmNDciLCJuYmYiOjE0OTc1MjQyMjMsImV4cCI6MTQ5NzUyNjAyMywiaXNzIjoiVXNlclNlcnZpY2UiLCJhdWQiOiJhbnkifQ.yfqwkp_U-7qfDohWiQDCntipDbiRbeUveK4z8wiJmak
+Host: localhost:9999
+CorrelationId: b3139385-d5a3-4bad-8c9f-8af3f9cebe0a
+Content: 
+
+#########Response#########
+Status code: OK
+HeadersCorrelationid: b3139385-d5a3-4bad-8c9f-8af3f9cebe0a
+Date: Thu, 15 Jun 2017 10:57:11 GMT
+Server: Kestrel
+ 
+2017-06-15 13:57:12.2999|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPF" received FIN. 
+2017-06-15 13:57:12.3033|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPG" started. 
+2017-06-15 13:57:12.3033|CorrelationId=b3139385-d5a3-4bad-8c9f-8af3f9cebe0a| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 28.5894ms 200 application/json; charset=utf-8 
+2017-06-15 13:57:12.3237|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 PUT http://10.23.21.246:5008/ticketapi/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets application/json 253 
+2017-06-15 13:57:12.3237|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPF" completed keep alive response. 
+2017-06-15 13:57:12.3237|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|PUT requests are not supported 
+2017-06-15 13:57:12.3237|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPF" disconnecting. 
+2017-06-15 13:57:12.3293|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPF" sending FIN. 
+2017-06-15 13:57:12.3366|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPF" sent FIN with status "0". 
+2017-06-15 13:57:12.3366|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPF" stopped. 
+2017-06-15 13:57:13.4282|CorrelationId=963d214a-e7db-438b-8d50-95028258ecea| ApiGateway |INFO|EpamMA.ReverseProxy.Middlewares.ReverseProxyMiddleware|
+#########Request########
+Uri: http://localhost:9999/TicketService/api/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets
+Headers:Connection: Keep-Alive
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYXJpYXN1dmFsb3ZhOTZAZ21haWwuY29tIiwianRpIjoiMGE4NzBhMDktY2M3OS00YzI5LWFhMTQtZTM5YTMxMThlMDM4IiwiaWF0IjozLCJyb2xlcyI6InVzZXIiLCJ1c2VySWQiOiI4NzZlN2I1Yi02OWNmLTRhODQtODZjNS00NDQzNjY4ZWZmNDciLCJuYmYiOjE0OTc1MjQyMjMsImV4cCI6MTQ5NzUyNjAyMywiaXNzIjoiVXNlclNlcnZpY2UiLCJhdWQiOiJhbnkifQ.yfqwkp_U-7qfDohWiQDCntipDbiRbeUveK4z8wiJmak
+Host: localhost:9999
+CorrelationId: 963d214a-e7db-438b-8d50-95028258ecea
+Content: System.Net.Http.StreamContent
+
+#########Response#########
+Status code: OK
+HeadersCorrelationid: 963d214a-e7db-438b-8d50-95028258ecea
+Date: Thu, 15 Jun 2017 10:57:12 GMT
+Server: Kestrel
+ 
+2017-06-15 13:57:13.4282|CorrelationId=963d214a-e7db-438b-8d50-95028258ecea| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1106.6972ms 200 text/plain; charset=utf-8 
+2017-06-15 13:57:13.4467|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPG" completed keep alive response. 
+2017-06-15 13:57:13.4504|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPG" received FIN. 
+2017-06-15 13:57:13.4824|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPH" started. 
+2017-06-15 13:57:13.4824|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPG" disconnecting. 
+2017-06-15 13:57:13.4840|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://10.23.21.246:5008/teamapi/user/teams?ownerOnly=false application/json 0 
+2017-06-15 13:57:13.4840|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPG" sending FIN. 
+2017-06-15 13:57:13.4840|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /teamapi/user/teams does not match a supported file type 
+2017-06-15 13:57:13.4874|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPG" sent FIN with status "0". 
+2017-06-15 13:57:13.4874|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPG" stopped. 
+2017-06-15 13:57:13.5382|CorrelationId=dfc35795-17b8-4835-bdb3-0baf25fd6311| ApiGateway |INFO|EpamMA.ReverseProxy.Middlewares.ReverseProxyMiddleware|
+#########Request########
+Uri: http://localhost:9999/TeamService/api/user/teams?ownerOnly=false
+Headers:Connection: Keep-Alive
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYXJpYXN1dmFsb3ZhOTZAZ21haWwuY29tIiwianRpIjoiMGE4NzBhMDktY2M3OS00YzI5LWFhMTQtZTM5YTMxMThlMDM4IiwiaWF0IjozLCJyb2xlcyI6InVzZXIiLCJ1c2VySWQiOiI4NzZlN2I1Yi02OWNmLTRhODQtODZjNS00NDQzNjY4ZWZmNDciLCJuYmYiOjE0OTc1MjQyMjMsImV4cCI6MTQ5NzUyNjAyMywiaXNzIjoiVXNlclNlcnZpY2UiLCJhdWQiOiJhbnkifQ.yfqwkp_U-7qfDohWiQDCntipDbiRbeUveK4z8wiJmak
+Host: localhost:9999
+CorrelationId: dfc35795-17b8-4835-bdb3-0baf25fd6311
+Content: 
+
+#########Response#########
+Status code: OK
+HeadersDate: Thu, 15 Jun 2017 10:57:12 GMT
+Server: Kestrel
+ 
+2017-06-15 13:57:13.5420|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPH" received FIN. 
+2017-06-15 13:57:13.5454|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPI" started. 
+2017-06-15 13:57:13.5454|CorrelationId=dfc35795-17b8-4835-bdb3-0baf25fd6311| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 62.2166ms 200 application/json; charset=utf-8 
+2017-06-15 13:57:13.5454|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPH" completed keep alive response. 
+2017-06-15 13:57:13.5486|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPH" disconnecting. 
+2017-06-15 13:57:13.5486|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPH" sending FIN. 
+2017-06-15 13:57:13.5486|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPH" sent FIN with status "0". 
+2017-06-15 13:57:13.5520|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPH" stopped. 
+2017-06-15 13:57:13.5720|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://10.23.21.246:5008/ticketapi/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets application/json 0 
+2017-06-15 13:57:13.5720|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /ticketapi/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets does not match a supported file type 
+2017-06-15 13:57:13.6513|CorrelationId=99ef228e-4bab-4093-ad7b-d0d0ac949a3d| ApiGateway |INFO|EpamMA.ReverseProxy.Middlewares.ReverseProxyMiddleware|
+#########Request########
+Uri: http://localhost:9999/TicketService/api/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets
+Headers:Connection: Keep-Alive
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYXJpYXN1dmFsb3ZhOTZAZ21haWwuY29tIiwianRpIjoiMGE4NzBhMDktY2M3OS00YzI5LWFhMTQtZTM5YTMxMThlMDM4IiwiaWF0IjozLCJyb2xlcyI6InVzZXIiLCJ1c2VySWQiOiI4NzZlN2I1Yi02OWNmLTRhODQtODZjNS00NDQzNjY4ZWZmNDciLCJuYmYiOjE0OTc1MjQyMjMsImV4cCI6MTQ5NzUyNjAyMywiaXNzIjoiVXNlclNlcnZpY2UiLCJhdWQiOiJhbnkifQ.yfqwkp_U-7qfDohWiQDCntipDbiRbeUveK4z8wiJmak
+Host: localhost:9999
+CorrelationId: 99ef228e-4bab-4093-ad7b-d0d0ac949a3d
+Content: 
+
+#########Response#########
+Status code: OK
+HeadersCorrelationid: 99ef228e-4bab-4093-ad7b-d0d0ac949a3d
+Date: Thu, 15 Jun 2017 10:57:12 GMT
+Server: Kestrel
+ 
+2017-06-15 13:57:13.6513|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPI" received FIN. 
+2017-06-15 13:57:13.6559|CorrelationId=99ef228e-4bab-4093-ad7b-d0d0ac949a3d| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 83.8199ms 200 application/json; charset=utf-8 
+2017-06-15 13:57:13.6593|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPI" completed keep alive response. 
+2017-06-15 13:57:13.6593|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPI" disconnecting. 
+2017-06-15 13:57:13.6593|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPI" sending FIN. 
+2017-06-15 13:57:13.6640|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPI" sent FIN with status "0". 
+2017-06-15 13:57:13.6640|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPI" stopped. 
+2017-06-15 13:57:15.0131|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPJ" started. 
+2017-06-15 13:57:15.0345|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://10.23.21.246:5008/ticketapi/tags application/json 0 
+2017-06-15 13:57:15.0345|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /ticketapi/tags does not match a supported file type 
+2017-06-15 13:57:15.0760|CorrelationId=baf45ac3-790b-4712-a246-e86c3d8e761a| ApiGateway |INFO|EpamMA.ReverseProxy.Middlewares.ReverseProxyMiddleware|
+#########Request########
+Uri: http://localhost:9999/TicketService/api/tags
+Headers:Connection: Keep-Alive
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYXJpYXN1dmFsb3ZhOTZAZ21haWwuY29tIiwianRpIjoiMGE4NzBhMDktY2M3OS00YzI5LWFhMTQtZTM5YTMxMThlMDM4IiwiaWF0IjozLCJyb2xlcyI6InVzZXIiLCJ1c2VySWQiOiI4NzZlN2I1Yi02OWNmLTRhODQtODZjNS00NDQzNjY4ZWZmNDciLCJuYmYiOjE0OTc1MjQyMjMsImV4cCI6MTQ5NzUyNjAyMywiaXNzIjoiVXNlclNlcnZpY2UiLCJhdWQiOiJhbnkifQ.yfqwkp_U-7qfDohWiQDCntipDbiRbeUveK4z8wiJmak
+Host: localhost:9999
+CorrelationId: baf45ac3-790b-4712-a246-e86c3d8e761a
+Content: 
+
+#########Response#########
+Status code: OK
+HeadersCorrelationid: baf45ac3-790b-4712-a246-e86c3d8e761a
+Date: Thu, 15 Jun 2017 10:57:14 GMT
+Server: Kestrel
+ 
+2017-06-15 13:57:15.0760|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPJ" received FIN. 
+2017-06-15 13:57:15.0818|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPK" started. 
+2017-06-15 13:57:15.0839|CorrelationId=baf45ac3-790b-4712-a246-e86c3d8e761a| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 49.3974ms 200 application/json; charset=utf-8 
+2017-06-15 13:57:15.0839|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPJ" completed keep alive response. 
+2017-06-15 13:57:15.0839|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPJ" disconnecting. 
+2017-06-15 13:57:15.0839|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPJ" sending FIN. 
+2017-06-15 13:57:15.1154|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://10.23.21.246:5008/teamapi/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d application/json 0 
+2017-06-15 13:57:15.1154|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPJ" sent FIN with status "0". 
+2017-06-15 13:57:15.1154|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /teamapi/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d does not match a supported file type 
+2017-06-15 13:57:15.1196|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPJ" stopped. 
+2017-06-15 13:57:15.4163|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPK" received FIN. 
+2017-06-15 13:57:15.4148|CorrelationId=d20b75c9-f131-4b91-a27f-895066a373ca| ApiGateway |INFO|EpamMA.ReverseProxy.Middlewares.ReverseProxyMiddleware|
+#########Request########
+Uri: http://localhost:9999/TeamService/api/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d
+Headers:Connection: Keep-Alive
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYXJpYXN1dmFsb3ZhOTZAZ21haWwuY29tIiwianRpIjoiMGE4NzBhMDktY2M3OS00YzI5LWFhMTQtZTM5YTMxMThlMDM4IiwiaWF0IjozLCJyb2xlcyI6InVzZXIiLCJ1c2VySWQiOiI4NzZlN2I1Yi02OWNmLTRhODQtODZjNS00NDQzNjY4ZWZmNDciLCJuYmYiOjE0OTc1MjQyMjMsImV4cCI6MTQ5NzUyNjAyMywiaXNzIjoiVXNlclNlcnZpY2UiLCJhdWQiOiJhbnkifQ.yfqwkp_U-7qfDohWiQDCntipDbiRbeUveK4z8wiJmak
+Host: localhost:9999
+CorrelationId: d20b75c9-f131-4b91-a27f-895066a373ca
+Content: 
+
+#########Response#########
+Status code: OK
+HeadersDate: Thu, 15 Jun 2017 10:57:14 GMT
+Server: Kestrel
+ 
+2017-06-15 13:57:15.4192|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPL" started. 
+2017-06-15 13:57:15.4360|CorrelationId=d20b75c9-f131-4b91-a27f-895066a373ca| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 320.7352ms 200 application/json; charset=utf-8 
+2017-06-15 13:57:15.4441|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPK" completed keep alive response. 
+2017-06-15 13:57:15.4441|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPK" disconnecting. 
+2017-06-15 13:57:15.4441|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPK" sending FIN. 
+2017-06-15 13:57:15.4470|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPK" sent FIN with status "0". 
+2017-06-15 13:57:15.4470|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPK" stopped. 
+2017-06-15 13:57:15.4541|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://10.23.21.246:5008/teamapi/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/participants application/json 0 
+2017-06-15 13:57:15.4704|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /teamapi/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/participants does not match a supported file type 
+2017-06-15 13:57:15.5346|CorrelationId=bcd8ffb4-2da4-4762-9db1-a6cbe4afa9cb| ApiGateway |INFO|EpamMA.ReverseProxy.Middlewares.ReverseProxyMiddleware|
+#########Request########
+Uri: http://localhost:9999/TeamService/api/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/participants
+Headers:Connection: Keep-Alive
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYXJpYXN1dmFsb3ZhOTZAZ21haWwuY29tIiwianRpIjoiMGE4NzBhMDktY2M3OS00YzI5LWFhMTQtZTM5YTMxMThlMDM4IiwiaWF0IjozLCJyb2xlcyI6InVzZXIiLCJ1c2VySWQiOiI4NzZlN2I1Yi02OWNmLTRhODQtODZjNS00NDQzNjY4ZWZmNDciLCJuYmYiOjE0OTc1MjQyMjMsImV4cCI6MTQ5NzUyNjAyMywiaXNzIjoiVXNlclNlcnZpY2UiLCJhdWQiOiJhbnkifQ.yfqwkp_U-7qfDohWiQDCntipDbiRbeUveK4z8wiJmak
+Host: localhost:9999
+CorrelationId: bcd8ffb4-2da4-4762-9db1-a6cbe4afa9cb
+Content: 
+
+#########Response#########
+Status code: OK
+HeadersDate: Thu, 15 Jun 2017 10:57:14 GMT
+Server: Kestrel
+ 
+2017-06-15 13:57:15.5355|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPL" received FIN. 
+2017-06-15 13:57:15.5355|CorrelationId=bcd8ffb4-2da4-4762-9db1-a6cbe4afa9cb| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 86.8683ms 200 application/json; charset=utf-8 
+2017-06-15 13:57:15.5355|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPL" completed keep alive response. 
+2017-06-15 13:57:15.5395|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPL" disconnecting. 
+2017-06-15 13:57:15.5395|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPM" started. 
+2017-06-15 13:57:15.5395|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPL" sending FIN. 
+2017-06-15 13:57:15.5433|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPL" sent FIN with status "0". 
+2017-06-15 13:57:15.5433|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPL" stopped. 
+2017-06-15 13:57:15.5575|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://10.23.21.246:5008/ticketapi/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets application/json 0 
+2017-06-15 13:57:15.5702|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /ticketapi/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets does not match a supported file type 
+2017-06-15 13:57:15.6407|CorrelationId=13b15193-a578-4646-8dfd-1b1c45c146e8| ApiGateway |INFO|EpamMA.ReverseProxy.Middlewares.ReverseProxyMiddleware|
+#########Request########
+Uri: http://localhost:9999/TicketService/api/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets
+Headers:Connection: Keep-Alive
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYXJpYXN1dmFsb3ZhOTZAZ21haWwuY29tIiwianRpIjoiMGE4NzBhMDktY2M3OS00YzI5LWFhMTQtZTM5YTMxMThlMDM4IiwiaWF0IjozLCJyb2xlcyI6InVzZXIiLCJ1c2VySWQiOiI4NzZlN2I1Yi02OWNmLTRhODQtODZjNS00NDQzNjY4ZWZmNDciLCJuYmYiOjE0OTc1MjQyMjMsImV4cCI6MTQ5NzUyNjAyMywiaXNzIjoiVXNlclNlcnZpY2UiLCJhdWQiOiJhbnkifQ.yfqwkp_U-7qfDohWiQDCntipDbiRbeUveK4z8wiJmak
+Host: localhost:9999
+CorrelationId: 13b15193-a578-4646-8dfd-1b1c45c146e8
+Content: 
+
+#########Response#########
+Status code: OK
+HeadersCorrelationid: 13b15193-a578-4646-8dfd-1b1c45c146e8
+Date: Thu, 15 Jun 2017 10:57:14 GMT
+Server: Kestrel
+ 
+2017-06-15 13:57:15.6407|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPM" received FIN. 
+2017-06-15 13:57:15.6443|CorrelationId=13b15193-a578-4646-8dfd-1b1c45c146e8| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 86.7768ms 200 application/json; charset=utf-8 
+2017-06-15 13:57:15.6443|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPM" completed keep alive response. 
+2017-06-15 13:57:15.6443|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPM" disconnecting. 
+2017-06-15 13:57:15.6480|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPM" sending FIN. 
+2017-06-15 13:57:15.6544|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPM" sent FIN with status "0". 
+2017-06-15 13:57:15.6597|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPM" stopped. 
+2017-06-15 13:57:33.9447|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPN" started. 
+2017-06-15 13:57:33.9447|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://10.23.21.246:5008/ticketapi/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets application/json 248 
+2017-06-15 13:57:33.9477|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2017-06-15 13:57:33.9994|CorrelationId=4af3b3c2-20bf-4a2c-aaa5-fbbf68c4a68f| ApiGateway |INFO|EpamMA.ReverseProxy.Middlewares.ReverseProxyMiddleware|
+#########Request########
+Uri: http://localhost:9999/TicketService/api/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets
+Headers:Connection: Keep-Alive
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYXJpYXN1dmFsb3ZhOTZAZ21haWwuY29tIiwianRpIjoiMGE4NzBhMDktY2M3OS00YzI5LWFhMTQtZTM5YTMxMThlMDM4IiwiaWF0IjozLCJyb2xlcyI6InVzZXIiLCJ1c2VySWQiOiI4NzZlN2I1Yi02OWNmLTRhODQtODZjNS00NDQzNjY4ZWZmNDciLCJuYmYiOjE0OTc1MjQyMjMsImV4cCI6MTQ5NzUyNjAyMywiaXNzIjoiVXNlclNlcnZpY2UiLCJhdWQiOiJhbnkifQ.yfqwkp_U-7qfDohWiQDCntipDbiRbeUveK4z8wiJmak
+Host: localhost:9999
+CorrelationId: 4af3b3c2-20bf-4a2c-aaa5-fbbf68c4a68f
+Content: System.Net.Http.StreamContent
+
+#########Response#########
+Status code: OK
+HeadersCorrelationid: 4af3b3c2-20bf-4a2c-aaa5-fbbf68c4a68f
+Date: Thu, 15 Jun 2017 10:57:33 GMT
+Server: Kestrel
+ 
+2017-06-15 13:57:33.9994|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPN" received FIN. 
+2017-06-15 13:57:34.0239|CorrelationId=4af3b3c2-20bf-4a2c-aaa5-fbbf68c4a68f| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 77.2969ms 200 application/json; charset=utf-8 
+2017-06-15 13:57:34.0239|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPO" started. 
+2017-06-15 13:57:34.0239|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPN" completed keep alive response. 
+2017-06-15 13:57:34.0540|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://10.23.21.246:5008/teamapi/user/teams?ownerOnly=false application/json 0 
+2017-06-15 13:57:34.0591|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPN" disconnecting. 
+2017-06-15 13:57:34.0591|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /teamapi/user/teams does not match a supported file type 
+2017-06-15 13:57:34.0591|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPN" sending FIN. 
+2017-06-15 13:57:34.0637|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPN" sent FIN with status "0". 
+2017-06-15 13:57:34.0865|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPN" stopped. 
+2017-06-15 13:57:34.1058|CorrelationId=3e2393b9-9b0d-43a1-975c-0738e7b96434| ApiGateway |INFO|EpamMA.ReverseProxy.Middlewares.ReverseProxyMiddleware|
+#########Request########
+Uri: http://localhost:9999/TeamService/api/user/teams?ownerOnly=false
+Headers:Connection: Keep-Alive
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYXJpYXN1dmFsb3ZhOTZAZ21haWwuY29tIiwianRpIjoiMGE4NzBhMDktY2M3OS00YzI5LWFhMTQtZTM5YTMxMThlMDM4IiwiaWF0IjozLCJyb2xlcyI6InVzZXIiLCJ1c2VySWQiOiI4NzZlN2I1Yi02OWNmLTRhODQtODZjNS00NDQzNjY4ZWZmNDciLCJuYmYiOjE0OTc1MjQyMjMsImV4cCI6MTQ5NzUyNjAyMywiaXNzIjoiVXNlclNlcnZpY2UiLCJhdWQiOiJhbnkifQ.yfqwkp_U-7qfDohWiQDCntipDbiRbeUveK4z8wiJmak
+Host: localhost:9999
+CorrelationId: 3e2393b9-9b0d-43a1-975c-0738e7b96434
+Content: 
+
+#########Response#########
+Status code: OK
+HeadersDate: Thu, 15 Jun 2017 10:57:33 GMT
+Server: Kestrel
+ 
+2017-06-15 13:57:34.1058|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPO" received FIN. 
+2017-06-15 13:57:34.1095|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPP" started. 
+2017-06-15 13:57:34.1095|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://10.23.21.246:5008/ticketapi/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets application/json 0 
+2017-06-15 13:57:34.1095|CorrelationId=3e2393b9-9b0d-43a1-975c-0738e7b96434| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 56.2696ms 200 application/json; charset=utf-8 
+2017-06-15 13:57:34.1339|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /ticketapi/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets does not match a supported file type 
+2017-06-15 13:57:34.1476|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPO" completed keep alive response. 
+2017-06-15 13:57:34.1476|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPO" disconnecting. 
+2017-06-15 13:57:34.1516|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPO" sending FIN. 
+2017-06-15 13:57:34.1516|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPO" sent FIN with status "0". 
+2017-06-15 13:57:34.1516|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPO" stopped. 
+2017-06-15 13:57:34.1759|CorrelationId=fe858ef6-6205-4507-9040-1e45a2a4798b| ApiGateway |INFO|EpamMA.ReverseProxy.Middlewares.ReverseProxyMiddleware|
+#########Request########
+Uri: http://localhost:9999/TicketService/api/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets
+Headers:Connection: Keep-Alive
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYXJpYXN1dmFsb3ZhOTZAZ21haWwuY29tIiwianRpIjoiMGE4NzBhMDktY2M3OS00YzI5LWFhMTQtZTM5YTMxMThlMDM4IiwiaWF0IjozLCJyb2xlcyI6InVzZXIiLCJ1c2VySWQiOiI4NzZlN2I1Yi02OWNmLTRhODQtODZjNS00NDQzNjY4ZWZmNDciLCJuYmYiOjE0OTc1MjQyMjMsImV4cCI6MTQ5NzUyNjAyMywiaXNzIjoiVXNlclNlcnZpY2UiLCJhdWQiOiJhbnkifQ.yfqwkp_U-7qfDohWiQDCntipDbiRbeUveK4z8wiJmak
+Host: localhost:9999
+CorrelationId: fe858ef6-6205-4507-9040-1e45a2a4798b
+Content: 
+
+#########Response#########
+Status code: OK
+HeadersCorrelationid: fe858ef6-6205-4507-9040-1e45a2a4798b
+Date: Thu, 15 Jun 2017 10:57:33 GMT
+Server: Kestrel
+ 
+2017-06-15 13:57:34.1759|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPP" received FIN. 
+2017-06-15 13:57:34.1842|CorrelationId=fe858ef6-6205-4507-9040-1e45a2a4798b| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 73.3958ms 200 application/json; charset=utf-8 
+2017-06-15 13:57:34.2145|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPP" completed keep alive response. 
+2017-06-15 13:57:34.2166|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPP" disconnecting. 
+2017-06-15 13:57:34.2166|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPP" sending FIN. 
+2017-06-15 13:57:34.2201|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPP" sent FIN with status "0". 
+2017-06-15 13:57:34.2201|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPP" stopped. 
+2017-06-15 13:57:37.5522|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPQ" started. 
+2017-06-15 13:57:37.5749|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://10.23.21.246:5008/ticketapi/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets/bf1f4971-cd44-4db0-8f47-0c3d7d7a206f application/json 0 
+2017-06-15 13:57:37.5749|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /ticketapi/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets/bf1f4971-cd44-4db0-8f47-0c3d7d7a206f does not match a supported file type 
+2017-06-15 13:57:37.5985|CorrelationId=70a6dca8-5c95-4e2f-95c1-2dfc14e6b7d8| ApiGateway |INFO|EpamMA.ReverseProxy.Middlewares.ReverseProxyMiddleware|
+#########Request########
+Uri: http://localhost:9999/TicketService/api/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets/bf1f4971-cd44-4db0-8f47-0c3d7d7a206f
+Headers:Connection: Keep-Alive
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYXJpYXN1dmFsb3ZhOTZAZ21haWwuY29tIiwianRpIjoiMGE4NzBhMDktY2M3OS00YzI5LWFhMTQtZTM5YTMxMThlMDM4IiwiaWF0IjozLCJyb2xlcyI6InVzZXIiLCJ1c2VySWQiOiI4NzZlN2I1Yi02OWNmLTRhODQtODZjNS00NDQzNjY4ZWZmNDciLCJuYmYiOjE0OTc1MjQyMjMsImV4cCI6MTQ5NzUyNjAyMywiaXNzIjoiVXNlclNlcnZpY2UiLCJhdWQiOiJhbnkifQ.yfqwkp_U-7qfDohWiQDCntipDbiRbeUveK4z8wiJmak
+Host: localhost:9999
+CorrelationId: 70a6dca8-5c95-4e2f-95c1-2dfc14e6b7d8
+Content: 
+
+#########Response#########
+Status code: OK
+HeadersCorrelationid: 70a6dca8-5c95-4e2f-95c1-2dfc14e6b7d8
+Date: Thu, 15 Jun 2017 10:57:36 GMT
+Server: Kestrel
+ 
+2017-06-15 13:57:37.5985|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPQ" received FIN. 
+2017-06-15 13:57:37.6012|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPR" started. 
+2017-06-15 13:57:37.6049|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 PUT http://10.23.21.246:5008/ticketapi/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets application/json 253 
+2017-06-15 13:57:37.6049|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|PUT requests are not supported 
+2017-06-15 13:57:37.6124|CorrelationId=70a6dca8-5c95-4e2f-95c1-2dfc14e6b7d8| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 37.5092ms 200 application/json; charset=utf-8 
+2017-06-15 13:57:37.6364|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPQ" completed keep alive response. 
+2017-06-15 13:57:37.6424|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPQ" disconnecting. 
+2017-06-15 13:57:37.6436|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPQ" sending FIN. 
+2017-06-15 13:57:37.6482|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPQ" sent FIN with status "0". 
+2017-06-15 13:57:37.6555|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPQ" stopped. 
+2017-06-15 13:57:38.7051|CorrelationId=3211cb7e-542b-4b79-b165-fc1f8b055867| ApiGateway |INFO|EpamMA.ReverseProxy.Middlewares.ReverseProxyMiddleware|
+#########Request########
+Uri: http://localhost:9999/TicketService/api/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets
+Headers:Connection: Keep-Alive
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYXJpYXN1dmFsb3ZhOTZAZ21haWwuY29tIiwianRpIjoiMGE4NzBhMDktY2M3OS00YzI5LWFhMTQtZTM5YTMxMThlMDM4IiwiaWF0IjozLCJyb2xlcyI6InVzZXIiLCJ1c2VySWQiOiI4NzZlN2I1Yi02OWNmLTRhODQtODZjNS00NDQzNjY4ZWZmNDciLCJuYmYiOjE0OTc1MjQyMjMsImV4cCI6MTQ5NzUyNjAyMywiaXNzIjoiVXNlclNlcnZpY2UiLCJhdWQiOiJhbnkifQ.yfqwkp_U-7qfDohWiQDCntipDbiRbeUveK4z8wiJmak
+Host: localhost:9999
+CorrelationId: 3211cb7e-542b-4b79-b165-fc1f8b055867
+Content: System.Net.Http.StreamContent
+
+#########Response#########
+Status code: OK
+HeadersCorrelationid: 3211cb7e-542b-4b79-b165-fc1f8b055867
+Date: Thu, 15 Jun 2017 10:57:37 GMT
+Server: Kestrel
+ 
+2017-06-15 13:57:38.7089|CorrelationId=3211cb7e-542b-4b79-b165-fc1f8b055867| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1104.0849ms 200 text/plain; charset=utf-8 
+2017-06-15 13:57:38.7453|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPR" completed keep alive response. 
+2017-06-15 13:57:38.7453|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPR" received FIN. 
+2017-06-15 13:57:38.7558|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPR" disconnecting. 
+2017-06-15 13:57:38.7558|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPR" sending FIN. 
+2017-06-15 13:57:38.7598|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPR" sent FIN with status "0". 
+2017-06-15 13:57:38.7598|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPR" stopped. 
+2017-06-15 13:57:38.7691|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPS" started. 
+2017-06-15 13:57:38.7784|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://10.23.21.246:5008/teamapi/user/teams?ownerOnly=false application/json 0 
+2017-06-15 13:57:38.8072|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /teamapi/user/teams does not match a supported file type 
+2017-06-15 13:57:38.8377|CorrelationId=d3553aaa-c63b-4dc0-b87d-f058ab22bd79| ApiGateway |INFO|EpamMA.ReverseProxy.Middlewares.ReverseProxyMiddleware|
+#########Request########
+Uri: http://localhost:9999/TeamService/api/user/teams?ownerOnly=false
+Headers:Connection: Keep-Alive
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYXJpYXN1dmFsb3ZhOTZAZ21haWwuY29tIiwianRpIjoiMGE4NzBhMDktY2M3OS00YzI5LWFhMTQtZTM5YTMxMThlMDM4IiwiaWF0IjozLCJyb2xlcyI6InVzZXIiLCJ1c2VySWQiOiI4NzZlN2I1Yi02OWNmLTRhODQtODZjNS00NDQzNjY4ZWZmNDciLCJuYmYiOjE0OTc1MjQyMjMsImV4cCI6MTQ5NzUyNjAyMywiaXNzIjoiVXNlclNlcnZpY2UiLCJhdWQiOiJhbnkifQ.yfqwkp_U-7qfDohWiQDCntipDbiRbeUveK4z8wiJmak
+Host: localhost:9999
+CorrelationId: d3553aaa-c63b-4dc0-b87d-f058ab22bd79
+Content: 
+
+#########Response#########
+Status code: OK
+HeadersDate: Thu, 15 Jun 2017 10:57:38 GMT
+Server: Kestrel
+ 
+2017-06-15 13:57:38.8377|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPS" received FIN. 
+2017-06-15 13:57:38.8640|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPT" started. 
+2017-06-15 13:57:38.8779|CorrelationId=d3553aaa-c63b-4dc0-b87d-f058ab22bd79| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 99.5267ms 200 application/json; charset=utf-8 
+2017-06-15 13:57:38.8779|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPS" completed keep alive response. 
+2017-06-15 13:57:38.8779|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPS" disconnecting. 
+2017-06-15 13:57:38.8779|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPS" sending FIN. 
+2017-06-15 13:57:38.8954|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPS" sent FIN with status "0". 
+2017-06-15 13:57:38.8954|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPS" stopped. 
+2017-06-15 13:57:38.8954|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://10.23.21.246:5008/ticketapi/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets application/json 0 
+2017-06-15 13:57:38.8998|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /ticketapi/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets does not match a supported file type 
+2017-06-15 13:57:38.9186|CorrelationId=786fffad-8654-4b3f-b795-9ed5de572e41| ApiGateway |INFO|EpamMA.ReverseProxy.Middlewares.ReverseProxyMiddleware|
+#########Request########
+Uri: http://localhost:9999/TicketService/api/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets
+Headers:Connection: Keep-Alive
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYXJpYXN1dmFsb3ZhOTZAZ21haWwuY29tIiwianRpIjoiMGE4NzBhMDktY2M3OS00YzI5LWFhMTQtZTM5YTMxMThlMDM4IiwiaWF0IjozLCJyb2xlcyI6InVzZXIiLCJ1c2VySWQiOiI4NzZlN2I1Yi02OWNmLTRhODQtODZjNS00NDQzNjY4ZWZmNDciLCJuYmYiOjE0OTc1MjQyMjMsImV4cCI6MTQ5NzUyNjAyMywiaXNzIjoiVXNlclNlcnZpY2UiLCJhdWQiOiJhbnkifQ.yfqwkp_U-7qfDohWiQDCntipDbiRbeUveK4z8wiJmak
+Host: localhost:9999
+CorrelationId: 786fffad-8654-4b3f-b795-9ed5de572e41
+Content: 
+
+#########Response#########
+Status code: OK
+HeadersCorrelationid: 786fffad-8654-4b3f-b795-9ed5de572e41
+Date: Thu, 15 Jun 2017 10:57:37 GMT
+Server: Kestrel
+ 
+2017-06-15 13:57:38.9202|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPT" received FIN. 
+2017-06-15 13:57:38.9362|CorrelationId=786fffad-8654-4b3f-b795-9ed5de572e41| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 38.8689ms 200 application/json; charset=utf-8 
+2017-06-15 13:57:38.9455|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPT" completed keep alive response. 
+2017-06-15 13:57:38.9482|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPT" disconnecting. 
+2017-06-15 13:57:38.9695|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPT" sending FIN. 
+2017-06-15 13:57:38.9737|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPT" sent FIN with status "0". 
+2017-06-15 13:57:38.9802|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPT" stopped. 
+2017-06-15 13:57:42.9089|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPU" started. 
+2017-06-15 13:57:42.9445|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://10.23.21.246:5008/ticketapi/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets/bf1f4971-cd44-4db0-8f47-0c3d7d7a206f application/json 0 
+2017-06-15 13:57:42.9481|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DELETE requests are not supported 
+2017-06-15 13:57:44.3084|CorrelationId=22f3f322-b8d8-4bc4-8439-35379fe8d7d2| ApiGateway |INFO|EpamMA.ReverseProxy.Middlewares.ReverseProxyMiddleware|
+#########Request########
+Uri: http://localhost:9999/TicketService/api/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets/bf1f4971-cd44-4db0-8f47-0c3d7d7a206f
+Headers:Connection: Keep-Alive
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYXJpYXN1dmFsb3ZhOTZAZ21haWwuY29tIiwianRpIjoiMGE4NzBhMDktY2M3OS00YzI5LWFhMTQtZTM5YTMxMThlMDM4IiwiaWF0IjozLCJyb2xlcyI6InVzZXIiLCJ1c2VySWQiOiI4NzZlN2I1Yi02OWNmLTRhODQtODZjNS00NDQzNjY4ZWZmNDciLCJuYmYiOjE0OTc1MjQyMjMsImV4cCI6MTQ5NzUyNjAyMywiaXNzIjoiVXNlclNlcnZpY2UiLCJhdWQiOiJhbnkifQ.yfqwkp_U-7qfDohWiQDCntipDbiRbeUveK4z8wiJmak
+Host: localhost:9999
+CorrelationId: 22f3f322-b8d8-4bc4-8439-35379fe8d7d2
+Content: 
+
+#########Response#########
+Status code: OK
+HeadersCorrelationid: 22f3f322-b8d8-4bc4-8439-35379fe8d7d2
+Date: Thu, 15 Jun 2017 10:57:43 GMT
+Server: Kestrel
+ 
+2017-06-15 13:57:44.3146|CorrelationId=22f3f322-b8d8-4bc4-8439-35379fe8d7d2| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1370.1245ms 200 text/plain; charset=utf-8 
+2017-06-15 13:57:44.3340|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPU" completed keep alive response. 
+2017-06-15 13:57:44.3357|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPU" received FIN. 
+2017-06-15 13:57:44.3357|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPU" disconnecting. 
+2017-06-15 13:57:44.3507|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPU" sending FIN. 
+2017-06-15 13:57:44.3515|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPV" started. 
+2017-06-15 13:57:44.3515|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPU" sent FIN with status "0". 
+2017-06-15 13:57:44.3515|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPU" stopped. 
+2017-06-15 13:57:44.3515|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://10.23.21.246:5008/teamapi/user/teams?ownerOnly=false application/json 0 
+2017-06-15 13:57:44.3569|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /teamapi/user/teams does not match a supported file type 
+2017-06-15 13:57:44.3959|CorrelationId=537d6009-dcab-43f0-9bab-2b9260e820a9| ApiGateway |INFO|EpamMA.ReverseProxy.Middlewares.ReverseProxyMiddleware|
+#########Request########
+Uri: http://localhost:9999/TeamService/api/user/teams?ownerOnly=false
+Headers:Connection: Keep-Alive
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYXJpYXN1dmFsb3ZhOTZAZ21haWwuY29tIiwianRpIjoiMGE4NzBhMDktY2M3OS00YzI5LWFhMTQtZTM5YTMxMThlMDM4IiwiaWF0IjozLCJyb2xlcyI6InVzZXIiLCJ1c2VySWQiOiI4NzZlN2I1Yi02OWNmLTRhODQtODZjNS00NDQzNjY4ZWZmNDciLCJuYmYiOjE0OTc1MjQyMjMsImV4cCI6MTQ5NzUyNjAyMywiaXNzIjoiVXNlclNlcnZpY2UiLCJhdWQiOiJhbnkifQ.yfqwkp_U-7qfDohWiQDCntipDbiRbeUveK4z8wiJmak
+Host: localhost:9999
+CorrelationId: 537d6009-dcab-43f0-9bab-2b9260e820a9
+Content: 
+
+#########Response#########
+Status code: OK
+HeadersDate: Thu, 15 Jun 2017 10:57:43 GMT
+Server: Kestrel
+ 
+2017-06-15 13:57:44.3959|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPV" received FIN. 
+2017-06-15 13:57:44.4013|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ0" started. 
+2017-06-15 13:57:44.4080|CorrelationId=537d6009-dcab-43f0-9bab-2b9260e820a9| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 53.6491ms 200 application/json; charset=utf-8 
+2017-06-15 13:57:44.4080|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://10.23.21.246:5008/ticketapi/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets application/json 0 
+2017-06-15 13:57:44.4343|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPV" completed keep alive response. 
+2017-06-15 13:57:44.4356|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /ticketapi/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets does not match a supported file type 
+2017-06-15 13:57:44.4356|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPV" disconnecting. 
+2017-06-15 13:57:44.4442|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPV" sending FIN. 
+2017-06-15 13:57:44.4484|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPV" sent FIN with status "0". 
+2017-06-15 13:57:44.4484|CorrelationId=53ac8fb9-9580-4d12-a7e1-820ce25a662f| ApiGateway |INFO|EpamMA.ReverseProxy.Middlewares.ReverseProxyMiddleware|
+#########Request########
+Uri: http://localhost:9999/TicketService/api/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets
+Headers:Connection: Keep-Alive
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYXJpYXN1dmFsb3ZhOTZAZ21haWwuY29tIiwianRpIjoiMGE4NzBhMDktY2M3OS00YzI5LWFhMTQtZTM5YTMxMThlMDM4IiwiaWF0IjozLCJyb2xlcyI6InVzZXIiLCJ1c2VySWQiOiI4NzZlN2I1Yi02OWNmLTRhODQtODZjNS00NDQzNjY4ZWZmNDciLCJuYmYiOjE0OTc1MjQyMjMsImV4cCI6MTQ5NzUyNjAyMywiaXNzIjoiVXNlclNlcnZpY2UiLCJhdWQiOiJhbnkifQ.yfqwkp_U-7qfDohWiQDCntipDbiRbeUveK4z8wiJmak
+Host: localhost:9999
+CorrelationId: 53ac8fb9-9580-4d12-a7e1-820ce25a662f
+Content: 
+
+#########Response#########
+Status code: OK
+HeadersCorrelationid: 53ac8fb9-9580-4d12-a7e1-820ce25a662f
+Date: Thu, 15 Jun 2017 10:57:43 GMT
+Server: Kestrel
+ 
+2017-06-15 13:57:44.4484|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRPV" stopped. 
+2017-06-15 13:57:44.4552|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ0" received FIN. 
+2017-06-15 13:57:44.4551|CorrelationId=53ac8fb9-9580-4d12-a7e1-820ce25a662f| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 44.8142ms 200 application/json; charset=utf-8 
+2017-06-15 13:57:44.5048|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ0" completed keep alive response. 
+2017-06-15 13:57:44.5154|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ0" disconnecting. 
+2017-06-15 13:57:44.5154|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ0" sending FIN. 
+2017-06-15 13:57:46.6344|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ0" sent FIN with status "0". 
+2017-06-15 13:57:46.6344|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ0" stopped. 
+2017-06-15 13:57:49.5574|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ1" started. 
+2017-06-15 13:57:49.5627|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://10.23.21.246:5008/ticketapi/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets/search?searchString=1 application/json 0 
+2017-06-15 13:57:49.5627|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /ticketapi/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets/search does not match a supported file type 
+2017-06-15 13:57:50.1034|CorrelationId=9193542b-9914-450f-a0c0-4435c0c80384| ApiGateway |INFO|EpamMA.ReverseProxy.Middlewares.ReverseProxyMiddleware|
+#########Request########
+Uri: http://localhost:9999/TicketService/api/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets/search?searchString=1
+Headers:Connection: Keep-Alive
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYXJpYXN1dmFsb3ZhOTZAZ21haWwuY29tIiwianRpIjoiMGE4NzBhMDktY2M3OS00YzI5LWFhMTQtZTM5YTMxMThlMDM4IiwiaWF0IjozLCJyb2xlcyI6InVzZXIiLCJ1c2VySWQiOiI4NzZlN2I1Yi02OWNmLTRhODQtODZjNS00NDQzNjY4ZWZmNDciLCJuYmYiOjE0OTc1MjQyMjMsImV4cCI6MTQ5NzUyNjAyMywiaXNzIjoiVXNlclNlcnZpY2UiLCJhdWQiOiJhbnkifQ.yfqwkp_U-7qfDohWiQDCntipDbiRbeUveK4z8wiJmak
+Host: localhost:9999
+CorrelationId: 9193542b-9914-450f-a0c0-4435c0c80384
+Content: 
+
+#########Response#########
+Status code: BadRequest
+HeadersCorrelationid: 9193542b-9914-450f-a0c0-4435c0c80384
+Date: Thu, 15 Jun 2017 10:57:48 GMT
+Server: Kestrel
+ 
+2017-06-15 13:57:50.1050|CorrelationId=9193542b-9914-450f-a0c0-4435c0c80384| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 542.3668ms 400 application/json; charset=utf-8 
+2017-06-15 13:57:50.1050|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ1" completed keep alive response. 
+2017-06-15 13:57:50.1090|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ2" started. 
+2017-06-15 13:57:50.1090|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://10.23.21.246:5008/ticketapi/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets/search?searchString=1 application/json 0 
+2017-06-15 13:57:50.1090|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /ticketapi/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets/search does not match a supported file type 
+2017-06-15 13:57:50.1277|CorrelationId=8aa046f8-1588-46b2-bbd8-6426c640e85f| ApiGateway |INFO|EpamMA.ReverseProxy.Middlewares.ReverseProxyMiddleware|
+#########Request########
+Uri: http://localhost:9999/TicketService/api/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets/search?searchString=1
+Headers:Connection: Keep-Alive
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYXJpYXN1dmFsb3ZhOTZAZ21haWwuY29tIiwianRpIjoiMGE4NzBhMDktY2M3OS00YzI5LWFhMTQtZTM5YTMxMThlMDM4IiwiaWF0IjozLCJyb2xlcyI6InVzZXIiLCJ1c2VySWQiOiI4NzZlN2I1Yi02OWNmLTRhODQtODZjNS00NDQzNjY4ZWZmNDciLCJuYmYiOjE0OTc1MjQyMjMsImV4cCI6MTQ5NzUyNjAyMywiaXNzIjoiVXNlclNlcnZpY2UiLCJhdWQiOiJhbnkifQ.yfqwkp_U-7qfDohWiQDCntipDbiRbeUveK4z8wiJmak
+Host: localhost:9999
+CorrelationId: 8aa046f8-1588-46b2-bbd8-6426c640e85f
+Content: 
+
+#########Response#########
+Status code: BadRequest
+HeadersCorrelationid: 8aa046f8-1588-46b2-bbd8-6426c640e85f
+Date: Thu, 15 Jun 2017 10:57:50 GMT
+Server: Kestrel
+ 
+2017-06-15 13:57:50.1277|CorrelationId=8aa046f8-1588-46b2-bbd8-6426c640e85f| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 19.5888ms 400 application/json; charset=utf-8 
+2017-06-15 13:57:50.1277|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ2" completed keep alive response. 
+2017-06-15 13:57:51.1439|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ3" started. 
+2017-06-15 13:57:51.1439|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://10.23.21.246:5008/ticketapi/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets/search?searchString=1 application/json 0 
+2017-06-15 13:57:51.1439|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /ticketapi/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets/search does not match a supported file type 
+2017-06-15 13:57:51.1799|CorrelationId=1cdf080f-646e-44d6-85a5-58f4020c4217| ApiGateway |INFO|EpamMA.ReverseProxy.Middlewares.ReverseProxyMiddleware|
+#########Request########
+Uri: http://localhost:9999/TicketService/api/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets/search?searchString=1
+Headers:Connection: Keep-Alive
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYXJpYXN1dmFsb3ZhOTZAZ21haWwuY29tIiwianRpIjoiMGE4NzBhMDktY2M3OS00YzI5LWFhMTQtZTM5YTMxMThlMDM4IiwiaWF0IjozLCJyb2xlcyI6InVzZXIiLCJ1c2VySWQiOiI4NzZlN2I1Yi02OWNmLTRhODQtODZjNS00NDQzNjY4ZWZmNDciLCJuYmYiOjE0OTc1MjQyMjMsImV4cCI6MTQ5NzUyNjAyMywiaXNzIjoiVXNlclNlcnZpY2UiLCJhdWQiOiJhbnkifQ.yfqwkp_U-7qfDohWiQDCntipDbiRbeUveK4z8wiJmak
+Host: localhost:9999
+CorrelationId: 1cdf080f-646e-44d6-85a5-58f4020c4217
+Content: 
+
+#########Response#########
+Status code: BadRequest
+HeadersCorrelationid: 1cdf080f-646e-44d6-85a5-58f4020c4217
+Date: Thu, 15 Jun 2017 10:57:51 GMT
+Server: Kestrel
+ 
+2017-06-15 13:57:51.1799|CorrelationId=1cdf080f-646e-44d6-85a5-58f4020c4217| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 35.9721ms 400 application/json; charset=utf-8 
+2017-06-15 13:57:51.1799|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ3" completed keep alive response. 
+2017-06-15 13:58:08.3991|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ4" started. 
+2017-06-15 13:58:08.3991|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://10.23.21.246:5008/ticketapi/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets/search?searchString=1 application/json 0 
+2017-06-15 13:58:08.3991|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /ticketapi/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets/search does not match a supported file type 
+2017-06-15 13:58:08.4200|CorrelationId=0a13d9d1-f584-45a2-8a0c-444eba48bbc7| ApiGateway |INFO|EpamMA.ReverseProxy.Middlewares.ReverseProxyMiddleware|
+#########Request########
+Uri: http://localhost:9999/TicketService/api/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets/search?searchString=1
+Headers:Connection: Keep-Alive
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYXJpYXN1dmFsb3ZhOTZAZ21haWwuY29tIiwianRpIjoiMGE4NzBhMDktY2M3OS00YzI5LWFhMTQtZTM5YTMxMThlMDM4IiwiaWF0IjozLCJyb2xlcyI6InVzZXIiLCJ1c2VySWQiOiI4NzZlN2I1Yi02OWNmLTRhODQtODZjNS00NDQzNjY4ZWZmNDciLCJuYmYiOjE0OTc1MjQyMjMsImV4cCI6MTQ5NzUyNjAyMywiaXNzIjoiVXNlclNlcnZpY2UiLCJhdWQiOiJhbnkifQ.yfqwkp_U-7qfDohWiQDCntipDbiRbeUveK4z8wiJmak
+Host: localhost:9999
+CorrelationId: 0a13d9d1-f584-45a2-8a0c-444eba48bbc7
+Content: 
+
+#########Response#########
+Status code: BadRequest
+HeadersCorrelationid: 0a13d9d1-f584-45a2-8a0c-444eba48bbc7
+Date: Thu, 15 Jun 2017 10:58:08 GMT
+Server: Kestrel
+ 
+2017-06-15 13:58:08.4200|CorrelationId=0a13d9d1-f584-45a2-8a0c-444eba48bbc7| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 21.9ms 400 application/json; charset=utf-8 
+2017-06-15 13:58:08.4200|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ4" completed keep alive response. 
+2017-06-15 13:58:08.4246|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ5" started. 
+2017-06-15 13:58:08.4294|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://10.23.21.246:5008/ticketapi/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets/search?searchString=1 application/json 0 
+2017-06-15 13:58:08.4294|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /ticketapi/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets/search does not match a supported file type 
+2017-06-15 13:58:08.4488|CorrelationId=c72f5885-d447-4905-951b-3beb683a3135| ApiGateway |INFO|EpamMA.ReverseProxy.Middlewares.ReverseProxyMiddleware|
+#########Request########
+Uri: http://localhost:9999/TicketService/api/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets/search?searchString=1
+Headers:Connection: Keep-Alive
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYXJpYXN1dmFsb3ZhOTZAZ21haWwuY29tIiwianRpIjoiMGE4NzBhMDktY2M3OS00YzI5LWFhMTQtZTM5YTMxMThlMDM4IiwiaWF0IjozLCJyb2xlcyI6InVzZXIiLCJ1c2VySWQiOiI4NzZlN2I1Yi02OWNmLTRhODQtODZjNS00NDQzNjY4ZWZmNDciLCJuYmYiOjE0OTc1MjQyMjMsImV4cCI6MTQ5NzUyNjAyMywiaXNzIjoiVXNlclNlcnZpY2UiLCJhdWQiOiJhbnkifQ.yfqwkp_U-7qfDohWiQDCntipDbiRbeUveK4z8wiJmak
+Host: localhost:9999
+CorrelationId: c72f5885-d447-4905-951b-3beb683a3135
+Content: 
+
+#########Response#########
+Status code: BadRequest
+HeadersCorrelationid: c72f5885-d447-4905-951b-3beb683a3135
+Date: Thu, 15 Jun 2017 10:58:08 GMT
+Server: Kestrel
+ 
+2017-06-15 13:58:08.4566|CorrelationId=c72f5885-d447-4905-951b-3beb683a3135| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 27.2216ms 400 application/json; charset=utf-8 
+2017-06-15 13:58:08.4635|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ5" completed keep alive response. 
+2017-06-15 13:58:09.4545|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ6" started. 
+2017-06-15 13:58:09.4545|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://10.23.21.246:5008/ticketapi/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets/search?searchString=1 application/json 0 
+2017-06-15 13:58:09.4556|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /ticketapi/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets/search does not match a supported file type 
+2017-06-15 13:58:09.4821|CorrelationId=5e457032-cfea-4945-bb54-8d910fe371ae| ApiGateway |INFO|EpamMA.ReverseProxy.Middlewares.ReverseProxyMiddleware|
+#########Request########
+Uri: http://localhost:9999/TicketService/api/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets/search?searchString=1
+Headers:Connection: Keep-Alive
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYXJpYXN1dmFsb3ZhOTZAZ21haWwuY29tIiwianRpIjoiMGE4NzBhMDktY2M3OS00YzI5LWFhMTQtZTM5YTMxMThlMDM4IiwiaWF0IjozLCJyb2xlcyI6InVzZXIiLCJ1c2VySWQiOiI4NzZlN2I1Yi02OWNmLTRhODQtODZjNS00NDQzNjY4ZWZmNDciLCJuYmYiOjE0OTc1MjQyMjMsImV4cCI6MTQ5NzUyNjAyMywiaXNzIjoiVXNlclNlcnZpY2UiLCJhdWQiOiJhbnkifQ.yfqwkp_U-7qfDohWiQDCntipDbiRbeUveK4z8wiJmak
+Host: localhost:9999
+CorrelationId: 5e457032-cfea-4945-bb54-8d910fe371ae
+Content: 
+
+#########Response#########
+Status code: BadRequest
+HeadersCorrelationid: 5e457032-cfea-4945-bb54-8d910fe371ae
+Date: Thu, 15 Jun 2017 10:58:09 GMT
+Server: Kestrel
+ 
+2017-06-15 13:58:09.4821|CorrelationId=5e457032-cfea-4945-bb54-8d910fe371ae| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 27.5913ms 400 application/json; charset=utf-8 
+2017-06-15 13:58:09.4821|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ6" completed keep alive response. 
+2017-06-15 13:58:33.0017|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ7" started. 
+2017-06-15 13:58:33.0017|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://10.23.21.246:5008/teamapi/user/teams?ownerOnly=false application/json 0 
+2017-06-15 13:58:33.0017|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /teamapi/user/teams does not match a supported file type 
+2017-06-15 13:58:33.0241|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ7" received FIN. 
+2017-06-15 13:58:33.0309|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ8" started. 
+2017-06-15 13:58:33.0309|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://10.23.21.246:5008/ticketapi/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets application/json 0 
+2017-06-15 13:58:33.0309|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /ticketapi/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets does not match a supported file type 
+2017-06-15 13:58:33.0309|CorrelationId=c0fe6244-bc11-41f1-a379-19e4f0ad933a| ApiGateway |INFO|EpamMA.ReverseProxy.Middlewares.ReverseProxyMiddleware|
+#########Request########
+Uri: http://localhost:9999/TeamService/api/user/teams?ownerOnly=false
+Headers:Connection: Keep-Alive
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYXJpYXN1dmFsb3ZhOTZAZ21haWwuY29tIiwianRpIjoiMGE4NzBhMDktY2M3OS00YzI5LWFhMTQtZTM5YTMxMThlMDM4IiwiaWF0IjozLCJyb2xlcyI6InVzZXIiLCJ1c2VySWQiOiI4NzZlN2I1Yi02OWNmLTRhODQtODZjNS00NDQzNjY4ZWZmNDciLCJuYmYiOjE0OTc1MjQyMjMsImV4cCI6MTQ5NzUyNjAyMywiaXNzIjoiVXNlclNlcnZpY2UiLCJhdWQiOiJhbnkifQ.yfqwkp_U-7qfDohWiQDCntipDbiRbeUveK4z8wiJmak
+Host: localhost:9999
+CorrelationId: c0fe6244-bc11-41f1-a379-19e4f0ad933a
+Content: 
+
+#########Response#########
+Status code: OK
+HeadersDate: Thu, 15 Jun 2017 10:58:32 GMT
+Server: Kestrel
+ 
+2017-06-15 13:58:33.0309|CorrelationId=c0fe6244-bc11-41f1-a379-19e4f0ad933a| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 32.6239ms 200 application/json; charset=utf-8 
+2017-06-15 13:58:33.0402|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ7" completed keep alive response. 
+2017-06-15 13:58:33.0402|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ7" disconnecting. 
+2017-06-15 13:58:33.0402|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ7" sending FIN. 
+2017-06-15 13:58:33.0402|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ7" sent FIN with status "0". 
+2017-06-15 13:58:33.0402|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ7" stopped. 
+2017-06-15 13:58:33.1058|CorrelationId=c6ea1ce3-264d-403d-bccc-9f7c67ac5938| ApiGateway |INFO|EpamMA.ReverseProxy.Middlewares.ReverseProxyMiddleware|
+#########Request########
+Uri: http://localhost:9999/TicketService/api/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets
+Headers:Connection: Keep-Alive
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYXJpYXN1dmFsb3ZhOTZAZ21haWwuY29tIiwianRpIjoiMGE4NzBhMDktY2M3OS00YzI5LWFhMTQtZTM5YTMxMThlMDM4IiwiaWF0IjozLCJyb2xlcyI6InVzZXIiLCJ1c2VySWQiOiI4NzZlN2I1Yi02OWNmLTRhODQtODZjNS00NDQzNjY4ZWZmNDciLCJuYmYiOjE0OTc1MjQyMjMsImV4cCI6MTQ5NzUyNjAyMywiaXNzIjoiVXNlclNlcnZpY2UiLCJhdWQiOiJhbnkifQ.yfqwkp_U-7qfDohWiQDCntipDbiRbeUveK4z8wiJmak
+Host: localhost:9999
+CorrelationId: c6ea1ce3-264d-403d-bccc-9f7c67ac5938
+Content: 
+
+#########Response#########
+Status code: OK
+HeadersCorrelationid: c6ea1ce3-264d-403d-bccc-9f7c67ac5938
+Date: Thu, 15 Jun 2017 10:58:32 GMT
+Server: Kestrel
+ 
+2017-06-15 13:58:33.1058|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ8" received FIN. 
+2017-06-15 13:58:33.1100|CorrelationId=c6ea1ce3-264d-403d-bccc-9f7c67ac5938| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 77.5819ms 200 application/json; charset=utf-8 
+2017-06-15 13:58:33.1117|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ8" completed keep alive response. 
+2017-06-15 13:58:33.1117|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ8" disconnecting. 
+2017-06-15 13:58:33.1117|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ8" sending FIN. 
+2017-06-15 13:58:33.1117|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ8" sent FIN with status "0". 
+2017-06-15 13:58:33.1117|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ8" stopped. 
+2017-06-15 13:58:33.1898|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ3" received FIN. 
+2017-06-15 13:58:33.1898|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ6" received FIN. 
+2017-06-15 13:58:33.1898|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ1" received FIN. 
+2017-06-15 13:58:33.1898|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ4" received FIN. 
+2017-06-15 13:58:33.1898|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ5" received FIN. 
+2017-06-15 13:58:33.1898|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ3" disconnecting. 
+2017-06-15 13:58:33.1898|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ6" disconnecting. 
+2017-06-15 13:58:33.1898|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ1" disconnecting. 
+2017-06-15 13:58:33.1898|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ4" disconnecting. 
+2017-06-15 13:58:33.1898|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ5" disconnecting. 
+2017-06-15 13:58:33.1898|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ2" received FIN. 
+2017-06-15 13:58:33.1898|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ3" sending FIN. 
+2017-06-15 13:58:33.1898|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ2" disconnecting. 
+2017-06-15 13:58:33.1898|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ6" sending FIN. 
+2017-06-15 13:58:33.1898|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ1" sending FIN. 
+2017-06-15 13:58:33.1898|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ4" sending FIN. 
+2017-06-15 13:58:33.1898|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ5" sending FIN. 
+2017-06-15 13:58:33.1898|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ2" sending FIN. 
+2017-06-15 13:58:33.1898|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ2" sent FIN with status "0". 
+2017-06-15 13:58:33.1898|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ2" stopped. 
+2017-06-15 13:58:33.1898|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ3" sent FIN with status "0". 
+2017-06-15 13:58:33.1898|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ3" stopped. 
+2017-06-15 13:58:33.1898|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ6" sent FIN with status "0". 
+2017-06-15 13:58:33.1953|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ6" stopped. 
+2017-06-15 13:58:33.1953|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ1" sent FIN with status "0". 
+2017-06-15 13:58:33.1953|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ1" stopped. 
+2017-06-15 13:58:33.1953|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ4" sent FIN with status "0". 
+2017-06-15 13:58:33.1995|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ4" stopped. 
+2017-06-15 13:58:33.1995|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ5" sent FIN with status "0". 
+2017-06-15 13:58:33.1995|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ5" stopped. 
+2017-06-15 13:58:40.8444|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ9" started. 
+2017-06-15 13:58:40.8482|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://10.23.21.246:5008/teamapi/user/teams?ownerOnly=false application/json 0 
+2017-06-15 13:58:40.8482|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /teamapi/user/teams does not match a supported file type 
+2017-06-15 13:58:40.8723|CorrelationId=846e31af-1ed1-482f-88e0-4d7cac569b26| ApiGateway |INFO|EpamMA.ReverseProxy.Middlewares.ReverseProxyMiddleware|
+#########Request########
+Uri: http://localhost:9999/TeamService/api/user/teams?ownerOnly=false
+Headers:Connection: Keep-Alive
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYXJpYXN1dmFsb3ZhOTZAZ21haWwuY29tIiwianRpIjoiMGE4NzBhMDktY2M3OS00YzI5LWFhMTQtZTM5YTMxMThlMDM4IiwiaWF0IjozLCJyb2xlcyI6InVzZXIiLCJ1c2VySWQiOiI4NzZlN2I1Yi02OWNmLTRhODQtODZjNS00NDQzNjY4ZWZmNDciLCJuYmYiOjE0OTc1MjQyMjMsImV4cCI6MTQ5NzUyNjAyMywiaXNzIjoiVXNlclNlcnZpY2UiLCJhdWQiOiJhbnkifQ.yfqwkp_U-7qfDohWiQDCntipDbiRbeUveK4z8wiJmak
+Host: localhost:9999
+CorrelationId: 846e31af-1ed1-482f-88e0-4d7cac569b26
+Content: 
+
+#########Response#########
+Status code: OK
+HeadersDate: Thu, 15 Jun 2017 10:58:40 GMT
+Server: Kestrel
+ 
+2017-06-15 13:58:40.8723|CorrelationId=846e31af-1ed1-482f-88e0-4d7cac569b26| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 25.134ms 200 application/json; charset=utf-8 
+2017-06-15 13:58:40.8723|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ9" completed keep alive response. 
+2017-06-15 13:58:40.8723|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ9" received FIN. 
+2017-06-15 13:58:40.8723|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ9" disconnecting. 
+2017-06-15 13:58:40.8723|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ9" sending FIN. 
+2017-06-15 13:58:40.8723|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ9" sent FIN with status "0". 
+2017-06-15 13:58:40.8723|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQ9" stopped. 
+2017-06-15 13:58:40.8770|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQA" started. 
+2017-06-15 13:58:40.8770|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://10.23.21.246:5008/ticketapi/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets?DateFrom=06%2F08%2F2017&DateTo=06%2F17%2F2017&TeamId=ff8891d7-9d6a-4bac-9608-7c2dc984e78d&teamId=ff8891d7-9d6a-4bac-9608-7c2dc984e78d application/json 0 
+2017-06-15 13:58:40.8770|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /ticketapi/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets does not match a supported file type 
+2017-06-15 13:58:40.9930|CorrelationId=917b0d1c-dfc7-45d8-acf5-c87b6ec945b5| ApiGateway |INFO|EpamMA.ReverseProxy.Middlewares.ReverseProxyMiddleware|
+#########Request########
+Uri: http://localhost:9999/TicketService/api/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets?DateFrom=06%2F08%2F2017&DateTo=06%2F17%2F2017&TeamId=ff8891d7-9d6a-4bac-9608-7c2dc984e78d&teamId=ff8891d7-9d6a-4bac-9608-7c2dc984e78d
+Headers:Connection: Keep-Alive
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYXJpYXN1dmFsb3ZhOTZAZ21haWwuY29tIiwianRpIjoiMGE4NzBhMDktY2M3OS00YzI5LWFhMTQtZTM5YTMxMThlMDM4IiwiaWF0IjozLCJyb2xlcyI6InVzZXIiLCJ1c2VySWQiOiI4NzZlN2I1Yi02OWNmLTRhODQtODZjNS00NDQzNjY4ZWZmNDciLCJuYmYiOjE0OTc1MjQyMjMsImV4cCI6MTQ5NzUyNjAyMywiaXNzIjoiVXNlclNlcnZpY2UiLCJhdWQiOiJhbnkifQ.yfqwkp_U-7qfDohWiQDCntipDbiRbeUveK4z8wiJmak
+Host: localhost:9999
+CorrelationId: 917b0d1c-dfc7-45d8-acf5-c87b6ec945b5
+Content: 
+
+#########Response#########
+Status code: OK
+HeadersCorrelationid: 917b0d1c-dfc7-45d8-acf5-c87b6ec945b5
+Date: Thu, 15 Jun 2017 10:58:40 GMT
+Server: Kestrel
+ 
+2017-06-15 13:58:40.9930|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQA" received FIN. 
+2017-06-15 13:58:40.9956|CorrelationId=917b0d1c-dfc7-45d8-acf5-c87b6ec945b5| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 118.0434ms 200 application/json; charset=utf-8 
+2017-06-15 13:58:40.9956|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQA" completed keep alive response. 
+2017-06-15 13:58:40.9956|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQA" disconnecting. 
+2017-06-15 13:58:40.9956|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQA" sending FIN. 
+2017-06-15 13:58:40.9956|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQA" sent FIN with status "0". 
+2017-06-15 13:58:40.9956|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQA" stopped. 
+2017-06-15 13:58:45.4914|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQB" started. 
+2017-06-15 13:58:45.4914|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://10.23.21.246:5008/teamapi/user/teams?ownerOnly=false application/json 0 
+2017-06-15 13:58:45.4914|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /teamapi/user/teams does not match a supported file type 
+2017-06-15 13:58:45.5134|CorrelationId=f3ea6a87-f076-425d-88bc-55fc87fe857b| ApiGateway |INFO|EpamMA.ReverseProxy.Middlewares.ReverseProxyMiddleware|
+#########Request########
+Uri: http://localhost:9999/TeamService/api/user/teams?ownerOnly=false
+Headers:Connection: Keep-Alive
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYXJpYXN1dmFsb3ZhOTZAZ21haWwuY29tIiwianRpIjoiMGE4NzBhMDktY2M3OS00YzI5LWFhMTQtZTM5YTMxMThlMDM4IiwiaWF0IjozLCJyb2xlcyI6InVzZXIiLCJ1c2VySWQiOiI4NzZlN2I1Yi02OWNmLTRhODQtODZjNS00NDQzNjY4ZWZmNDciLCJuYmYiOjE0OTc1MjQyMjMsImV4cCI6MTQ5NzUyNjAyMywiaXNzIjoiVXNlclNlcnZpY2UiLCJhdWQiOiJhbnkifQ.yfqwkp_U-7qfDohWiQDCntipDbiRbeUveK4z8wiJmak
+Host: localhost:9999
+CorrelationId: f3ea6a87-f076-425d-88bc-55fc87fe857b
+Content: 
+
+#########Response#########
+Status code: OK
+HeadersDate: Thu, 15 Jun 2017 10:58:44 GMT
+Server: Kestrel
+ 
+2017-06-15 13:58:45.5134|CorrelationId=f3ea6a87-f076-425d-88bc-55fc87fe857b| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 22.1393ms 200 application/json; charset=utf-8 
+2017-06-15 13:58:45.5134|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQB" completed keep alive response. 
+2017-06-15 13:58:45.5151|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQB" received FIN. 
+2017-06-15 13:58:45.5151|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQB" disconnecting. 
+2017-06-15 13:58:45.5151|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQB" sending FIN. 
+2017-06-15 13:58:45.5151|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQB" sent FIN with status "0". 
+2017-06-15 13:58:45.5151|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQB" stopped. 
+2017-06-15 13:58:45.5151|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQC" started. 
+2017-06-15 13:58:45.5207|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://10.23.21.246:5008/ticketapi/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets?DateFrom=06%2F08%2F2017&DateTo=06%2F17%2F2017&TeamId=ff8891d7-9d6a-4bac-9608-7c2dc984e78d&SelectedPriorities=High&teamId=ff8891d7-9d6a-4bac-9608-7c2dc984e78d application/json 0 
+2017-06-15 13:58:45.5207|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /ticketapi/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets does not match a supported file type 
+2017-06-15 13:58:45.5804|CorrelationId=4894c2d4-c96e-46c5-83c9-e7b50dbc46a1| ApiGateway |INFO|EpamMA.ReverseProxy.Middlewares.ReverseProxyMiddleware|
+#########Request########
+Uri: http://localhost:9999/TicketService/api/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets?DateFrom=06%2F08%2F2017&DateTo=06%2F17%2F2017&TeamId=ff8891d7-9d6a-4bac-9608-7c2dc984e78d&SelectedPriorities=High&teamId=ff8891d7-9d6a-4bac-9608-7c2dc984e78d
+Headers:Connection: Keep-Alive
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYXJpYXN1dmFsb3ZhOTZAZ21haWwuY29tIiwianRpIjoiMGE4NzBhMDktY2M3OS00YzI5LWFhMTQtZTM5YTMxMThlMDM4IiwiaWF0IjozLCJyb2xlcyI6InVzZXIiLCJ1c2VySWQiOiI4NzZlN2I1Yi02OWNmLTRhODQtODZjNS00NDQzNjY4ZWZmNDciLCJuYmYiOjE0OTc1MjQyMjMsImV4cCI6MTQ5NzUyNjAyMywiaXNzIjoiVXNlclNlcnZpY2UiLCJhdWQiOiJhbnkifQ.yfqwkp_U-7qfDohWiQDCntipDbiRbeUveK4z8wiJmak
+Host: localhost:9999
+CorrelationId: 4894c2d4-c96e-46c5-83c9-e7b50dbc46a1
+Content: 
+
+#########Response#########
+Status code: OK
+HeadersCorrelationid: 4894c2d4-c96e-46c5-83c9-e7b50dbc46a1
+Date: Thu, 15 Jun 2017 10:58:45 GMT
+Server: Kestrel
+ 
+2017-06-15 13:58:45.5804|CorrelationId=4894c2d4-c96e-46c5-83c9-e7b50dbc46a1| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 61.2551ms 200 application/json; charset=utf-8 
+2017-06-15 13:58:45.5804|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQC" completed keep alive response. 
+2017-06-15 13:58:45.5804|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQC" received FIN. 
+2017-06-15 13:58:45.5837|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQC" disconnecting. 
+2017-06-15 13:58:45.5837|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQC" sending FIN. 
+2017-06-15 13:58:45.5837|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQC" sent FIN with status "0". 
+2017-06-15 13:58:45.5837|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQC" stopped. 
+2017-06-15 13:58:49.0061|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQD" started. 
+2017-06-15 13:58:49.0088|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://10.23.21.246:5008/teamapi/user/teams?ownerOnly=false application/json 0 
+2017-06-15 13:58:49.0088|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /teamapi/user/teams does not match a supported file type 
+2017-06-15 13:58:49.0361|CorrelationId=5c3c8f80-67f1-4d1d-8e68-cad05f79ad11| ApiGateway |INFO|EpamMA.ReverseProxy.Middlewares.ReverseProxyMiddleware|
+#########Request########
+Uri: http://localhost:9999/TeamService/api/user/teams?ownerOnly=false
+Headers:Connection: Keep-Alive
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYXJpYXN1dmFsb3ZhOTZAZ21haWwuY29tIiwianRpIjoiMGE4NzBhMDktY2M3OS00YzI5LWFhMTQtZTM5YTMxMThlMDM4IiwiaWF0IjozLCJyb2xlcyI6InVzZXIiLCJ1c2VySWQiOiI4NzZlN2I1Yi02OWNmLTRhODQtODZjNS00NDQzNjY4ZWZmNDciLCJuYmYiOjE0OTc1MjQyMjMsImV4cCI6MTQ5NzUyNjAyMywiaXNzIjoiVXNlclNlcnZpY2UiLCJhdWQiOiJhbnkifQ.yfqwkp_U-7qfDohWiQDCntipDbiRbeUveK4z8wiJmak
+Host: localhost:9999
+CorrelationId: 5c3c8f80-67f1-4d1d-8e68-cad05f79ad11
+Content: 
+
+#########Response#########
+Status code: OK
+HeadersDate: Thu, 15 Jun 2017 10:58:48 GMT
+Server: Kestrel
+ 
+2017-06-15 13:58:49.0361|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQD" received FIN. 
+2017-06-15 13:58:49.0393|CorrelationId=5c3c8f80-67f1-4d1d-8e68-cad05f79ad11| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 30.4634ms 200 application/json; charset=utf-8 
+2017-06-15 13:58:49.0393|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQE" started. 
+2017-06-15 13:58:49.0393|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQD" completed keep alive response. 
+2017-06-15 13:58:49.0393|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQD" disconnecting. 
+2017-06-15 13:58:49.0393|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQD" sending FIN. 
+2017-06-15 13:58:49.0393|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQD" sent FIN with status "0". 
+2017-06-15 13:58:49.0393|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQD" stopped. 
+2017-06-15 13:58:49.0490|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://10.23.21.246:5008/ticketapi/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets?DateFrom=06%2F08%2F2017&DateTo=06%2F17%2F2017&TeamId=ff8891d7-9d6a-4bac-9608-7c2dc984e78d&SelectedPriorities=Low&teamId=ff8891d7-9d6a-4bac-9608-7c2dc984e78d application/json 0 
+2017-06-15 13:58:49.0490|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /ticketapi/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets does not match a supported file type 
+2017-06-15 13:58:49.0647|CorrelationId=c66e62c6-d8d6-43af-9e38-646ed556bb52| ApiGateway |INFO|EpamMA.ReverseProxy.Middlewares.ReverseProxyMiddleware|
+#########Request########
+Uri: http://localhost:9999/TicketService/api/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets?DateFrom=06%2F08%2F2017&DateTo=06%2F17%2F2017&TeamId=ff8891d7-9d6a-4bac-9608-7c2dc984e78d&SelectedPriorities=Low&teamId=ff8891d7-9d6a-4bac-9608-7c2dc984e78d
+Headers:Connection: Keep-Alive
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYXJpYXN1dmFsb3ZhOTZAZ21haWwuY29tIiwianRpIjoiMGE4NzBhMDktY2M3OS00YzI5LWFhMTQtZTM5YTMxMThlMDM4IiwiaWF0IjozLCJyb2xlcyI6InVzZXIiLCJ1c2VySWQiOiI4NzZlN2I1Yi02OWNmLTRhODQtODZjNS00NDQzNjY4ZWZmNDciLCJuYmYiOjE0OTc1MjQyMjMsImV4cCI6MTQ5NzUyNjAyMywiaXNzIjoiVXNlclNlcnZpY2UiLCJhdWQiOiJhbnkifQ.yfqwkp_U-7qfDohWiQDCntipDbiRbeUveK4z8wiJmak
+Host: localhost:9999
+CorrelationId: c66e62c6-d8d6-43af-9e38-646ed556bb52
+Content: 
+
+#########Response#########
+Status code: OK
+HeadersCorrelationid: c66e62c6-d8d6-43af-9e38-646ed556bb52
+Date: Thu, 15 Jun 2017 10:58:48 GMT
+Server: Kestrel
+ 
+2017-06-15 13:58:49.0647|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQE" received FIN. 
+2017-06-15 13:58:49.0744|CorrelationId=c66e62c6-d8d6-43af-9e38-646ed556bb52| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 24.1503ms 200 application/json; charset=utf-8 
+2017-06-15 13:58:49.0754|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQE" completed keep alive response. 
+2017-06-15 13:58:49.0754|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQE" disconnecting. 
+2017-06-15 13:58:49.0754|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQE" sending FIN. 
+2017-06-15 13:58:49.0754|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQE" sent FIN with status "0". 
+2017-06-15 13:58:49.0754|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQE" stopped. 
+2017-06-15 13:58:49.9958|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQF" started. 
+2017-06-15 13:58:49.9958|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://10.23.21.246:5008/teamapi/user/teams application/json 0 
+2017-06-15 13:58:49.9958|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /teamapi/user/teams does not match a supported file type 
+2017-06-15 13:58:50.0209|CorrelationId=3cd5c5bc-4bb0-4112-8142-15ab0ab10351| ApiGateway |INFO|EpamMA.ReverseProxy.Middlewares.ReverseProxyMiddleware|
+#########Request########
+Uri: http://localhost:9999/TeamService/api/user/teams
+Headers:Connection: Keep-Alive
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYXJpYXN1dmFsb3ZhOTZAZ21haWwuY29tIiwianRpIjoiMGE4NzBhMDktY2M3OS00YzI5LWFhMTQtZTM5YTMxMThlMDM4IiwiaWF0IjozLCJyb2xlcyI6InVzZXIiLCJ1c2VySWQiOiI4NzZlN2I1Yi02OWNmLTRhODQtODZjNS00NDQzNjY4ZWZmNDciLCJuYmYiOjE0OTc1MjQyMjMsImV4cCI6MTQ5NzUyNjAyMywiaXNzIjoiVXNlclNlcnZpY2UiLCJhdWQiOiJhbnkifQ.yfqwkp_U-7qfDohWiQDCntipDbiRbeUveK4z8wiJmak
+Host: localhost:9999
+CorrelationId: 3cd5c5bc-4bb0-4112-8142-15ab0ab10351
+Content: 
+
+#########Response#########
+Status code: OK
+HeadersDate: Thu, 15 Jun 2017 10:58:49 GMT
+Server: Kestrel
+ 
+2017-06-15 13:58:50.0209|CorrelationId=3cd5c5bc-4bb0-4112-8142-15ab0ab10351| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 24.5028ms 200 application/json; charset=utf-8 
+2017-06-15 13:58:50.0209|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQF" received FIN. 
+2017-06-15 13:58:50.0209|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQF" completed keep alive response. 
+2017-06-15 13:58:50.0209|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQF" disconnecting. 
+2017-06-15 13:58:50.0231|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQF" sending FIN. 
+2017-06-15 13:58:50.0231|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQF" sent FIN with status "0". 
+2017-06-15 13:58:50.0231|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQF" stopped. 
+2017-06-15 13:58:50.7733|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQG" started. 
+2017-06-15 13:58:50.7753|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://10.23.21.246:5008/statisticapi/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/statistic?startDate=06/01/2017%2000:00:00 application/json 0 
+2017-06-15 13:58:50.7753|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /statisticapi/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/statistic does not match a supported file type 
+2017-06-15 13:58:50.8373|CorrelationId=91c083bd-2ddc-4bc4-861b-d898e382217d| ApiGateway |INFO|EpamMA.ReverseProxy.Middlewares.ReverseProxyMiddleware|
+#########Request########
+Uri: http://localhost:9999/StatisticService/api/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/statistic?startDate=06/01/2017 00:00:00
+Headers:Connection: Keep-Alive
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYXJpYXN1dmFsb3ZhOTZAZ21haWwuY29tIiwianRpIjoiMGE4NzBhMDktY2M3OS00YzI5LWFhMTQtZTM5YTMxMThlMDM4IiwiaWF0IjozLCJyb2xlcyI6InVzZXIiLCJ1c2VySWQiOiI4NzZlN2I1Yi02OWNmLTRhODQtODZjNS00NDQzNjY4ZWZmNDciLCJuYmYiOjE0OTc1MjQyMjMsImV4cCI6MTQ5NzUyNjAyMywiaXNzIjoiVXNlclNlcnZpY2UiLCJhdWQiOiJhbnkifQ.yfqwkp_U-7qfDohWiQDCntipDbiRbeUveK4z8wiJmak
+Host: localhost:9999
+CorrelationId: 91c083bd-2ddc-4bc4-861b-d898e382217d
+Content: 
+
+#########Response#########
+Status code: NotFound
+HeadersCorrelationid: 91c083bd-2ddc-4bc4-861b-d898e382217d
+Date: Thu, 15 Jun 2017 10:58:50 GMT
+Server: Kestrel
+ 
+2017-06-15 13:58:50.8401|CorrelationId=91c083bd-2ddc-4bc4-861b-d898e382217d| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 64.788ms 404 text/plain; charset=utf-8 
+2017-06-15 13:58:50.8401|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQG" completed keep alive response. 
+2017-06-15 13:58:50.8449|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQH" started. 
+2017-06-15 13:58:50.8531|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://10.23.21.246:5008/statisticapi/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/statistic?startDate=06/01/2017%2000:00:00 application/json 0 
+2017-06-15 13:58:50.8531|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /statisticapi/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/statistic does not match a supported file type 
+2017-06-15 13:58:50.8531|CorrelationId=96b0fcbc-94a8-4dd0-99af-20ffda41c74b| ApiGateway |INFO|EpamMA.ReverseProxy.Middlewares.ReverseProxyMiddleware|
+#########Request########
+Uri: http://localhost:9999/StatisticService/api/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/statistic?startDate=06/01/2017 00:00:00
+Headers:Connection: Keep-Alive
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYXJpYXN1dmFsb3ZhOTZAZ21haWwuY29tIiwianRpIjoiMGE4NzBhMDktY2M3OS00YzI5LWFhMTQtZTM5YTMxMThlMDM4IiwiaWF0IjozLCJyb2xlcyI6InVzZXIiLCJ1c2VySWQiOiI4NzZlN2I1Yi02OWNmLTRhODQtODZjNS00NDQzNjY4ZWZmNDciLCJuYmYiOjE0OTc1MjQyMjMsImV4cCI6MTQ5NzUyNjAyMywiaXNzIjoiVXNlclNlcnZpY2UiLCJhdWQiOiJhbnkifQ.yfqwkp_U-7qfDohWiQDCntipDbiRbeUveK4z8wiJmak
+Host: localhost:9999
+CorrelationId: 96b0fcbc-94a8-4dd0-99af-20ffda41c74b
+Content: 
+
+#########Response#########
+Status code: NotFound
+HeadersCorrelationid: 96b0fcbc-94a8-4dd0-99af-20ffda41c74b
+Date: Thu, 15 Jun 2017 10:58:50 GMT
+Server: Kestrel
+ 
+2017-06-15 13:58:50.8598|CorrelationId=96b0fcbc-94a8-4dd0-99af-20ffda41c74b| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 6.6662ms 404 text/plain; charset=utf-8 
+2017-06-15 13:58:50.8598|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQH" completed keep alive response. 
+2017-06-15 13:58:51.8728|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQI" started. 
+2017-06-15 13:58:51.8728|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://10.23.21.246:5008/statisticapi/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/statistic?startDate=06/01/2017%2000:00:00 application/json 0 
+2017-06-15 13:58:51.8728|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /statisticapi/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/statistic does not match a supported file type 
+2017-06-15 13:58:51.8969|CorrelationId=4fa0c8f4-8f46-4c7b-acd8-b99817658bbd| ApiGateway |INFO|EpamMA.ReverseProxy.Middlewares.ReverseProxyMiddleware|
+#########Request########
+Uri: http://localhost:9999/StatisticService/api/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/statistic?startDate=06/01/2017 00:00:00
+Headers:Connection: Keep-Alive
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYXJpYXN1dmFsb3ZhOTZAZ21haWwuY29tIiwianRpIjoiMGE4NzBhMDktY2M3OS00YzI5LWFhMTQtZTM5YTMxMThlMDM4IiwiaWF0IjozLCJyb2xlcyI6InVzZXIiLCJ1c2VySWQiOiI4NzZlN2I1Yi02OWNmLTRhODQtODZjNS00NDQzNjY4ZWZmNDciLCJuYmYiOjE0OTc1MjQyMjMsImV4cCI6MTQ5NzUyNjAyMywiaXNzIjoiVXNlclNlcnZpY2UiLCJhdWQiOiJhbnkifQ.yfqwkp_U-7qfDohWiQDCntipDbiRbeUveK4z8wiJmak
+Host: localhost:9999
+CorrelationId: 4fa0c8f4-8f46-4c7b-acd8-b99817658bbd
+Content: 
+
+#########Response#########
+Status code: NotFound
+HeadersCorrelationid: 4fa0c8f4-8f46-4c7b-acd8-b99817658bbd
+Date: Thu, 15 Jun 2017 10:58:51 GMT
+Server: Kestrel
+ 
+2017-06-15 13:58:51.8969|CorrelationId=4fa0c8f4-8f46-4c7b-acd8-b99817658bbd| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 24.7836ms 404 text/plain; charset=utf-8 
+2017-06-15 13:58:51.8969|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQI" completed keep alive response. 
+2017-06-15 14:00:40.7646|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQG" received FIN. 
+2017-06-15 14:00:40.7646|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQG" disconnecting. 
+2017-06-15 14:00:40.7646|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQG" sending FIN. 
+2017-06-15 14:00:40.7646|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQG" sent FIN with status "0". 
+2017-06-15 14:00:40.7646|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQG" stopped. 
+2017-06-15 14:00:40.8427|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQH" received FIN. 
+2017-06-15 14:00:40.8434|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQH" disconnecting. 
+2017-06-15 14:00:40.8434|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQH" sending FIN. 
+2017-06-15 14:00:40.8434|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQH" sent FIN with status "0". 
+2017-06-15 14:00:40.8434|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQH" stopped. 
+2017-06-15 14:00:41.8703|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQI" received FIN. 
+2017-06-15 14:00:41.8703|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQI" disconnecting. 
+2017-06-15 14:00:41.8703|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQI" sending FIN. 
+2017-06-15 14:00:41.8714|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQI" sent FIN with status "0". 
+2017-06-15 14:00:41.8714|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQI" stopped. 
+2017-06-15 15:03:24.3508|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQJ" started. 
+2017-06-15 15:03:25.8060|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQK" started. 
+2017-06-15 15:03:26.6609|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://10.23.21.246:5008/teamapi/user/teams?ownerOnly=false application/json 0 
+2017-06-15 15:03:26.9083|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /teamapi/user/teams does not match a supported file type 
+2017-06-15 15:03:26.9612|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://10.23.21.246:5008/teamapi/user/teams?ownerOnly=false application/json 0 
+2017-06-15 15:03:26.9612|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /teamapi/user/teams does not match a supported file type 
+2017-06-15 15:03:38.0214|CorrelationId=e4a09348-169b-4b63-880b-159ce82d575a| ApiGateway |INFO|EpamMA.ReverseProxy.Middlewares.ReverseProxyMiddleware|
+#########Request########
+Uri: http://localhost:9999/TeamService/api/user/teams?ownerOnly=false
+Headers:Connection: Keep-Alive
+Authorization: Bearer
+Host: localhost:9999
+CorrelationId: e4a09348-169b-4b63-880b-159ce82d575a
+Content: 
+
+#########Response#########
+Status code: Unauthorized
+HeadersDate: Thu, 15 Jun 2017 12:03:37 GMT
+Server: Kestrel
+Www-Authenticate: Bearer
+ 
+2017-06-15 15:03:38.0214|CorrelationId=3302ff5f-3578-44ff-9582-f1bf28fc7dc6| ApiGateway |INFO|EpamMA.ReverseProxy.Middlewares.ReverseProxyMiddleware|
+#########Request########
+Uri: http://localhost:9999/TeamService/api/user/teams?ownerOnly=false
+Headers:Connection: Keep-Alive
+Authorization: Bearer
+Host: localhost:9999
+CorrelationId: 3302ff5f-3578-44ff-9582-f1bf28fc7dc6
+Content: 
+
+#########Response#########
+Status code: Unauthorized
+HeadersDate: Thu, 15 Jun 2017 12:03:37 GMT
+Server: Kestrel
+Www-Authenticate: Bearer
+ 
+2017-06-15 15:03:38.3205|CorrelationId=e4a09348-169b-4b63-880b-159ce82d575a| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 11239.7856ms 401 text/plain; charset=utf-8 
+2017-06-15 15:03:38.3205|CorrelationId=3302ff5f-3578-44ff-9582-f1bf28fc7dc6| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 11978.3121ms 401 text/plain; charset=utf-8 
+2017-06-15 15:03:38.5530|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQK" completed keep alive response. 
+2017-06-15 15:03:38.5530|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQJ" completed keep alive response. 
+2017-06-15 15:03:38.5989|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQL" started. 
+2017-06-15 15:03:38.5989|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQM" started. 
+2017-06-15 15:03:38.6895|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://10.23.21.246:5008/teamapi/user/teams?ownerOnly=false application/json 0 
+2017-06-15 15:03:38.6895|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /teamapi/user/teams does not match a supported file type 
+2017-06-15 15:03:38.7480|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://10.23.21.246:5008/teamapi/user/teams?ownerOnly=false application/json 0 
+2017-06-15 15:03:38.7480|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /teamapi/user/teams does not match a supported file type 
+2017-06-15 15:03:38.8183|CorrelationId=f1c8ecdf-2008-416a-9d3d-c5c025f003eb| ApiGateway |INFO|EpamMA.ReverseProxy.Middlewares.ReverseProxyMiddleware|
+#########Request########
+Uri: http://localhost:9999/TeamService/api/user/teams?ownerOnly=false
+Headers:Connection: Keep-Alive
+Authorization: Bearer
+Host: localhost:9999
+CorrelationId: f1c8ecdf-2008-416a-9d3d-c5c025f003eb
+Content: 
+
+#########Response#########
+Status code: Unauthorized
+HeadersDate: Thu, 15 Jun 2017 12:03:38 GMT
+Server: Kestrel
+Www-Authenticate: Bearer
+ 
+2017-06-15 15:03:38.8183|CorrelationId=f1c8ecdf-2008-416a-9d3d-c5c025f003eb| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 129.6671ms 401 text/plain; charset=utf-8 
+2017-06-15 15:03:38.8198|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQL" completed keep alive response. 
+2017-06-15 15:03:38.8289|CorrelationId=e54826a8-32f9-40d5-8196-34b0ecb78d06| ApiGateway |INFO|EpamMA.ReverseProxy.Middlewares.ReverseProxyMiddleware|
+#########Request########
+Uri: http://localhost:9999/TeamService/api/user/teams?ownerOnly=false
+Headers:Connection: Keep-Alive
+Authorization: Bearer
+Host: localhost:9999
+CorrelationId: e54826a8-32f9-40d5-8196-34b0ecb78d06
+Content: 
+
+#########Response#########
+Status code: Unauthorized
+HeadersDate: Thu, 15 Jun 2017 12:03:38 GMT
+Server: Kestrel
+Www-Authenticate: Bearer
+ 
+2017-06-15 15:03:38.8289|CorrelationId=e54826a8-32f9-40d5-8196-34b0ecb78d06| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 81.8086ms 401 text/plain; charset=utf-8 
+2017-06-15 15:03:38.8289|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQM" completed keep alive response. 
+2017-06-15 15:03:39.5085|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQN" started. 
+2017-06-15 15:03:39.5085|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://10.23.21.246:5008/teamapi/user/teams?ownerOnly=false application/json 0 
+2017-06-15 15:03:39.5085|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /teamapi/user/teams does not match a supported file type 
+2017-06-15 15:03:39.5374|CorrelationId=84350ef3-9ea2-4d4c-8835-0db9d5e6b831| ApiGateway |INFO|EpamMA.ReverseProxy.Middlewares.ReverseProxyMiddleware|
+#########Request########
+Uri: http://localhost:9999/TeamService/api/user/teams?ownerOnly=false
+Headers:Connection: Keep-Alive
+Authorization: Bearer
+Host: localhost:9999
+CorrelationId: 84350ef3-9ea2-4d4c-8835-0db9d5e6b831
+Content: 
+
+#########Response#########
+Status code: Unauthorized
+HeadersDate: Thu, 15 Jun 2017 12:03:39 GMT
+Server: Kestrel
+Www-Authenticate: Bearer
+ 
+2017-06-15 15:03:39.5374|CorrelationId=84350ef3-9ea2-4d4c-8835-0db9d5e6b831| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 29.0663ms 401 text/plain; charset=utf-8 
+2017-06-15 15:03:39.6655|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQN" completed keep alive response. 
+2017-06-15 15:03:39.6706|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQO" started. 
+2017-06-15 15:03:39.6706|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://10.23.21.246:5008/teamapi/user/teams?ownerOnly=false application/json 0 
+2017-06-15 15:03:39.6706|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /teamapi/user/teams does not match a supported file type 
+2017-06-15 15:03:39.6821|CorrelationId=aced9c69-68f9-4ed5-9366-5b78a6a0c002| ApiGateway |INFO|EpamMA.ReverseProxy.Middlewares.ReverseProxyMiddleware|
+#########Request########
+Uri: http://localhost:9999/TeamService/api/user/teams?ownerOnly=false
+Headers:Connection: Keep-Alive
+Authorization: Bearer
+Host: localhost:9999
+CorrelationId: aced9c69-68f9-4ed5-9366-5b78a6a0c002
+Content: 
+
+#########Response#########
+Status code: Unauthorized
+HeadersDate: Thu, 15 Jun 2017 12:03:39 GMT
+Server: Kestrel
+Www-Authenticate: Bearer
+ 
+2017-06-15 15:03:39.6834|CorrelationId=aced9c69-68f9-4ed5-9366-5b78a6a0c002| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 12.429ms 401 text/plain; charset=utf-8 
+2017-06-15 15:03:39.7224|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQO" completed keep alive response. 
+2017-06-15 15:03:39.8302|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQP" started. 
+2017-06-15 15:03:39.8383|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://10.23.21.246:5008/teamapi/user/teams?ownerOnly=false application/json 0 
+2017-06-15 15:03:39.8383|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /teamapi/user/teams does not match a supported file type 
+2017-06-15 15:03:39.8485|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQQ" started. 
+2017-06-15 15:03:39.8583|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://10.23.21.246:5008/teamapi/user/teams?ownerOnly=false application/json 0 
+2017-06-15 15:03:39.8594|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /teamapi/user/teams does not match a supported file type 
+2017-06-15 15:03:39.8633|CorrelationId=97e1da61-5346-40e9-a917-6ee37d9760f3| ApiGateway |INFO|EpamMA.ReverseProxy.Middlewares.ReverseProxyMiddleware|
+#########Request########
+Uri: http://localhost:9999/TeamService/api/user/teams?ownerOnly=false
+Headers:Connection: Keep-Alive
+Authorization: Bearer
+Host: localhost:9999
+CorrelationId: 97e1da61-5346-40e9-a917-6ee37d9760f3
+Content: 
+
+#########Response#########
+Status code: Unauthorized
+HeadersDate: Thu, 15 Jun 2017 12:03:39 GMT
+Server: Kestrel
+Www-Authenticate: Bearer
+ 
+2017-06-15 15:03:39.8787|CorrelationId=97e1da61-5346-40e9-a917-6ee37d9760f3| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 40.3676ms 401 text/plain; charset=utf-8 
+2017-06-15 15:03:39.8787|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQP" completed keep alive response. 
+2017-06-15 15:03:39.8847|CorrelationId=b0fbb4c1-197c-4dec-9442-6f0e47e0324e| ApiGateway |INFO|EpamMA.ReverseProxy.Middlewares.ReverseProxyMiddleware|
+#########Request########
+Uri: http://localhost:9999/TeamService/api/user/teams?ownerOnly=false
+Headers:Connection: Keep-Alive
+Authorization: Bearer
+Host: localhost:9999
+CorrelationId: b0fbb4c1-197c-4dec-9442-6f0e47e0324e
+Content: 
+
+#########Response#########
+Status code: Unauthorized
+HeadersDate: Thu, 15 Jun 2017 12:03:39 GMT
+Server: Kestrel
+Www-Authenticate: Bearer
+ 
+2017-06-15 15:03:39.8872|CorrelationId=b0fbb4c1-197c-4dec-9442-6f0e47e0324e| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 28.9812ms 401 text/plain; charset=utf-8 
+2017-06-15 15:03:39.8872|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQQ" completed keep alive response. 
+2017-06-15 15:03:40.7366|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQR" started. 
+2017-06-15 15:03:40.7366|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://10.23.21.246:5008/teamapi/user/teams?ownerOnly=false application/json 0 
+2017-06-15 15:03:40.7366|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /teamapi/user/teams does not match a supported file type 
+2017-06-15 15:03:40.7632|CorrelationId=6aa60677-4d1b-4e83-a390-c7fc2ba247f0| ApiGateway |INFO|EpamMA.ReverseProxy.Middlewares.ReverseProxyMiddleware|
+#########Request########
+Uri: http://localhost:9999/TeamService/api/user/teams?ownerOnly=false
+Headers:Connection: Keep-Alive
+Authorization: Bearer
+Host: localhost:9999
+CorrelationId: 6aa60677-4d1b-4e83-a390-c7fc2ba247f0
+Content: 
+
+#########Response#########
+Status code: Unauthorized
+HeadersDate: Thu, 15 Jun 2017 12:03:40 GMT
+Server: Kestrel
+Www-Authenticate: Bearer
+ 
+2017-06-15 15:03:40.7632|CorrelationId=6aa60677-4d1b-4e83-a390-c7fc2ba247f0| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 28.8976ms 401 text/plain; charset=utf-8 
+2017-06-15 15:03:40.7770|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQR" completed keep alive response. 
+2017-06-15 15:03:42.1855|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQS" started. 
+2017-06-15 15:03:42.2241|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://10.23.21.246:5008/api/token application/x-www-form-urlencoded 53 
+2017-06-15 15:03:42.2241|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2017-06-15 15:03:55.6681|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQS" received FIN. 
+2017-06-15 15:03:55.6951|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQT" started. 
+2017-06-15 15:03:55.6951|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://10.23.21.246:5008/teamapi/user/teams?ownerOnly=false application/json 0 
+2017-06-15 15:03:55.6951|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /teamapi/user/teams does not match a supported file type 
+2017-06-15 15:03:55.7577|CorrelationId=4215cfb7-ef53-49ae-b2fa-8d21756ea585| ApiGateway |INFO|EpamMA.ReverseProxy.Middlewares.ReverseProxyMiddleware|
+#########Request########
+Uri: http://localhost:9999/UserService/token/
+Headers:Connection: Keep-Alive
+Authorization: Bearer
+Host: localhost:9999
+CorrelationId: 4215cfb7-ef53-49ae-b2fa-8d21756ea585
+Content: System.Net.Http.StreamContent
+
+#########Response#########
+Status code: OK
+HeadersDate: Thu, 15 Jun 2017 12:03:55 GMT
+Server: Kestrel
+ 
+2017-06-15 15:03:55.7592|CorrelationId=4215cfb7-ef53-49ae-b2fa-8d21756ea585| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 13535.1042ms 200 application/json 
+2017-06-15 15:03:55.7637|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQS" completed keep alive response. 
+2017-06-15 15:03:55.7637|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQS" disconnecting. 
+2017-06-15 15:03:55.7637|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQS" sending FIN. 
+2017-06-15 15:03:55.7977|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQS" sent FIN with status "0". 
+2017-06-15 15:03:55.8206|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQS" stopped. 
+2017-06-15 15:03:58.7408|CorrelationId=822f38b6-6ef6-41e3-a3ac-7bcd818e252b| ApiGateway |INFO|EpamMA.ReverseProxy.Middlewares.ReverseProxyMiddleware|
+#########Request########
+Uri: http://localhost:9999/TeamService/api/user/teams?ownerOnly=false
+Headers:Connection: Keep-Alive
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYXJpYXN1dmFsb3ZhOTZAZ21haWwuY29tIiwianRpIjoiNjUwOTZlZDctZTRmNy00NGRlLWJhZjktYzBhMzdmNTgyZmE3IiwiaWF0Ijo1Miwicm9sZXMiOiJ1c2VyIiwidXNlcklkIjoiODc2ZTdiNWItNjljZi00YTg0LTg2YzUtNDQ0MzY2OGVmZjQ3IiwibmJmIjoxNDk3NTI4MjMyLCJleHAiOjE0OTc1MzAwMzIsImlzcyI6IlVzZXJTZXJ2aWNlIiwiYXVkIjoiYW55In0.BJu89zl9hAWZS64fVQAG2nEPh8u38UKXlESZ-UjHyDU
+Host: localhost:9999
+CorrelationId: 822f38b6-6ef6-41e3-a3ac-7bcd818e252b
+Content: 
+
+#########Response#########
+Status code: OK
+HeadersDate: Thu, 15 Jun 2017 12:03:58 GMT
+Server: Kestrel
+ 
+2017-06-15 15:03:58.7471|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQT" received FIN. 
+2017-06-15 15:03:58.7471|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQU" started. 
+2017-06-15 15:03:58.7471|CorrelationId=822f38b6-6ef6-41e3-a3ac-7bcd818e252b| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3051.8665ms 200 application/json; charset=utf-8 
+2017-06-15 15:03:58.7471|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQT" completed keep alive response. 
+2017-06-15 15:03:58.7471|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQT" disconnecting. 
+2017-06-15 15:03:58.7677|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQT" sending FIN. 
+2017-06-15 15:03:58.7677|CorrelationId=| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://10.23.21.246:5008/ticketapi/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets application/json 0 
+2017-06-15 15:03:58.7717|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /ticketapi/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets does not match a supported file type 
+2017-06-15 15:03:58.7717|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQT" sent FIN with status "0". 
+2017-06-15 15:03:58.8220|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQT" stopped. 
+2017-06-15 15:04:11.8948|CorrelationId=ccf61e1d-64d6-4737-92f3-daf1b2f5324a| ApiGateway |INFO|EpamMA.ReverseProxy.Middlewares.ReverseProxyMiddleware|
+#########Request########
+Uri: http://localhost:9999/TicketService/api/user/teams/ff8891d7-9d6a-4bac-9608-7c2dc984e78d/tickets
+Headers:Connection: Keep-Alive
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYXJpYXN1dmFsb3ZhOTZAZ21haWwuY29tIiwianRpIjoiNjUwOTZlZDctZTRmNy00NGRlLWJhZjktYzBhMzdmNTgyZmE3IiwiaWF0Ijo1Miwicm9sZXMiOiJ1c2VyIiwidXNlcklkIjoiODc2ZTdiNWItNjljZi00YTg0LTg2YzUtNDQ0MzY2OGVmZjQ3IiwibmJmIjoxNDk3NTI4MjMyLCJleHAiOjE0OTc1MzAwMzIsImlzcyI6IlVzZXJTZXJ2aWNlIiwiYXVkIjoiYW55In0.BJu89zl9hAWZS64fVQAG2nEPh8u38UKXlESZ-UjHyDU
+Host: localhost:9999
+CorrelationId: ccf61e1d-64d6-4737-92f3-daf1b2f5324a
+Content: 
+
+#########Response#########
+Status code: OK
+HeadersCorrelationid: ccf61e1d-64d6-4737-92f3-daf1b2f5324a
+Date: Thu, 15 Jun 2017 12:04:11 GMT
+Server: Kestrel
+ 
+2017-06-15 15:04:11.9016|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQU" received FIN. 
+2017-06-15 15:04:11.9039|CorrelationId=ccf61e1d-64d6-4737-92f3-daf1b2f5324a| ApiGateway |INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 13135.5231ms 200 application/json; charset=utf-8 
+2017-06-15 15:04:11.9039|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQU" completed keep alive response. 
+2017-06-15 15:04:11.9039|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQU" disconnecting. 
+2017-06-15 15:04:11.9039|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQU" sending FIN. 
+2017-06-15 15:04:11.9039|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQU" sent FIN with status "0". 
+2017-06-15 15:04:11.9039|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQU" stopped. 
+2017-06-15 15:05:13.7667|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQJ" received FIN. 
+2017-06-15 15:05:13.7667|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQJ" disconnecting. 
+2017-06-15 15:05:13.7667|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQJ" sending FIN. 
+2017-06-15 15:05:13.7667|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQJ" sent FIN with status "0". 
+2017-06-15 15:05:13.7667|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQJ" stopped. 
+2017-06-15 15:05:15.0906|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQK" received FIN. 
+2017-06-15 15:05:15.0906|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQK" disconnecting. 
+2017-06-15 15:05:15.0906|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQK" sending FIN. 
+2017-06-15 15:05:15.0906|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQK" sent FIN with status "0". 
+2017-06-15 15:05:15.0906|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQK" stopped. 
+2017-06-15 15:05:28.5636|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQL" received FIN. 
+2017-06-15 15:05:28.5636|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQL" disconnecting. 
+2017-06-15 15:05:28.5636|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQL" sending FIN. 
+2017-06-15 15:05:28.5636|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQL" sent FIN with status "0". 
+2017-06-15 15:05:28.5636|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQL" stopped. 
+2017-06-15 15:05:28.5636|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQM" received FIN. 
+2017-06-15 15:05:28.5636|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQM" disconnecting. 
+2017-06-15 15:05:28.5636|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQM" sending FIN. 
+2017-06-15 15:05:28.5674|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQM" sent FIN with status "0". 
+2017-06-15 15:05:28.5674|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQM" stopped. 
+2017-06-15 15:05:29.5107|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQN" received FIN. 
+2017-06-15 15:05:29.5107|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQN" disconnecting. 
+2017-06-15 15:05:29.5115|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQN" sending FIN. 
+2017-06-15 15:05:29.5115|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQN" sent FIN with status "0". 
+2017-06-15 15:05:29.5115|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQN" stopped. 
+2017-06-15 15:05:29.6737|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQO" received FIN. 
+2017-06-15 15:05:29.6737|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQO" disconnecting. 
+2017-06-15 15:05:29.6737|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQO" sending FIN. 
+2017-06-15 15:05:29.6737|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQO" sent FIN with status "0". 
+2017-06-15 15:05:29.6737|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQO" stopped. 
+2017-06-15 15:05:29.8337|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQP" received FIN. 
+2017-06-15 15:05:29.8337|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQP" disconnecting. 
+2017-06-15 15:05:29.8337|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQP" sending FIN. 
+2017-06-15 15:05:29.8353|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQP" sent FIN with status "0". 
+2017-06-15 15:05:29.8353|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQP" stopped. 
+2017-06-15 15:05:29.8514|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQQ" received FIN. 
+2017-06-15 15:05:29.8514|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQQ" disconnecting. 
+2017-06-15 15:05:29.8514|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQQ" sending FIN. 
+2017-06-15 15:05:29.8514|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQQ" sent FIN with status "0". 
+2017-06-15 15:05:29.8514|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQQ" stopped. 
+2017-06-15 15:05:30.7397|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQR" received FIN. 
+2017-06-15 15:05:30.7397|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQR" disconnecting. 
+2017-06-15 15:05:30.7397|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQR" sending FIN. 
+2017-06-15 15:05:30.7397|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQR" sent FIN with status "0". 
+2017-06-15 15:05:30.7397|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HL5J15IPVRQR" stopped. 
+2017-06-15 15:14:42.0653|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Hosting.Internal.WebHost|Hosting shutdown 
+2017-06-15 15:27:43.9575|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Hosting.Internal.WebHost|Hosting starting 
+2017-06-15 15:27:44.8640|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Hosting.Internal.WebHost|Hosting started 
+2017-06-15 15:27:50.8226|CorrelationId=| ApiGateway |DEBUG|Microsoft.AspNetCore.Hosting.Internal.WebHost|Hosting shutdown 

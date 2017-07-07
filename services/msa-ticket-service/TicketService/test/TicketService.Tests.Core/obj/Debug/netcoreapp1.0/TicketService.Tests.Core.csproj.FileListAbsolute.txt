@@ -1,0 +1,12 @@
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\Ticket\msa-ticket-service\TicketService\Test\TicketService.Tests.Core\bin\Debug\netcoreapp1.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\Ticket\msa-ticket-service\TicketService\Test\TicketService.Tests.Core\bin\Debug\netcoreapp1.0\xunit.runner.utility.dotnet.dll
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\Ticket\msa-ticket-service\TicketService\Test\TicketService.Tests.Core\bin\Debug\netcoreapp1.0\xunit.runner.reporters.dotnet.dll
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\Ticket\msa-ticket-service\TicketService\Test\TicketService.Tests.Core\bin\Debug\netcoreapp1.0\TicketService.Tests.Core.deps.json
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\Ticket\msa-ticket-service\TicketService\Test\TicketService.Tests.Core\bin\Debug\netcoreapp1.0\TicketService.Tests.Core.runtimeconfig.json
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\Ticket\msa-ticket-service\TicketService\Test\TicketService.Tests.Core\bin\Debug\netcoreapp1.0\TicketService.Tests.Core.runtimeconfig.dev.json
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\Ticket\msa-ticket-service\TicketService\Test\TicketService.Tests.Core\bin\Debug\netcoreapp1.0\TicketService.Tests.Core.dll
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\Ticket\msa-ticket-service\TicketService\Test\TicketService.Tests.Core\bin\Debug\netcoreapp1.0\TicketService.Tests.Core.pdb
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\Ticket\msa-ticket-service\TicketService\Test\TicketService.Tests.Core\obj\Debug\netcoreapp1.0\TicketService.Tests.Core.csprojResolveAssemblyReference.cache
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\Ticket\msa-ticket-service\TicketService\Test\TicketService.Tests.Core\obj\Debug\netcoreapp1.0\TicketService.Tests.Core.AssemblyInfo.cs
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\Ticket\msa-ticket-service\TicketService\Test\TicketService.Tests.Core\obj\Debug\netcoreapp1.0\TicketService.Tests.Core.dll
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\Ticket\msa-ticket-service\TicketService\Test\TicketService.Tests.Core\obj\Debug\netcoreapp1.0\TicketService.Tests.Core.pdb

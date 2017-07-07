@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TicketService.WEB</name>
+    </assembly>
+    <members>
+        <member name="M:TicketService.WEB.Controllers.CommentsController.Get(System.Guid,System.Guid)">
+            <summary>
+            Gets comment from ticket
+            </summary>
+            <param name="teamId">Team Id</param>
+            <param name="id">Comment model</param>
+        </member>
+        <member name="M:TicketService.WEB.Controllers.CommentsController.Post(System.Guid,System.Guid,TicketService.WEB.Models.CommentApiModel)">
+            <summary>
+            Adds comment to ticket
+            </summary>
+            <param name="teamId">Team Id</param>
+            <param name="id">Comment model</param>
+            <param name="model">Comment model</param>
+        </member>
+        <member name="M:TicketService.WEB.Controllers.CommentsController.Delete(System.Guid,System.Nullable{System.Guid},System.Nullable{System.Guid})">
+            <summary>
+            Deletes comment from ticket
+            </summary>
+            <param name="teamId">Team Id</param>
+            <param name="commentId">Comment id</param>
+            <param name="ticketId">Ticket id</param>
+        </member>
+        <member name="M:TicketService.WEB.Controllers.LinkedTicketsController.GetUnLinkedTickets(System.Guid,System.Nullable{System.Guid})">
+            <summary>
+            Returns linked tickets for ticket with ticketId
+            </summary>
+            <param name="teamId"></param>
+            <param name="ticketId">Ticket ticketId</param>
+        </member>
+        <member name="M:TicketService.WEB.Controllers.LinkedTicketsController.GetLinkedTickets(System.Guid,System.Nullable{System.Guid})">
+            <summary>
+            Returns linked tickets for ticket with ticketId
+            </summary>
+            <param name="teamId">Team Id</param>
+            <param name="ticketId">Ticket ticketId</param>
+        </member>
+        <member name="M:TicketService.WEB.Controllers.LinkedTicketsController.LinkTickets(System.Guid,System.Nullable{System.Guid},System.Nullable{System.Guid})">
+            <summary>
+            Links two tickets
+            </summary>
+            <param name="teamId">Team Id</param>
+            <param name="sourceTicket">Source ticket ticketId</param>
+            <param name="destinationTicket">Destination ticket ticketId</param>
+        </member>
+        <member name="M:TicketService.WEB.Controllers.LinkedTicketsController.UnLinkTickets(System.Guid,System.Nullable{System.Guid},System.Nullable{System.Guid})">
+            <summary>
+            Unlinks two tickets
+            </summary>
+            <param name="teamId">Team Id</param>
+            <param name="sourceTicket"></param>
+            <param name="destinationTicket"></param>
+        </member>
+        <member name="M:TicketService.WEB.Controllers.StatusController.Get">
+            <summary>
+            Shows microservice life status
+            </summary>
+        </member>
+        <member name="M:TicketService.WEB.Controllers.TagsController.GetTags">
+            <summary>
+            Returns all tags
+            </summary>
+        </member>
+        <member name="M:TicketService.WEB.Controllers.TicketsController.Get(System.Guid,TicketService.WEB.Models.FilterApiModel)">
+            <summary>
+            Returns a list of filtered tickets
+            </summary>
+            <param name="teamId">team id</param>
+            <param name="model">Filter model</param>
+        </member>
+        <member name="M:TicketService.WEB.Controllers.TicketsController.GetTicket(System.Guid,System.Guid)">
+            <summary>
+            Returns ticket with id
+            </summary>
+            <param name="teamId">Team Id</param>
+            <param name="id">Ticket id</param>
+        </member>
+        <member name="M:TicketService.WEB.Controllers.TicketsController.Create(System.Guid,TicketService.WEB.Models.TicketApiModel)">
+            <summary>
+            Creates new ticket
+            </summary>
+            <param name="teamId">Team Id</param>
+            <param name="ticketApiModel">Ticket model</param>
+        </member>
+        <member name="M:TicketService.WEB.Controllers.TicketsController.Update(System.Guid,TicketService.WEB.Models.TicketApiModel)">
+            <summary>
+            Updates ticket
+            </summary>
+            <param name="teamId">Team Id</param>
+            <param name="ticketApiModel">Ticket model</param>
+        </member>
+        <member name="M:TicketService.WEB.Controllers.TicketsController.Delete(System.Guid,System.Nullable{System.Guid})">
+            <summary>
+            Deletes ticket with id
+            </summary>
+            <param name="teamId">Team Id</param>
+            <param name="id">Ticket id</param>
+        </member>
+        <member name="M:TicketService.WEB.Controllers.TicketsController.Assign(System.Guid,System.Nullable{System.Guid},System.Nullable{System.Guid})">
+            <summary>
+            Assigns ticket for user
+            </summary>
+            <param name="teamId">Team Id</param>
+            <param name="ticketId">Ticket id</param>
+            <param name="userId">User id</param>
+        </member>
+        <member name="M:TicketService.WEB.Controllers.TicketsController.Unassign(System.Guid,System.Guid)">
+            <summary>
+            Unassigns ticket from user
+            </summary>
+            <param name="teamId">Team Id</param>
+            <param name="ticketId">Ticket id</param>
+        </member>
+    </members>
+</doc>

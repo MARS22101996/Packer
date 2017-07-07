@@ -1,0 +1,15 @@
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\Statistic\msa-statistic-service\StatisticService\src\StatisticService.WEB\bin\Release\netcoreapp1.0\NLog.config
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\Statistic\msa-statistic-service\StatisticService\src\StatisticService.WEB\bin\Release\netcoreapp1.0\StatisticService.WEB.xml
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\Statistic\msa-statistic-service\StatisticService\src\StatisticService.WEB\bin\Release\netcoreapp1.0\StatisticService.WEB.deps.json
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\Statistic\msa-statistic-service\StatisticService\src\StatisticService.WEB\bin\Release\netcoreapp1.0\StatisticService.WEB.runtimeconfig.json
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\Statistic\msa-statistic-service\StatisticService\src\StatisticService.WEB\bin\Release\netcoreapp1.0\StatisticService.WEB.runtimeconfig.dev.json
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\Statistic\msa-statistic-service\StatisticService\src\StatisticService.WEB\bin\Release\netcoreapp1.0\StatisticService.WEB.dll
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\Statistic\msa-statistic-service\StatisticService\src\StatisticService.WEB\bin\Release\netcoreapp1.0\StatisticService.WEB.pdb
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\Statistic\msa-statistic-service\StatisticService\src\StatisticService.WEB\bin\Release\netcoreapp1.0\StatisticService.BLL.dll
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\Statistic\msa-statistic-service\StatisticService\src\StatisticService.WEB\bin\Release\netcoreapp1.0\StatisticService.Core.dll
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\Statistic\msa-statistic-service\StatisticService\src\StatisticService.WEB\bin\Release\netcoreapp1.0\StatisticService.BLL.pdb
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\Statistic\msa-statistic-service\StatisticService\src\StatisticService.WEB\bin\Release\netcoreapp1.0\StatisticService.Core.pdb
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\Statistic\msa-statistic-service\StatisticService\src\StatisticService.WEB\obj\Release\netcoreapp1.0\StatisticService.WEB.csprojResolveAssemblyReference.cache
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\Statistic\msa-statistic-service\StatisticService\src\StatisticService.WEB\obj\Release\netcoreapp1.0\StatisticService.WEB.AssemblyInfo.cs
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\Statistic\msa-statistic-service\StatisticService\src\StatisticService.WEB\obj\Release\netcoreapp1.0\StatisticService.WEB.dll
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\Statistic\msa-statistic-service\StatisticService\src\StatisticService.WEB\obj\Release\netcoreapp1.0\StatisticService.WEB.pdb

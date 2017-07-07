@@ -1,0 +1,12 @@
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\Statistic\msa-statistic-service\StatisticService\test\StatisticService.Tests.Core\bin\Release\netcoreapp1.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\Statistic\msa-statistic-service\StatisticService\test\StatisticService.Tests.Core\bin\Release\netcoreapp1.0\xunit.runner.utility.dotnet.dll
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\Statistic\msa-statistic-service\StatisticService\test\StatisticService.Tests.Core\bin\Release\netcoreapp1.0\xunit.runner.reporters.dotnet.dll
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\Statistic\msa-statistic-service\StatisticService\test\StatisticService.Tests.Core\bin\Release\netcoreapp1.0\StatisticService.Tests.Core.deps.json
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\Statistic\msa-statistic-service\StatisticService\test\StatisticService.Tests.Core\bin\Release\netcoreapp1.0\StatisticService.Tests.Core.runtimeconfig.json
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\Statistic\msa-statistic-service\StatisticService\test\StatisticService.Tests.Core\bin\Release\netcoreapp1.0\StatisticService.Tests.Core.runtimeconfig.dev.json
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\Statistic\msa-statistic-service\StatisticService\test\StatisticService.Tests.Core\bin\Release\netcoreapp1.0\StatisticService.Tests.Core.dll
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\Statistic\msa-statistic-service\StatisticService\test\StatisticService.Tests.Core\bin\Release\netcoreapp1.0\StatisticService.Tests.Core.pdb
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\Statistic\msa-statistic-service\StatisticService\test\StatisticService.Tests.Core\obj\Release\netcoreapp1.0\StatisticService.Tests.Core.csprojResolveAssemblyReference.cache
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\Statistic\msa-statistic-service\StatisticService\test\StatisticService.Tests.Core\obj\Release\netcoreapp1.0\StatisticService.Tests.Core.AssemblyInfo.cs
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\Statistic\msa-statistic-service\StatisticService\test\StatisticService.Tests.Core\obj\Release\netcoreapp1.0\StatisticService.Tests.Core.dll
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\Statistic\msa-statistic-service\StatisticService\test\StatisticService.Tests.Core\obj\Release\netcoreapp1.0\StatisticService.Tests.Core.pdb

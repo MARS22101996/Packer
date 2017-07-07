@@ -4020,21 +4020,21 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mariia_Suvalova\\.nuget\\packages\\": {}
+    "C:\\Users\\Anna_Marhina\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-ticket-service\\TicketService\\src\\TicketService.Core\\TicketService.Core.csproj",
+      "projectUniqueName": "D:\\swarm_cl\\services\\msa-ticket-service\\TicketService\\src\\TicketService.Core\\TicketService.Core.csproj",
       "projectName": "TicketService.Core",
-      "projectPath": "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-ticket-service\\TicketService\\src\\TicketService.Core\\TicketService.Core.csproj",
-      "outputPath": "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-ticket-service\\TicketService\\src\\TicketService.Core\\obj\\",
+      "projectPath": "D:\\swarm_cl\\services\\msa-ticket-service\\TicketService\\src\\TicketService.Core\\TicketService.Core.csproj",
+      "outputPath": "D:\\swarm_cl\\services\\msa-ticket-service\\TicketService\\src\\TicketService.Core\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netstandard1.6"
       ],
       "files": {
-        "lib/netstandard1.6/TicketService.Core.dll": "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-ticket-service\\TicketService\\src\\TicketService.Core\\bin\\placeholder\\netstandard1.6\\TicketService.Core.dll"
+        "lib/netstandard1.6/TicketService.Core.dll": "D:\\swarm_cl\\services\\msa-ticket-service\\TicketService\\src\\TicketService.Core\\bin\\placeholder\\netstandard1.6\\TicketService.Core.dll"
       },
       "frameworks": {
         "netstandard1.6": {

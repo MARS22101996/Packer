@@ -4020,21 +4020,21 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mariia_Suvalova\\.nuget\\packages\\": {}
+    "C:\\Users\\Anna_Marhina\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-team-service\\TeamService\\src\\TeamService.Core\\TeamService.Core.csproj",
+      "projectUniqueName": "D:\\swarm_cl\\services\\msa-team-service\\TeamService\\src\\TeamService.Core\\TeamService.Core.csproj",
       "projectName": "TeamService.Core",
-      "projectPath": "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-team-service\\TeamService\\src\\TeamService.Core\\TeamService.Core.csproj",
-      "outputPath": "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-team-service\\TeamService\\src\\TeamService.Core\\obj\\",
+      "projectPath": "D:\\swarm_cl\\services\\msa-team-service\\TeamService\\src\\TeamService.Core\\TeamService.Core.csproj",
+      "outputPath": "D:\\swarm_cl\\services\\msa-team-service\\TeamService\\src\\TeamService.Core\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netstandard1.6"
       ],
       "files": {
-        "lib/netstandard1.6/TeamService.Core.dll": "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-team-service\\TeamService\\src\\TeamService.Core\\bin\\placeholder\\netstandard1.6\\TeamService.Core.dll"
+        "lib/netstandard1.6/TeamService.Core.dll": "D:\\swarm_cl\\services\\msa-team-service\\TeamService\\src\\TeamService.Core\\bin\\placeholder\\netstandard1.6\\TeamService.Core.dll"
       },
       "frameworks": {
         "netstandard1.6": {

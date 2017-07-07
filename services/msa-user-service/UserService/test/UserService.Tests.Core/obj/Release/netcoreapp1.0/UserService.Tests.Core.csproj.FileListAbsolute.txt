@@ -1,0 +1,12 @@
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\User\msa-user-service\UserService\test\UserService.Tests.Core\bin\Release\netcoreapp1.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\User\msa-user-service\UserService\test\UserService.Tests.Core\bin\Release\netcoreapp1.0\xunit.runner.utility.dotnet.dll
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\User\msa-user-service\UserService\test\UserService.Tests.Core\bin\Release\netcoreapp1.0\xunit.runner.reporters.dotnet.dll
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\User\msa-user-service\UserService\test\UserService.Tests.Core\bin\Release\netcoreapp1.0\UserService.Tests.Core.deps.json
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\User\msa-user-service\UserService\test\UserService.Tests.Core\bin\Release\netcoreapp1.0\UserService.Tests.Core.runtimeconfig.json
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\User\msa-user-service\UserService\test\UserService.Tests.Core\bin\Release\netcoreapp1.0\UserService.Tests.Core.runtimeconfig.dev.json
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\User\msa-user-service\UserService\test\UserService.Tests.Core\bin\Release\netcoreapp1.0\UserService.Tests.Core.dll
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\User\msa-user-service\UserService\test\UserService.Tests.Core\bin\Release\netcoreapp1.0\UserService.Tests.Core.pdb
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\User\msa-user-service\UserService\test\UserService.Tests.Core\obj\Release\netcoreapp1.0\UserService.Tests.Core.AssemblyInfo.cs
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\User\msa-user-service\UserService\test\UserService.Tests.Core\obj\Release\netcoreapp1.0\UserService.Tests.Core.dll
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\User\msa-user-service\UserService\test\UserService.Tests.Core\obj\Release\netcoreapp1.0\UserService.Tests.Core.pdb
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\User\msa-user-service\UserService\test\UserService.Tests.Core\obj\Release\netcoreapp1.0\UserService.Tests.Core.csprojResolveAssemblyReference.cache

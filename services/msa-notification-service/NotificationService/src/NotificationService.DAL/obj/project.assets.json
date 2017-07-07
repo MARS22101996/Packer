@@ -5475,21 +5475,21 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mariia_Suvalova\\.nuget\\packages\\": {}
+    "C:\\Users\\Anna_Marhina\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-notification-service\\NotificationService\\src\\NotificationService.DAL\\NotificationService.DAL.csproj",
+      "projectUniqueName": "D:\\swarm_cl\\services\\msa-notification-service\\NotificationService\\src\\NotificationService.DAL\\NotificationService.DAL.csproj",
       "projectName": "NotificationService.DAL",
-      "projectPath": "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-notification-service\\NotificationService\\src\\NotificationService.DAL\\NotificationService.DAL.csproj",
-      "outputPath": "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-notification-service\\NotificationService\\src\\NotificationService.DAL\\obj\\",
+      "projectPath": "D:\\swarm_cl\\services\\msa-notification-service\\NotificationService\\src\\NotificationService.DAL\\NotificationService.DAL.csproj",
+      "outputPath": "D:\\swarm_cl\\services\\msa-notification-service\\NotificationService\\src\\NotificationService.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netstandard1.6"
       ],
       "files": {
-        "lib/netstandard1.6/NotificationService.DAL.dll": "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-notification-service\\NotificationService\\src\\NotificationService.DAL\\bin\\placeholder\\netstandard1.6\\NotificationService.DAL.dll"
+        "lib/netstandard1.6/NotificationService.DAL.dll": "D:\\swarm_cl\\services\\msa-notification-service\\NotificationService\\src\\NotificationService.DAL\\bin\\placeholder\\netstandard1.6\\NotificationService.DAL.dll"
       },
       "frameworks": {
         "netstandard1.6": {

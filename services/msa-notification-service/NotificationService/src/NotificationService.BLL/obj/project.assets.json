@@ -7344,30 +7344,30 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mariia_Suvalova\\.nuget\\packages\\": {}
+    "C:\\Users\\Anna_Marhina\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-notification-service\\NotificationService\\src\\NotificationService.BLL\\NotificationService.BLL.csproj",
+      "projectUniqueName": "D:\\swarm_cl\\services\\msa-notification-service\\NotificationService\\src\\NotificationService.BLL\\NotificationService.BLL.csproj",
       "projectName": "NotificationService.BLL",
-      "projectPath": "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-notification-service\\NotificationService\\src\\NotificationService.BLL\\NotificationService.BLL.csproj",
-      "outputPath": "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-notification-service\\NotificationService\\src\\NotificationService.BLL\\obj\\",
+      "projectPath": "D:\\swarm_cl\\services\\msa-notification-service\\NotificationService\\src\\NotificationService.BLL\\NotificationService.BLL.csproj",
+      "outputPath": "D:\\swarm_cl\\services\\msa-notification-service\\NotificationService\\src\\NotificationService.BLL\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netstandard1.6"
       ],
       "files": {
-        "lib/netstandard1.6/NotificationService.BLL.dll": "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-notification-service\\NotificationService\\src\\NotificationService.BLL\\bin\\placeholder\\netstandard1.6\\NotificationService.BLL.dll"
+        "lib/netstandard1.6/NotificationService.BLL.dll": "D:\\swarm_cl\\services\\msa-notification-service\\NotificationService\\src\\NotificationService.BLL\\bin\\placeholder\\netstandard1.6\\NotificationService.BLL.dll"
       },
       "frameworks": {
         "netstandard1.6": {
           "projectReferences": {
-            "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-notification-service\\NotificationService\\src\\NotificationService.Core\\NotificationService.Core.csproj": {
-              "projectPath": "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-notification-service\\NotificationService\\src\\NotificationService.Core\\NotificationService.Core.csproj"
+            "D:\\swarm_cl\\services\\msa-notification-service\\NotificationService\\src\\NotificationService.Core\\NotificationService.Core.csproj": {
+              "projectPath": "D:\\swarm_cl\\services\\msa-notification-service\\NotificationService\\src\\NotificationService.Core\\NotificationService.Core.csproj"
             },
-            "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-notification-service\\NotificationService\\src\\NotificationService.DAL\\NotificationService.DAL.csproj": {
-              "projectPath": "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-notification-service\\NotificationService\\src\\NotificationService.DAL\\NotificationService.DAL.csproj"
+            "D:\\swarm_cl\\services\\msa-notification-service\\NotificationService\\src\\NotificationService.DAL\\NotificationService.DAL.csproj": {
+              "projectPath": "D:\\swarm_cl\\services\\msa-notification-service\\NotificationService\\src\\NotificationService.DAL\\NotificationService.DAL.csproj"
             }
           }
         }

@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NotificationService.WEB</name>
+    </assembly>
+    <members>
+        <member name="M:NotificationService.WEB.Controllers.NotificationController.Get(System.Nullable{System.Guid},System.Nullable{System.Guid})">
+            <summary>
+            Returns a list of ticket watchers
+            </summary>
+            <param name="teamId">Team id</param>
+            <param name="ticketId">Ticket id</param>
+        </member>
+        <member name="M:NotificationService.WEB.Controllers.NotificationController.Get(System.Nullable{System.Guid},System.Nullable{System.Guid},System.Nullable{System.Guid})">
+            <summary>
+            Returns watcher of ticket
+            </summary>
+            <param name="teamId">Team id</param>
+            <param name="ticketId">Ticket id</param>
+            <param name="watcherId">Watcher id</param>
+        </member>
+        <member name="M:NotificationService.WEB.Controllers.NotificationController.Post(System.Nullable{System.Guid},System.Nullable{System.Guid},NotificationService.WEB.Models.UserApiModel)">
+            <summary>
+            Adds new watcher to ticket
+            </summary>
+            <param name="teamId">Team id</param>
+            <param name="ticketId">Ticket id</param>
+            <param name="user">User(new watcher)</param>
+        </member>
+        <member name="M:NotificationService.WEB.Controllers.NotificationController.Notify(System.Nullable{System.Guid},System.Nullable{System.Guid},NotificationService.WEB.Models.NotificationInfoApiModel)">
+            <summary>
+            Notifies ticket watchers
+            </summary>
+            <param name="teamId">Team id</param>
+            <param name="ticketId">Ticket id</param>
+            <param name="notificationInfo">Notification info</param>
+        </member>
+        <member name="M:NotificationService.WEB.Controllers.NotificationController.Delete(System.Nullable{System.Guid},System.Nullable{System.Guid},System.Nullable{System.Guid})">
+            <summary>
+            Removes watcher from ticket
+            </summary>
+            <param name="teamId">Team id</param>
+            <param name="ticketId">Ticket id</param>
+            <param name="watcherId">Watcher id</param>
+        </member>
+        <member name="M:NotificationService.WEB.Controllers.StatusController.Get">
+            <summary>
+            Shows microservice life status
+            </summary>
+        </member>
+    </members>
+</doc>

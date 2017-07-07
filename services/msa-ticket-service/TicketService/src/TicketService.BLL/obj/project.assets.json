@@ -6996,30 +6996,30 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mariia_Suvalova\\.nuget\\packages\\": {}
+    "C:\\Users\\Anna_Marhina\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-ticket-service\\TicketService\\src\\TicketService.BLL\\TicketService.BLL.csproj",
+      "projectUniqueName": "D:\\swarm_cl\\services\\msa-ticket-service\\TicketService\\src\\TicketService.BLL\\TicketService.BLL.csproj",
       "projectName": "TicketService.BLL",
-      "projectPath": "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-ticket-service\\TicketService\\src\\TicketService.BLL\\TicketService.BLL.csproj",
-      "outputPath": "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-ticket-service\\TicketService\\src\\TicketService.BLL\\obj\\",
+      "projectPath": "D:\\swarm_cl\\services\\msa-ticket-service\\TicketService\\src\\TicketService.BLL\\TicketService.BLL.csproj",
+      "outputPath": "D:\\swarm_cl\\services\\msa-ticket-service\\TicketService\\src\\TicketService.BLL\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netstandard1.6"
       ],
       "files": {
-        "lib/netstandard1.6/TicketService.BLL.dll": "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-ticket-service\\TicketService\\src\\TicketService.BLL\\bin\\placeholder\\netstandard1.6\\TicketService.BLL.dll"
+        "lib/netstandard1.6/TicketService.BLL.dll": "D:\\swarm_cl\\services\\msa-ticket-service\\TicketService\\src\\TicketService.BLL\\bin\\placeholder\\netstandard1.6\\TicketService.BLL.dll"
       },
       "frameworks": {
         "netstandard1.6": {
           "projectReferences": {
-            "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-ticket-service\\TicketService\\src\\TicketService.Core\\TicketService.Core.csproj": {
-              "projectPath": "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-ticket-service\\TicketService\\src\\TicketService.Core\\TicketService.Core.csproj"
+            "D:\\swarm_cl\\services\\msa-ticket-service\\TicketService\\src\\TicketService.Core\\TicketService.Core.csproj": {
+              "projectPath": "D:\\swarm_cl\\services\\msa-ticket-service\\TicketService\\src\\TicketService.Core\\TicketService.Core.csproj"
             },
-            "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-ticket-service\\TicketService\\src\\TicketService.DAL\\TicketService.DAL.csproj": {
-              "projectPath": "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-ticket-service\\TicketService\\src\\TicketService.DAL\\TicketService.DAL.csproj"
+            "D:\\swarm_cl\\services\\msa-ticket-service\\TicketService\\src\\TicketService.DAL\\TicketService.DAL.csproj": {
+              "projectPath": "D:\\swarm_cl\\services\\msa-ticket-service\\TicketService\\src\\TicketService.DAL\\TicketService.DAL.csproj"
             }
           }
         }

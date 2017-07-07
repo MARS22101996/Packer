@@ -6091,27 +6091,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mariia_Suvalova\\.nuget\\packages\\": {}
+    "C:\\Users\\Anna_Marhina\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-statistic-service\\StatisticService\\src\\StatisticService.BLL\\StatisticService.BLL.csproj",
+      "projectUniqueName": "D:\\swarm_cl\\services\\msa-statistic-service\\StatisticService\\src\\StatisticService.BLL\\StatisticService.BLL.csproj",
       "projectName": "StatisticService.BLL",
-      "projectPath": "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-statistic-service\\StatisticService\\src\\StatisticService.BLL\\StatisticService.BLL.csproj",
-      "outputPath": "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-statistic-service\\StatisticService\\src\\StatisticService.BLL\\obj\\",
+      "projectPath": "D:\\swarm_cl\\services\\msa-statistic-service\\StatisticService\\src\\StatisticService.BLL\\StatisticService.BLL.csproj",
+      "outputPath": "D:\\swarm_cl\\services\\msa-statistic-service\\StatisticService\\src\\StatisticService.BLL\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netstandard1.6"
       ],
       "files": {
-        "lib/netstandard1.6/StatisticService.BLL.dll": "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-statistic-service\\StatisticService\\src\\StatisticService.BLL\\bin\\placeholder\\netstandard1.6\\StatisticService.BLL.dll"
+        "lib/netstandard1.6/StatisticService.BLL.dll": "D:\\swarm_cl\\services\\msa-statistic-service\\StatisticService\\src\\StatisticService.BLL\\bin\\placeholder\\netstandard1.6\\StatisticService.BLL.dll"
       },
       "frameworks": {
         "netstandard1.6": {
           "projectReferences": {
-            "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-statistic-service\\StatisticService\\src\\StatisticService.Core\\StatisticService.Core.csproj": {
-              "projectPath": "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-statistic-service\\StatisticService\\src\\StatisticService.Core\\StatisticService.Core.csproj"
+            "D:\\swarm_cl\\services\\msa-statistic-service\\StatisticService\\src\\StatisticService.Core\\StatisticService.Core.csproj": {
+              "projectPath": "D:\\swarm_cl\\services\\msa-statistic-service\\StatisticService\\src\\StatisticService.Core\\StatisticService.Core.csproj"
             }
           }
         }

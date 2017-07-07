@@ -1,0 +1,9 @@
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\Statistic\msa-statistic-service\StatisticService\src\StatisticService.BLL\bin\Release\netstandard1.6\StatisticService.BLL.deps.json
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\Statistic\msa-statistic-service\StatisticService\src\StatisticService.BLL\bin\Release\netstandard1.6\StatisticService.BLL.dll
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\Statistic\msa-statistic-service\StatisticService\src\StatisticService.BLL\bin\Release\netstandard1.6\StatisticService.BLL.pdb
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\Statistic\msa-statistic-service\StatisticService\src\StatisticService.BLL\bin\Release\netstandard1.6\StatisticService.Core.dll
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\Statistic\msa-statistic-service\StatisticService\src\StatisticService.BLL\bin\Release\netstandard1.6\StatisticService.Core.pdb
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\Statistic\msa-statistic-service\StatisticService\src\StatisticService.BLL\obj\Release\netstandard1.6\StatisticService.BLL.csprojResolveAssemblyReference.cache
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\Statistic\msa-statistic-service\StatisticService\src\StatisticService.BLL\obj\Release\netstandard1.6\StatisticService.BLL.AssemblyInfo.cs
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\Statistic\msa-statistic-service\StatisticService\src\StatisticService.BLL\obj\Release\netstandard1.6\StatisticService.BLL.dll
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\Statistic\msa-statistic-service\StatisticService\src\StatisticService.BLL\obj\Release\netstandard1.6\StatisticService.BLL.pdb

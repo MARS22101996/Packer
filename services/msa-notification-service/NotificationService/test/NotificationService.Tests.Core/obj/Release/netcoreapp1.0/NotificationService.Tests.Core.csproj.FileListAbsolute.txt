@@ -1,0 +1,12 @@
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\NotificationService\msa-notification-service\NotificationService\test\NotificationService.Tests.Core\bin\Release\netcoreapp1.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\NotificationService\msa-notification-service\NotificationService\test\NotificationService.Tests.Core\bin\Release\netcoreapp1.0\xunit.runner.utility.dotnet.dll
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\NotificationService\msa-notification-service\NotificationService\test\NotificationService.Tests.Core\bin\Release\netcoreapp1.0\xunit.runner.reporters.dotnet.dll
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\NotificationService\msa-notification-service\NotificationService\test\NotificationService.Tests.Core\bin\Release\netcoreapp1.0\NotificationService.Tests.Core.deps.json
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\NotificationService\msa-notification-service\NotificationService\test\NotificationService.Tests.Core\bin\Release\netcoreapp1.0\NotificationService.Tests.Core.runtimeconfig.json
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\NotificationService\msa-notification-service\NotificationService\test\NotificationService.Tests.Core\bin\Release\netcoreapp1.0\NotificationService.Tests.Core.runtimeconfig.dev.json
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\NotificationService\msa-notification-service\NotificationService\test\NotificationService.Tests.Core\bin\Release\netcoreapp1.0\NotificationService.Tests.Core.dll
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\NotificationService\msa-notification-service\NotificationService\test\NotificationService.Tests.Core\bin\Release\netcoreapp1.0\NotificationService.Tests.Core.pdb
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\NotificationService\msa-notification-service\NotificationService\test\NotificationService.Tests.Core\obj\Release\netcoreapp1.0\NotificationService.Tests.Core.csprojResolveAssemblyReference.cache
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\NotificationService\msa-notification-service\NotificationService\test\NotificationService.Tests.Core\obj\Release\netcoreapp1.0\NotificationService.Tests.Core.AssemblyInfo.cs
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\NotificationService\msa-notification-service\NotificationService\test\NotificationService.Tests.Core\obj\Release\netcoreapp1.0\NotificationService.Tests.Core.dll
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\NotificationService\msa-notification-service\NotificationService\test\NotificationService.Tests.Core\obj\Release\netcoreapp1.0\NotificationService.Tests.Core.pdb

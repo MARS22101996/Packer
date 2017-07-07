@@ -1,0 +1,7 @@
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\NotificationService\msa-notification-service\NotificationService\src\NotificationService.DAL\bin\Release\netstandard1.6\NotificationService.DAL.deps.json
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\NotificationService\msa-notification-service\NotificationService\src\NotificationService.DAL\bin\Release\netstandard1.6\NotificationService.DAL.dll
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\NotificationService\msa-notification-service\NotificationService\src\NotificationService.DAL\bin\Release\netstandard1.6\NotificationService.DAL.pdb
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\NotificationService\msa-notification-service\NotificationService\src\NotificationService.DAL\obj\Release\netstandard1.6\NotificationService.DAL.csprojResolveAssemblyReference.cache
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\NotificationService\msa-notification-service\NotificationService\src\NotificationService.DAL\obj\Release\netstandard1.6\NotificationService.DAL.AssemblyInfo.cs
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\NotificationService\msa-notification-service\NotificationService\src\NotificationService.DAL\obj\Release\netstandard1.6\NotificationService.DAL.dll
+C:\Users\Mariia_Suvalova\Desktop\MicroServ\NotificationService\msa-notification-service\NotificationService\src\NotificationService.DAL\obj\Release\netstandard1.6\NotificationService.DAL.pdb

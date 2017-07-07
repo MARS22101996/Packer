@@ -13198,7 +13198,7 @@
       ]
     },
     "EpamMA.CircuitBreaker/1.0.6": {
-      "sha512": "W0Ynkwt5tW7SzF9W4sPO8b42kM/23oTEiCYhn1eLo/6D/haU7YpJWpCkol3GvqlAknrWbSgSrsIbLraJVBLCyw==",
+      "sha512": "M8gzfgeepGoSPn3JRqqTHXDHTm87Pti0nrDYjOqFmn5KvPgN1h2injmVjiCJLrZtn8KFUKvNgga38Hm08dst/w==",
       "type": "package",
       "path": "epamma.circuitbreaker/1.0.6",
       "files": [
@@ -13208,7 +13208,7 @@
       ]
     },
     "EpamMA.LoggingLayer/1.0.7": {
-      "sha512": "lGxfxqy6FNdH6g625pBuM8PgSePEGaEpAhafXEQ+MumVgDdXk4r/tXvvuBoxFppCvCY+IOJcTpcFnLL6k6OmyQ==",
+      "sha512": "vWQEPzOAZHxMrgfmtUsntMqBMy5G80Koa9H2Hba/QxiaPU4MUFakynq+S2ErSaxhpntWNKGZomtDdv1I+/nOig==",
       "type": "package",
       "path": "epamma.logginglayer/1.0.7",
       "files": [
@@ -14506,7 +14506,7 @@
       ]
     },
     "Microsoft.VisualStudio.Web.BrowserLink/1.1.0": {
-      "sha512": "ReQDEilnQwTqeFbqI0KbcDaq/eFo1edPQD8f2PI0zNMPaMovwocYYnAVZ4dD11J47iJGciKlDJurN43rz8pcfg==",
+      "sha512": "pD0alVgZwOHf+YZsJ2mFZs653xby7bS+RLSMK0QFICCylDaD461aoEkhQDGa6jG7nETs0aH3Ktp09yyO3MKZfg==",
       "type": "package",
       "path": "microsoft.visualstudio.web.browserlink/1.1.0",
       "files": [
@@ -20833,27 +20833,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mariia_Suvalova\\.nuget\\packages\\": {}
+    "C:\\Users\\Anna_Marhina\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-user-service\\UserService\\src\\UserService.WEB\\UserService.WEB.csproj",
+      "projectUniqueName": "D:\\swarm_cl\\services\\msa-user-service\\UserService\\src\\UserService.WEB\\UserService.WEB.csproj",
       "projectName": "UserService.WEB",
-      "projectPath": "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-user-service\\UserService\\src\\UserService.WEB\\UserService.WEB.csproj",
-      "outputPath": "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-user-service\\UserService\\src\\UserService.WEB\\obj\\",
+      "projectPath": "D:\\swarm_cl\\services\\msa-user-service\\UserService\\src\\UserService.WEB\\UserService.WEB.csproj",
+      "outputPath": "D:\\swarm_cl\\services\\msa-user-service\\UserService\\src\\UserService.WEB\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.0"
       ],
       "files": {
-        "lib/netcoreapp1.0/UserService.WEB.dll": "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-user-service\\UserService\\src\\UserService.WEB\\bin\\placeholder\\netcoreapp1.0\\UserService.WEB.dll"
+        "lib/netcoreapp1.0/UserService.WEB.dll": "D:\\swarm_cl\\services\\msa-user-service\\UserService\\src\\UserService.WEB\\bin\\placeholder\\netcoreapp1.0\\UserService.WEB.dll"
       },
       "frameworks": {
         "netcoreapp1.0": {
           "projectReferences": {
-            "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-user-service\\UserService\\src\\UserService.BLL\\UserService.BLL.csproj": {
-              "projectPath": "C:\\Users\\Mariia_Suvalova\\Desktop\\Huck\\Data\\Packer\\services\\msa-user-service\\UserService\\src\\UserService.BLL\\UserService.BLL.csproj"
+            "D:\\swarm_cl\\services\\msa-user-service\\UserService\\src\\UserService.BLL\\UserService.BLL.csproj": {
+              "projectPath": "D:\\swarm_cl\\services\\msa-user-service\\UserService\\src\\UserService.BLL\\UserService.BLL.csproj"
             }
           }
         }
